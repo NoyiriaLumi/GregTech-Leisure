@@ -1,4 +1,3 @@
-//priority: 98
 ServerEvents.recipes((event) => {
     const gtr = event.recipes.gtceu
     event.smelting("minecraft:slime_ball", "gtceu:sticky_resin")
@@ -66,21 +65,28 @@ ServerEvents.recipes((event) => {
         .EUt(30)
 
     gtr.lightning_processor("gtlcore:skeleton_skull")
-        .circuit(1)
+        .notConsumable(Item.of("enderio:filled_soul_vial", `{BlockEntityTag:{EntityStorage:{Entity:{id:"minecraft:skeleton"}}}}`).weakNBT())
         .itemInputs("9x minecraft:bone")
-        .itemOutputs("skeleton_skull")
+        .itemOutputs("minecraft:skeleton_skull")
+        .duration(100)
+        .EUt(120)
+
+    gtr.lightning_processor("gtlcore:zombie_head")
+        .notConsumable(Item.of("enderio:filled_soul_vial", `{BlockEntityTag:{EntityStorage:{Entity:{id:"minecraft:zombie"}}}}`).weakNBT())
+        .itemInputs("9x minecraft:rotten_flesh")
+        .itemOutputs("minecraft:zombie_head")
         .duration(100)
         .EUt(120)
 
     gtr.extractor("gtlcore:bones")
         .itemInputs("#minecraft:dirt")
-        .chancedOutput("bone", 25, 0)
+        .chancedOutput("minecraft:bone", 25, 0)
         .duration(100)
         .EUt(16)
 
     gtr.compressor("gtlcore:spongebob")
         .itemInputs("2x #forge:foils/polycaprolactam")
-        .itemOutputs("sponge")
+        .itemOutputs("minecraft:sponge")
         .duration(200)
         .EUt(2)
 

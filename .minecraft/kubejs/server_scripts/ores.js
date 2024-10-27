@@ -1,4 +1,3 @@
-// priority 93
 GTCEuServerEvents.oreVeins(event => {
     event.modify("gtceu:mica_vein", vein => {
         vein.layeredVeinGenerator(generator => generator

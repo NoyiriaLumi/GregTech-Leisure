@@ -60,3 +60,17 @@ ServerEvents.tags("fluid", event => {
     event.add("ad_astra_rocketed:tier_6_rocket_fuel", "ad_astra:cryo_fuel")
     event.add("ad_astra_rocketed:tier_7_rocket_fuel", "gtceu:stellar_energy_rocket_fuel")
 })
+
+PlayerEvents.loggedIn(event => {
+    event.server.runCommand("say 当前版本是开发测试版本，不能保证内容的稳定性和完整性。如果您遇到任何问题或有任何建议，请访问GitHub提供反馈。")
+    event.server.runCommand("say The current version is a development test version, which does not guarantee stability and completeness of content. If you encounter any issues or have suggestions, please go to GitHub to provide feedback.")
+})
+
+ServerEvents.entityLootTables(event => {
+    event.addEntity("ad_astra:glacian_ram", l => {
+        l.addPool(p => {
+            p.addItem("gtlcore:glacio_spirit").weight(1)
+            p.addItem("ad_astra:ice_shard").weight(999)
+        })
+    })
+})

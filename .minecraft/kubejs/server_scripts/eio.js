@@ -61,6 +61,13 @@ ServerEvents.recipes(event => {
 
     const gtr = event.recipes.gtceu
 
+    gtr.lightning_processor("gtlcore:grains_of_infinity")
+        .chancedInput("minecraft:flint", 2000, 0)
+        .itemInputs("gtceu:tiny_obsidian_dust")
+        .itemOutputs("enderio:grains_of_infinity")
+        .duration(200)
+        .EUt(30)
+
     gtr.macerator("gtlcore:prescient_powder")
         .itemInputs("enderio:prescient_crystal")
         .itemOutputs("enderio:prescient_powder")

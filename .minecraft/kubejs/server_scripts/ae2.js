@@ -1,4 +1,3 @@
-//priority: 94
 ServerEvents.recipes((event) => {
     const gtr = event.recipes.gtceu
     event.shapeless("gtlcore:item_infinity_cell", ["ae2:item_cell_housing", "gtlcore:infinite_cell_component"])
