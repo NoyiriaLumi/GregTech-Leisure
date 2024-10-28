@@ -14,7 +14,7 @@
 			id: "328D140CCF4FAEC6"
 			tasks: [{
 				id: "60C942F096955819"
-				title: "ULV"
+				title: "{ftbquests.chapter.606A554994C6B31D.quests0.tasks0.title}"
 				type: "checkmark"
 			}]
 			x: -7.5d
@@ -25,7 +25,7 @@
 			id: "6967496308DD29AE"
 			tasks: [{
 				id: "18257AB42CC12B94"
-				title: "LV"
+				title: "{ftbquests.chapter.606A554994C6B31D.quests1.tasks0.title}"
 				type: "checkmark"
 			}]
 			x: -7.5d
@@ -36,7 +36,7 @@
 			id: "1994BAD293E85984"
 			tasks: [{
 				id: "3F42209BF0C6D769"
-				title: "MV"
+				title: "{ftbquests.chapter.606A554994C6B31D.quests2.tasks0.title}"
 				type: "checkmark"
 			}]
 			x: -7.5d
@@ -47,14 +47,14 @@
 			id: "231670C48BBDDB3E"
 			tasks: [{
 				id: "2D237EAD6E9F27AD"
-				title: "HV"
+				title: "{ftbquests.chapter.606A554994C6B31D.quests3.tasks0.title}"
 				type: "checkmark"
 			}]
 			x: -7.5d
 			y: -1.0d
 		}
 		{
-			can_repeat: true
+			can_repeat: false
 			dependencies: ["328D140CCF4FAEC6"]
 			icon: "gtceu:bronze_ingot"
 			id: "5D8C36224EAD129C"
@@ -65,18 +65,18 @@
 				type: "item"
 			}]
 			tasks: [{
-				consume_items: true
+				consume_items: false
 				count: 4L
 				id: "553843DFB9C60240"
 				item: "gtceu:copper_credit"
 				type: "item"
 			}]
-			title: "青铜"
+			title: "{ftbquests.chapter.606A554994C6B31D.quests4.title}"
 			x: -1.5d
 			y: -5.5d
 		}
 		{
-			can_repeat: true
+			can_repeat: false
 			dependencies: ["328D140CCF4FAEC6"]
 			icon: "gtceu:tin_alloy_ingot"
 			id: "6B108E774863DD83"
@@ -87,18 +87,18 @@
 				type: "item"
 			}]
 			tasks: [{
-				consume_items: true
+				consume_items: false
 				count: 4L
 				id: "79268F6FFDE91F4E"
 				item: "gtceu:copper_credit"
 				type: "item"
 			}]
-			title: "锡铁合金"
+			title: "{ftbquests.chapter.606A554994C6B31D.quests5.title}"
 			x: 0.0d
 			y: -5.5d
 		}
 		{
-			can_repeat: true
+			can_repeat: false
 			dependencies: ["328D140CCF4FAEC6"]
 			icon: "gtceu:steel_ingot"
 			id: "5D6D75D548EC9255"
@@ -109,18 +109,18 @@
 				type: "item"
 			}]
 			tasks: [{
-				consume_items: true
+				consume_items: false
 				count: 16L
 				id: "1B53ED998CCC2A56"
 				item: "gtceu:copper_credit"
 				type: "item"
 			}]
-			title: "钢"
+			title: "{ftbquests.chapter.606A554994C6B31D.quests6.title}"
 			x: 1.5d
 			y: -5.5d
 		}
 		{
-			can_repeat: true
+			can_repeat: false
 			dependencies: ["328D140CCF4FAEC6"]
 			icon: "minecraft:copper_ingot"
 			id: "6530A7F1F1EF9E0E"
@@ -131,17 +131,17 @@
 				type: "item"
 			}]
 			tasks: [{
-				consume_items: true
+				consume_items: false
 				id: "60B4803EC5801E17"
 				item: "gtceu:copper_credit"
 				type: "item"
 			}]
-			title: "铜"
+			title: "{ftbquests.chapter.606A554994C6B31D.quests7.title}"
 			x: -6.0d
 			y: -5.5d
 		}
 		{
-			can_repeat: true
+			can_repeat: false
 			dependencies: ["328D140CCF4FAEC6"]
 			icon: "gtceu:tin_ingot"
 			id: "3A495254105F39FE"
@@ -152,17 +152,17 @@
 				type: "item"
 			}]
 			tasks: [{
-				consume_items: true
+				consume_items: false
 				id: "0C2D92AE3CA26086"
 				item: "gtceu:copper_credit"
 				type: "item"
 			}]
-			title: "锡"
+			title: "{ftbquests.chapter.606A554994C6B31D.quests8.title}"
 			x: -4.5d
 			y: -5.5d
 		}
 		{
-			can_repeat: true
+			can_repeat: false
 			dependencies: ["328D140CCF4FAEC6"]
 			icon: "minecraft:iron_ingot"
 			id: "41A03ABE176583A6"
@@ -173,17 +173,17 @@
 				type: "item"
 			}]
 			tasks: [{
-				consume_items: true
+				consume_items: false
 				id: "5704F1041F4BB99A"
 				item: "gtceu:copper_credit"
 				type: "item"
 			}]
-			title: "铁"
+			title: "{ftbquests.chapter.606A554994C6B31D.quests9.title}"
 			x: -3.0d
 			y: -5.5d
 		}
 		{
-			can_repeat: true
+			can_repeat: false
 			dependencies: ["328D140CCF4FAEC6"]
 			icon: "gtceu:sticky_resin"
 			id: "480654050D2AA365"
@@ -194,17 +194,17 @@
 				type: "item"
 			}]
 			tasks: [{
-				consume_items: true
+				consume_items: false
 				id: "4BB789818AD0C432"
 				item: "gtceu:copper_credit"
 				type: "item"
 			}]
-			title: "树脂"
+			title: "{ftbquests.chapter.606A554994C6B31D.quests10.title}"
 			x: 3.0d
 			y: -5.5d
 		}
 		{
-			can_repeat: true
+			can_repeat: false
 			dependencies: ["6967496308DD29AE"]
 			icon: "gtceu:lead_ingot"
 			id: "62262C7C04B2D79A"
@@ -214,17 +214,17 @@
 				type: "item"
 			}]
 			tasks: [{
-				consume_items: true
+				consume_items: false
 				id: "73AA093941CE9684"
 				item: "gtceu:cupronickel_credit"
 				type: "item"
 			}]
-			title: "铅"
+			title: "{ftbquests.chapter.606A554994C6B31D.quests11.title}"
 			x: -6.0d
 			y: -4.0d
 		}
 		{
-			can_repeat: true
+			can_repeat: false
 			dependencies: ["6967496308DD29AE"]
 			icon: "gtceu:nickel_ingot"
 			id: "6105D12CA14D5AF1"
@@ -234,17 +234,17 @@
 				type: "item"
 			}]
 			tasks: [{
-				consume_items: true
+				consume_items: false
 				id: "7ED0DA0B0E42417E"
 				item: "gtceu:cupronickel_credit"
 				type: "item"
 			}]
-			title: "镍"
+			title: "{ftbquests.chapter.606A554994C6B31D.quests12.title}"
 			x: -4.5d
 			y: -4.0d
 		}
 		{
-			can_repeat: true
+			can_repeat: false
 			dependencies: ["6967496308DD29AE"]
 			icon: "gtceu:silver_ingot"
 			id: "4E524697DB6A4E38"
@@ -254,18 +254,18 @@
 				type: "item"
 			}]
 			tasks: [{
-				consume_items: true
+				consume_items: false
 				count: 2L
 				id: "320801D5AF19FB9F"
 				item: "gtceu:cupronickel_credit"
 				type: "item"
 			}]
-			title: "银"
+			title: "{ftbquests.chapter.606A554994C6B31D.quests13.title}"
 			x: -3.0d
 			y: -4.0d
 		}
 		{
-			can_repeat: true
+			can_repeat: false
 			dependencies: ["6967496308DD29AE"]
 			icon: "minecraft:gold_ingot"
 			id: "7EDB453FBC4B7957"
@@ -275,18 +275,18 @@
 				type: "item"
 			}]
 			tasks: [{
-				consume_items: true
+				consume_items: false
 				count: 4L
 				id: "383EBDFB2377CECA"
 				item: "gtceu:cupronickel_credit"
 				type: "item"
 			}]
-			title: "金"
+			title: "{ftbquests.chapter.606A554994C6B31D.quests14.title}"
 			x: 0.0d
 			y: -4.0d
 		}
 		{
-			can_repeat: true
+			can_repeat: false
 			dependencies: ["6967496308DD29AE"]
 			icon: "gtceu:aluminium_ingot"
 			id: "28B1628F5D38BBE9"
@@ -296,18 +296,18 @@
 				type: "item"
 			}]
 			tasks: [{
-				consume_items: true
+				consume_items: false
 				count: 2L
 				id: "7B3FC9A01DC9CD02"
 				item: "gtceu:cupronickel_credit"
 				type: "item"
 			}]
-			title: "铝"
+			title: "{ftbquests.chapter.606A554994C6B31D.quests15.title}"
 			x: -1.5d
 			y: -4.0d
 		}
 		{
-			can_repeat: true
+			can_repeat: false
 			dependencies: ["6967496308DD29AE"]
 			icon: "minecraft:redstone"
 			id: "14FE20F424D376CD"
@@ -318,17 +318,17 @@
 				type: "item"
 			}]
 			tasks: [{
-				consume_items: true
+				consume_items: false
 				id: "4556D98DC0B40651"
 				item: "gtceu:cupronickel_credit"
 				type: "item"
 			}]
-			title: "红石"
+			title: "{ftbquests.chapter.606A554994C6B31D.quests16.title}"
 			x: 1.5d
 			y: -4.0d
 		}
 		{
-			can_repeat: true
+			can_repeat: false
 			dependencies: ["6967496308DD29AE"]
 			icon: "gtceu:rubber_ingot"
 			id: "4FC06B3C5E4C3749"
@@ -338,12 +338,12 @@
 				type: "item"
 			}]
 			tasks: [{
-				consume_items: true
+				consume_items: false
 				id: "319A39915A1DD57D"
 				item: "gtceu:cupronickel_credit"
 				type: "item"
 			}]
-			title: "橡胶"
+			title: "{ftbquests.chapter.606A554994C6B31D.quests17.title}"
 			x: 3.0d
 			y: -4.0d
 		}
@@ -355,16 +355,16 @@
 				item: "gtceu:ancient_gold_coin"
 				type: "item"
 			}]
-			title: "上古宝物"
+			title: "{ftbquests.chapter.606A554994C6B31D.quests18.title}"
 			x: -7.5d
 			y: -7.0d
 		}
 		{
-			can_repeat: true
+			can_repeat: false
 			dependencies: ["369BA1002418F097"]
 			description: [
-				"消耗无线电网的电力来加速，消耗量为机器超频功率x8x加速时间"
-				"每次加速时间为剩余时间的一半"
+				"{ftbquests.chapter.606A554994C6B31D.quests19.description0}"
+				"{ftbquests.chapter.606A554994C6B31D.quests19.description1}"
 			]
 			icon: "gtlcore:time_twister"
 			id: "15A4420D900FEDE6"
@@ -375,26 +375,26 @@
 			}]
 			tasks: [
 				{
-					consume_items: true
+					consume_items: false
 					id: "7614BE9438829BAD"
 					item: "gtceu:ancient_gold_coin"
 					type: "item"
 				}
 				{
-					consume_items: true
+					consume_items: false
 					id: "17EC40E9CBE48A19"
 					item: "minecraft:glass_bottle"
 					type: "item"
 				}
 			]
-			title: "时间之瓶"
+			title: "{ftbquests.chapter.606A554994C6B31D.quests19.title}"
 			x: -6.0d
 			y: -7.0d
 		}
 		{
-			can_repeat: true
+			can_repeat: false
 			dependencies: ["369BA1002418F097"]
-			description: ["杀戮好帮手"]
+			description: ["{ftbquests.chapter.606A554994C6B31D.quests20.description}"]
 			icon: "avaritia:infinity_sword"
 			id: "59E9131BD015B4F5"
 			rewards: [{
@@ -404,26 +404,26 @@
 			}]
 			tasks: [
 				{
-					consume_items: true
+					consume_items: false
 					id: "676E9149C2A8F052"
 					item: "gtceu:ancient_gold_coin"
 					type: "item"
 				}
 				{
-					consume_items: true
+					consume_items: false
 					id: "50CE45138A1C1A4F"
 					item: "gtceu:nano_saber"
 					type: "item"
 				}
 			]
-			title: "寰宇支配之剑"
+			title: "{ftbquests.chapter.606A554994C6B31D.quests20.title}"
 			x: -4.5d
 			y: -7.0d
 		}
 		{
-			can_repeat: true
+			can_repeat: false
 			dependencies: ["369BA1002418F097"]
-			description: ["铸造方法已经失传"]
+			description: ["{ftbquests.chapter.606A554994C6B31D.quests21.description}"]
 			icon: "gtceu:damascus_steel_ingot"
 			id: "0E0889E2DEB646B6"
 			rewards: [{
@@ -434,30 +434,30 @@
 			}]
 			tasks: [
 				{
-					consume_items: true
+					consume_items: false
 					id: "1CF312748A61B7FA"
 					item: "gtceu:ancient_gold_coin"
 					type: "item"
 				}
 				{
-					consume_items: true
+					consume_items: false
 					count: 32L
 					id: "20B4F144241E5936"
 					item: "gtceu:steel_ingot"
 					type: "item"
 				}
 			]
-			title: "大马士革钢"
+			title: "{ftbquests.chapter.606A554994C6B31D.quests21.title}"
 			x: -3.0d
 			y: -7.0d
 		}
 		{
-			can_repeat: true
+			can_repeat: false
 			dependencies: ["369BA1002418F097"]
 			description: [
-				"带有夜视和创造飞行，X键可加速飞行，最高4倍，潜行加X可以重制飞行速度，无需能量"
-				"Z键开关夜视"
-				"可使用宇航服升级为抵抗宇宙危险的航天版本，无需氧气"
+				"{ftbquests.chapter.606A554994C6B31D.quests22.description0}"
+				"{ftbquests.chapter.606A554994C6B31D.quests22.description1}"
+				"{ftbquests.chapter.606A554994C6B31D.quests22.description2}"
 			]
 			icon: "kubejs:fermium_chestplate"
 			id: "204D5882D7F5CF64"
@@ -485,44 +485,44 @@
 			]
 			tasks: [
 				{
-					consume_items: true
+					consume_items: false
 					id: "5A9EDBF24F74FBA1"
 					item: "gtceu:ancient_gold_coin"
 					type: "item"
 				}
 				{
-					consume_items: true
+					consume_items: false
 					id: "63DC036403653500"
 					item: "gtceu:nanomuscle_helmet"
 					type: "item"
 				}
 				{
-					consume_items: true
+					consume_items: false
 					id: "73BEC5DD61996102"
 					item: "gtceu:avanced_nanomuscle_chestplate"
 					type: "item"
 				}
 				{
-					consume_items: true
+					consume_items: false
 					id: "3877F50FFBF452F3"
 					item: "gtceu:nanomuscle_leggings"
 					type: "item"
 				}
 				{
-					consume_items: true
+					consume_items: false
 					id: "658AD98EDB918134"
 					item: "gtceu:nanomuscle_boots"
 					type: "item"
 				}
 			]
-			title: "镄套装"
+			title: "{ftbquests.chapter.606A554994C6B31D.quests22.title}"
 			x: 4.5d
 			y: -7.0d
 		}
 		{
-			can_repeat: true
+			can_repeat: false
 			dependencies: ["369BA1002418F097"]
-			description: ["因游戏流程需要，没有掉落物的"]
+			description: ["{ftbquests.chapter.606A554994C6B31D.quests23.description}"]
 			icon: {
 				Count: 1
 				id: "gtlcore:bedrock_destroyer"
@@ -545,7 +545,7 @@
 			shape: "circle"
 			tasks: [
 				{
-					consume_items: true
+					consume_items: false
 					id: "0F4C4B667AF8CE53"
 					item: "gtceu:ancient_gold_coin"
 					match_nbt: false
@@ -572,33 +572,32 @@
 					type: "item"
 				}
 			]
-			title: "基岩破坏"
+			title: "{ftbquests.chapter.606A554994C6B31D.quests23.title}"
 			x: -1.5d
 			y: -7.0d
 		}
 		{
-			can_repeat: true
+			can_repeat: false
 			dependencies: ["1994BAD293E85984"]
 			icon: "gtceu:silver_octal_cable"
 			id: "03F8B997EFEB4636"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "2BD7E35B07717A83"
 				table_id: 4226179630409097864L
 				type: "random"
 			}]
 			tasks: [{
-				consume_items: true
+				consume_items: false
 				id: "2BB3325EC9BFD10F"
 				item: "gtceu:silver_credit"
 				type: "item"
 			}]
-			title: "MV-HV的线缆"
+			title: "{ftbquests.chapter.606A554994C6B31D.quests24.title}"
 			x: -3.0d
 			y: -2.5d
 		}
 		{
-			can_repeat: true
+			can_repeat: false
 			dependencies: ["1994BAD293E85984"]
 			icon: "gtceu:exquisite_ruby_gem"
 			id: "7CD3E38C1FC6D0DD"
@@ -609,17 +608,17 @@
 				type: "item"
 			}]
 			tasks: [{
-				consume_items: true
+				consume_items: false
 				id: "30A1D5242AEE33BE"
 				item: "gtceu:silver_credit"
 				type: "item"
 			}]
-			title: "红宝石"
+			title: "{ftbquests.chapter.606A554994C6B31D.quests25.title}"
 			x: -6.0d
 			y: -2.5d
 		}
 		{
-			can_repeat: true
+			can_repeat: false
 			dependencies: ["1994BAD293E85984"]
 			icon: "gtceu:gallium_dust"
 			id: "6D8265D945F1A4FE"
@@ -629,38 +628,37 @@
 				type: "item"
 			}]
 			tasks: [{
-				consume_items: true
+				consume_items: false
 				id: "6D6E988574CD32D7"
 				item: "gtceu:silver_credit"
 				type: "item"
 			}]
-			title: "镓"
+			title: "{ftbquests.chapter.606A554994C6B31D.quests26.title}"
 			x: -4.5d
 			y: -2.5d
 		}
 		{
-			can_repeat: true
+			can_repeat: false
 			dependencies: ["231670C48BBDDB3E"]
 			icon: "gtceu:platinum_octal_cable"
 			id: "322DE662115CB052"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "1CE47CF23D506908"
 				table_id: 3428454249082450316L
 				type: "random"
 			}]
 			tasks: [{
-				consume_items: true
+				consume_items: false
 				id: "4645232EC7413F45"
 				item: "gtceu:gold_credit"
 				type: "item"
 			}]
-			title: "EV-IV线缆"
+			title: "{ftbquests.chapter.606A554994C6B31D.quests27.title}"
 			x: -6.0d
 			y: -1.0d
 		}
 		{
-			can_repeat: true
+			can_repeat: false
 			dependencies: ["231670C48BBDDB3E"]
 			icon: "gtceu:lv_super_tank"
 			id: "1C4B5EDEA37AF553"
@@ -670,17 +668,17 @@
 				type: "item"
 			}]
 			tasks: [{
-				consume_items: true
+				consume_items: false
 				id: "48690AFDFD92005B"
 				item: "gtceu:gold_credit"
 				type: "item"
 			}]
-			title: "超级缸 I"
+			title: "{ftbquests.chapter.606A554994C6B31D.quests28.title}"
 			x: -4.5d
 			y: -1.0d
 		}
 		{
-			can_repeat: true
+			can_repeat: false
 			dependencies: ["231670C48BBDDB3E"]
 			icon: "gtceu:lv_super_chest"
 			id: "12E723ABD388B0E3"
@@ -690,12 +688,12 @@
 				type: "item"
 			}]
 			tasks: [{
-				consume_items: true
+				consume_items: false
 				id: "39FECE67ED51DEF2"
 				item: "gtceu:gold_credit"
 				type: "item"
 			}]
-			title: "超级箱 I"
+			title: "{ftbquests.chapter.606A554994C6B31D.quests29.title}"
 			x: -3.0d
 			y: -1.0d
 		}
@@ -704,14 +702,14 @@
 			id: "0F5FC80A063D12FE"
 			tasks: [{
 				id: "4AB433EFDF70990A"
-				title: "EV"
+				title: "{ftbquests.chapter.606A554994C6B31D.quests30.tasks0.title}"
 				type: "checkmark"
 			}]
 			x: -7.5d
 			y: 0.5d
 		}
 		{
-			can_repeat: true
+			can_repeat: false
 			dependencies: ["1994BAD293E85984"]
 			hide_dependency_lines: false
 			icon: "gtceu:steel_fluid_cell"
@@ -722,17 +720,17 @@
 				type: "item"
 			}]
 			tasks: [{
-				consume_items: true
+				consume_items: false
 				id: "252E9AFB8369926E"
 				item: "gtceu:silver_credit"
 				type: "item"
 			}]
-			title: "流体单元 I"
+			title: "{ftbquests.chapter.606A554994C6B31D.quests31.title}"
 			x: -1.5d
 			y: -2.5d
 		}
 		{
-			can_repeat: true
+			can_repeat: false
 			dependencies: ["231670C48BBDDB3E"]
 			icon: "gtceu:aluminium_fluid_cell"
 			id: "5A3A66918A576FC9"
@@ -742,17 +740,17 @@
 				type: "item"
 			}]
 			tasks: [{
-				consume_items: true
+				consume_items: false
 				id: "5818744277411258"
 				item: "gtceu:gold_credit"
 				type: "item"
 			}]
-			title: "流体单元 II"
+			title: "{ftbquests.chapter.606A554994C6B31D.quests32.title}"
 			x: -1.5d
 			y: -1.0d
 		}
 		{
-			can_repeat: true
+			can_repeat: false
 			dependencies: ["0F5FC80A063D12FE"]
 			icon: "gtceu:mv_super_tank"
 			id: "15C89656703F9E75"
@@ -762,17 +760,17 @@
 				type: "item"
 			}]
 			tasks: [{
-				consume_items: true
+				consume_items: false
 				id: "7DA3AB4BF17BB925"
 				item: "gtceu:platinum_credit"
 				type: "item"
 			}]
-			title: "超级缸 II"
+			title: "{ftbquests.chapter.606A554994C6B31D.quests33.title}"
 			x: -6.0d
 			y: 0.5d
 		}
 		{
-			can_repeat: true
+			can_repeat: false
 			dependencies: ["0F5FC80A063D12FE"]
 			icon: "gtceu:mv_super_chest"
 			id: "6B5066DF5C58DBF7"
@@ -782,17 +780,17 @@
 				type: "item"
 			}]
 			tasks: [{
-				consume_items: true
+				consume_items: false
 				id: "13DCBD4DC03748A4"
 				item: "gtceu:platinum_credit"
 				type: "item"
 			}]
-			title: "超级箱 II"
+			title: "{ftbquests.chapter.606A554994C6B31D.quests34.title}"
 			x: -4.5d
 			y: 0.5d
 		}
 		{
-			can_repeat: true
+			can_repeat: false
 			dependencies: ["0F5FC80A063D12FE"]
 			icon: "gtceu:stainless_steel_fluid_cell"
 			id: "30F2BC5FCEB33446"
@@ -802,19 +800,19 @@
 				type: "item"
 			}]
 			tasks: [{
-				consume_items: true
+				consume_items: false
 				id: "60B9D2D4D1C88727"
 				item: "gtceu:platinum_credit"
 				type: "item"
 			}]
-			title: "流体单元 III"
+			title: "{ftbquests.chapter.606A554994C6B31D.quests35.title}"
 			x: -3.0d
 			y: 0.5d
 		}
 		{
-			can_repeat: true
+			can_repeat: false
 			dependencies: ["369BA1002418F097"]
-			description: ["精准获得方块"]
+			description: ["{ftbquests.chapter.606A554994C6B31D.quests36.description}"]
 			icon: {
 				Count: 1
 				id: "minecraft:enchanted_book"
@@ -843,27 +841,27 @@
 			shape: "circle"
 			tasks: [
 				{
-					consume_items: true
+					consume_items: false
 					id: "161537394D3FD0EE"
 					item: "gtceu:ancient_gold_coin"
 					match_nbt: false
 					type: "item"
 				}
 				{
-					consume_items: true
+					consume_items: false
 					id: "7D8D34801734E71C"
 					item: "minecraft:book"
 					type: "item"
 				}
 			]
-			title: "精准采集"
+			title: "{ftbquests.chapter.606A554994C6B31D.quests36.title}"
 			x: 0.0d
 			y: -7.0d
 		}
 		{
-			can_repeat: true
+			can_repeat: false
 			dependencies: ["369BA1002418F097"]
-			description: ["高速挖掘"]
+			description: ["{ftbquests.chapter.606A554994C6B31D.quests37.description}"]
 			icon: {
 				Count: 1
 				id: "minecraft:enchanted_book"
@@ -892,30 +890,30 @@
 			shape: "circle"
 			tasks: [
 				{
-					consume_items: true
+					consume_items: false
 					id: "6F89766A15CB7190"
 					item: "gtceu:ancient_gold_coin"
 					match_nbt: false
 					type: "item"
 				}
 				{
-					consume_items: true
+					consume_items: false
 					id: "48DB7034855D14AD"
 					item: "minecraft:book"
 					type: "item"
 				}
 			]
-			title: "效率"
+			title: "{ftbquests.chapter.606A554994C6B31D.quests37.title}"
 			x: 1.5d
 			y: -7.0d
 		}
 		{
-			can_repeat: true
+			can_repeat: false
 			dependencies: ["369BA1002418F097"]
 			description: [
-				"高速挖掘，默认按J可调节速度，潜行加快调节速度"
-				"潜行左键可以开关磁力吸引"
-				"不消耗耐久和电量"
+				"{ftbquests.chapter.606A554994C6B31D.quests38.description0}"
+				"{ftbquests.chapter.606A554994C6B31D.quests38.description1}"
+				"{ftbquests.chapter.606A554994C6B31D.quests38.description2}"
 			]
 			icon: {
 				Count: 1
@@ -970,7 +968,7 @@
 			}]
 			tasks: [
 				{
-					consume_items: true
+					consume_items: false
 					id: "2297EC1FCD66F730"
 					item: "gtceu:ancient_gold_coin"
 					type: "item"
@@ -1020,12 +1018,12 @@
 					type: "item"
 				}
 			]
-			title: "金钢杵"
+			title: "{ftbquests.chapter.606A554994C6B31D.quests38.title}"
 			x: 3.0d
 			y: -7.0d
 		}
 		{
-			can_repeat: true
+			can_repeat: false
 			dependencies: ["328D140CCF4FAEC6"]
 			icon: "gtceu:steam_machine_casing"
 			id: "3E6BC2F76ED6F531"
@@ -1037,21 +1035,21 @@
 			}]
 			tasks: [
 				{
-					consume_items: true
+					consume_items: false
 					count: 4L
 					id: "6DDAAF664EA230B3"
 					item: "gtceu:cupronickel_credit"
 					type: "item"
 				}
 				{
-					consume_items: true
+					consume_items: false
 					count: 64L
 					id: "25331A63468C189C"
 					item: "minecraft:cobblestone"
 					type: "item"
 				}
 			]
-			title: "蒸汽机械方块"
+			title: "{ftbquests.chapter.606A554994C6B31D.quests39.title}"
 			x: 4.5d
 			y: -5.5d
 		}
@@ -1060,14 +1058,14 @@
 			id: "4E80FF3BE1903C6F"
 			tasks: [{
 				id: "1FF12285BEC17EA2"
-				title: "IV"
+				title: "{ftbquests.chapter.606A554994C6B31D.quests40.tasks0.title}"
 				type: "checkmark"
 			}]
 			x: -7.5d
 			y: 2.0d
 		}
 		{
-			can_repeat: true
+			can_repeat: false
 			dependencies: ["4E80FF3BE1903C6F"]
 			icon: "gtceu:iv_quantum_tank"
 			id: "108474D18FF26868"
@@ -1077,12 +1075,12 @@
 				type: "item"
 			}]
 			tasks: [{
-				consume_items: true
+				consume_items: false
 				id: "55DE20768F74D1F1"
 				item: "gtceu:osmium_credit"
 				type: "item"
 			}]
-			title: "量子缸Ⅴ"
+			title: "{ftbquests.chapter.606A554994C6B31D.quests41.title}"
 			x: -6.0d
 			y: 2.0d
 		}
@@ -1096,17 +1094,17 @@
 				type: "item"
 			}]
 			tasks: [{
-				consume_items: true
+				consume_items: false
 				id: "2CC68A12E2881E0E"
 				item: "gtceu:osmium_credit"
 				type: "item"
 			}]
-			title: "量子箱Ⅴ"
+			title: "{ftbquests.chapter.606A554994C6B31D.quests42.title}"
 			x: -4.5d
 			y: 2.0d
 		}
 		{
-			can_repeat: true
+			can_repeat: false
 			dependencies: ["231670C48BBDDB3E"]
 			id: "2D03768503C09D2D"
 			rewards: [{
@@ -1115,17 +1113,17 @@
 				type: "item"
 			}]
 			tasks: [{
-				consume_items: true
+				consume_items: false
 				id: "6308157A73013E2A"
 				item: "gtceu:ancient_gold_coin"
 				type: "item"
 			}]
-			title: "没黑心老板"
+			title: "{ftbquests.chapter.606A554994C6B31D.quests43.title}"
 			x: 4.5d
 			y: -1.0d
 		}
 		{
-			can_repeat: true
+			can_repeat: false
 			dependencies: ["0F5FC80A063D12FE"]
 			id: "1F3806972B21488E"
 			rewards: [
@@ -1142,18 +1140,18 @@
 				}
 			]
 			tasks: [{
-				consume_items: true
+				consume_items: false
 				count: 10L
 				id: "75F18055C9084870"
 				item: "gtceu:ancient_gold_coin"
 				type: "item"
 			}]
-			title: "不黑心老板"
+			title: "{ftbquests.chapter.606A554994C6B31D.quests44.title}"
 			x: 4.5d
 			y: 0.5d
 		}
 		{
-			can_repeat: true
+			can_repeat: false
 			dependencies: ["4E80FF3BE1903C6F"]
 			id: "5D20FDB89B25FB89"
 			rewards: [
@@ -1176,18 +1174,18 @@
 				}
 			]
 			tasks: [{
-				consume_items: true
+				consume_items: false
 				count: 100L
 				id: "30A40F139AABD92E"
 				item: { Count: 100, id: "gtceu:ancient_gold_coin" }
 				type: "item"
 			}]
-			title: "好心老板"
+			title: "{ftbquests.chapter.606A554994C6B31D.quests45.title}"
 			x: 4.5d
 			y: 2.0d
 		}
 		{
-			can_repeat: true
+			can_repeat: false
 			dependencies: ["4E80FF3BE1903C6F"]
 			icon: "gtlcore:cell_component_256m"
 			id: "30787B18066763DB"
@@ -1198,24 +1196,24 @@
 			}]
 			tasks: [
 				{
-					consume_items: true
+					consume_items: false
 					id: "6C29298EE3013869"
 					item: "gtceu:naquadah_credit"
 					type: "item"
 				}
 				{
-					consume_items: true
+					consume_items: false
 					id: "7F54B98EC5DF6AB0"
 					item: "ae2:cell_component_1k"
 					type: "item"
 				}
 			]
-			title: "256M"
+			title: "{ftbquests.chapter.606A554994C6B31D.quests46.title}"
 			x: -1.5d
 			y: 2.0d
 		}
 		{
-			can_repeat: true
+			can_repeat: false
 			dependencies: ["4E80FF3BE1903C6F"]
 			hide_text_until_complete: false
 			icon: "ae2:fluix_glass_cable"
@@ -1228,27 +1226,27 @@
 			}]
 			tasks: [
 				{
-					consume_items: true
+					consume_items: false
 					id: "5559DCB34AF137A7"
 					item: "gtceu:osmium_credit"
 					type: "item"
 				}
 				{
-					consume_items: true
+					consume_items: false
 					count: 16L
 					id: "3AF66436A7DBB58F"
 					item: "minecraft:glass"
 					type: "item"
 				}
 			]
-			title: "玻璃线缆"
+			title: "{ftbquests.chapter.606A554994C6B31D.quests47.title}"
 			x: -3.0d
 			y: 2.0d
 		}
 		{
-			can_repeat: true
+			can_repeat: false
 			dependencies: ["6967496308DD29AE"]
-			description: ["未知科技"]
+			description: ["{ftbquests.chapter.606A554994C6B31D.quests48.description}"]
 			icon: "minecraft:end_crystal"
 			id: "7B72A96FC0A31033"
 			rewards: [
@@ -1265,13 +1263,13 @@
 			]
 			tasks: [
 				{
-					consume_items: true
+					consume_items: false
 					id: "52079BD0F841DEA6"
 					item: "gtceu:silver_credit"
 					type: "item"
 				}
 				{
-					consume_items: true
+					consume_items: false
 					id: "1449D8FEFB3FA891"
 					item: "gtlcore:ulv_thermal_generator"
 					type: "item"
@@ -1287,14 +1285,14 @@
 					type: "item"
 				}
 			]
-			title: "魔力发电"
+			title: "{ftbquests.chapter.606A554994C6B31D.quests48.title}"
 			x: 4.5d
 			y: -4.0d
 		}
 		{
-			can_repeat: true
+			can_repeat: false
 			dependencies: ["1994BAD293E85984"]
-			description: ["未知科技升级版"]
+			description: ["{ftbquests.chapter.606A554994C6B31D.quests49.description}"]
 			icon: "minecraft:end_crystal"
 			id: "44FE453E57FAD7C8"
 			rewards: [{
@@ -1304,13 +1302,13 @@
 			}]
 			tasks: [
 				{
-					consume_items: true
+					consume_items: false
 					id: "702A8652D6C80412"
 					item: "gtceu:platinum_credit"
 					type: "item"
 				}
 				{
-					consume_items: true
+					consume_items: false
 					id: "039CA00B066F14C0"
 					item: "gtlcore:ulv_primitive_magic_energy"
 					type: "item"
@@ -1326,12 +1324,12 @@
 					type: "item"
 				}
 			]
-			title: "进阶魔力发电"
+			title: "{ftbquests.chapter.606A554994C6B31D.quests49.title}"
 			x: 0.0d
 			y: -2.5d
 		}
 		{
-			can_repeat: true
+			can_repeat: false
 			dependencies: ["328D140CCF4FAEC6"]
 			icon: {
 				Count: 1
@@ -1355,7 +1353,7 @@
 			}]
 			tasks: [
 				{
-					consume_items: true
+					consume_items: false
 					count: 4L
 					id: "46E3481E70E44CE8"
 					item: "gtceu:cupronickel_credit"
@@ -1368,7 +1366,7 @@
 					type: "item"
 				}
 			]
-			title: "钓鱼竿"
+			title: "{ftbquests.chapter.606A554994C6B31D.quests50.title}"
 			x: 6.0d
 			y: -5.5d
 		}
@@ -1383,24 +1381,24 @@
 			}]
 			tasks: [
 				{
-					consume_items: true
+					consume_items: false
 					id: "12CB57CCE511AC2A"
 					item: "gtceu:platinum_credit"
 					type: "item"
 				}
 				{
-					consume_items: true
+					consume_items: false
 					id: "4CBA22B77132B99C"
 					item: "gtceu:steam_input_hatch"
 					type: "item"
 				}
 			]
-			title: "大型蒸汽输入仓"
+			title: "{ftbquests.chapter.606A554994C6B31D.quests51.title}"
 			x: 0.0d
 			y: -1.0d
 		}
 		{
-			can_repeat: true
+			can_repeat: false
 			dependencies: ["0F5FC80A063D12FE"]
 			icon: "gtceu:me_input_bus"
 			id: "2BD587F979B3EC97"
@@ -1410,17 +1408,17 @@
 				type: "item"
 			}]
 			tasks: [{
-				consume_items: true
+				consume_items: false
 				id: "465ADF232212CD50"
 				item: "gtceu:osmium_credit"
 				type: "item"
 			}]
-			title: "me输入总线"
+			title: "{ftbquests.chapter.606A554994C6B31D.quests52.title}"
 			x: -1.5d
 			y: 0.5d
 		}
 		{
-			can_repeat: true
+			can_repeat: false
 			dependencies: ["0F5FC80A063D12FE"]
 			icon: "gtceu:me_output_bus"
 			id: "49E1A594519BE6B1"
@@ -1430,17 +1428,17 @@
 				type: "item"
 			}]
 			tasks: [{
-				consume_items: true
+				consume_items: false
 				id: "14D9B08A214D2AFC"
 				item: "gtceu:osmium_credit"
 				type: "item"
 			}]
-			title: "me输入出总线"
+			title: "{ftbquests.chapter.606A554994C6B31D.quests53.title}"
 			x: 0.0d
 			y: 0.5d
 		}
 		{
-			can_repeat: true
+			can_repeat: false
 			dependencies: ["0F5FC80A063D12FE"]
 			icon: "gtceu:me_input_hatch"
 			id: "41B1846CEF413C67"
@@ -1450,17 +1448,17 @@
 				type: "item"
 			}]
 			tasks: [{
-				consume_items: true
+				consume_items: false
 				id: "1293497077D89031"
 				item: "gtceu:osmium_credit"
 				type: "item"
 			}]
-			title: "me输入仓"
+			title: "{ftbquests.chapter.606A554994C6B31D.quests54.title}"
 			x: 1.5d
 			y: 0.5d
 		}
 		{
-			can_repeat: true
+			can_repeat: false
 			dependencies: ["0F5FC80A063D12FE"]
 			icon: "gtceu:me_output_hatch"
 			id: "002C9937FB903B42"
@@ -1470,17 +1468,17 @@
 				type: "item"
 			}]
 			tasks: [{
-				consume_items: true
+				consume_items: false
 				id: "1CBEFCA7E65A5F2A"
 				item: "gtceu:osmium_credit"
 				type: "item"
 			}]
-			title: "me输出仓"
+			title: "{ftbquests.chapter.606A554994C6B31D.quests55.title}"
 			x: 3.0d
 			y: 0.5d
 		}
 		{
-			can_repeat: true
+			can_repeat: false
 			dependencies: ["4E80FF3BE1903C6F"]
 			icon: "gtceu:me_stocking_input_bus"
 			id: "6D2BC98B516C35C2"
@@ -1490,17 +1488,17 @@
 				type: "item"
 			}]
 			tasks: [{
-				consume_items: true
+				consume_items: false
 				id: "22830592F976DBEE"
 				item: "gtceu:naquadah_credit"
 				type: "item"
 			}]
-			title: "ME库存输入总线"
+			title: "{ftbquests.chapter.606A554994C6B31D.quests56.title}"
 			x: 0.0d
 			y: 2.0d
 		}
 		{
-			can_repeat: true
+			can_repeat: false
 			dependencies: ["4E80FF3BE1903C6F"]
 			icon: "gtceu:me_stocking_input_hatch"
 			id: "7EB9FA7A5B7D6832"
@@ -1510,17 +1508,17 @@
 				type: "item"
 			}]
 			tasks: [{
-				consume_items: true
+				consume_items: false
 				id: "71CF97070CE2A413"
 				item: "gtceu:naquadah_credit"
 				type: "item"
 			}]
-			title: "ME库存输入仓"
+			title: "{ftbquests.chapter.606A554994C6B31D.quests57.title}"
 			x: 1.5d
 			y: 2.0d
 		}
 		{
-			can_repeat: true
+			can_repeat: false
 			dependencies: ["4E80FF3BE1903C6F"]
 			icon: "gtmthings:me_export_buffer"
 			id: "31BEB48DF67902CD"
@@ -1528,16 +1526,16 @@
 				icon: "gtmthings:me_export_buffer"
 				id: "3A954B34B1ED8AA3"
 				item: "gtceu:me_stocking_input_bus"
-				title: "me库存输出总成"
+				title: "{ftbquests.chapter.606A554994C6B31D.quests58.rewards0.title}"
 				type: "item"
 			}]
 			tasks: [{
-				consume_items: true
+				consume_items: false
 				id: "7B7CE2329314C19B"
 				item: "gtceu:naquadah_credit"
 				type: "item"
 			}]
-			title: "ME输出总成"
+			title: "{ftbquests.chapter.606A554994C6B31D.quests58.title}"
 			x: 3.0d
 			y: 2.0d
 		}
@@ -1546,14 +1544,14 @@
 			id: "45189DD9F85A272B"
 			tasks: [{
 				id: "532F68A0794DFA62"
-				title: "无尽小玩具"
+				title: "{ftbquests.chapter.606A554994C6B31D.quests59.tasks0.title}"
 				type: "checkmark"
 			}]
 			x: -7.5d
 			y: -8.5d
 		}
 		{
-			can_repeat: true
+			can_repeat: false
 			dependencies: ["45189DD9F85A272B"]
 			icon: "avaritia:infinity_bucket"
 			id: "2AE793A3D6C0FCA0"
@@ -1564,24 +1562,24 @@
 			}]
 			tasks: [
 				{
-					consume_items: true
+					consume_items: false
 					id: "78AD1CE74AF12EE3"
 					item: "gtceu:gold_credit"
 					type: "item"
 				}
 				{
-					consume_items: true
+					consume_items: false
 					id: "02A7BE50B947C24F"
 					item: "minecraft:bucket"
 					type: "item"
 				}
 			]
-			title: "远海鲸吞之桶"
+			title: "{ftbquests.chapter.606A554994C6B31D.quests60.title}"
 			x: -6.0d
 			y: -8.5d
 		}
 		{
-			can_repeat: true
+			can_repeat: false
 			dependencies: ["45189DD9F85A272B"]
 			icon: "avaritia:infinity_bow"
 			id: "0C081324DE1D4C12"
@@ -1592,13 +1590,13 @@
 			}]
 			tasks: [
 				{
-					consume_items: true
+					consume_items: false
 					id: "58B1036352FC91D4"
 					item: "gtceu:gold_credit"
 					type: "item"
 				}
 				{
-					consume_items: true
+					consume_items: false
 					id: "2763817B2C9A5ECA"
 					item: {
 						Count: 1
@@ -1610,12 +1608,12 @@
 					type: "item"
 				}
 			]
-			title: "天堂陨落长弓"
+			title: "{ftbquests.chapter.606A554994C6B31D.quests61.title}"
 			x: -4.5d
 			y: -8.5d
 		}
 		{
-			can_repeat: true
+			can_repeat: false
 			dependencies: ["45189DD9F85A272B"]
 			icon: {
 				Count: 1
@@ -1638,24 +1636,24 @@
 			}]
 			tasks: [
 				{
-					consume_items: true
+					consume_items: false
 					id: "7616A70DF0829F6C"
 					item: "gtceu:gold_credit"
 					type: "item"
 				}
 				{
-					consume_items: true
+					consume_items: false
 					id: "4018379BF5A111F4"
 					item: "minecraft:totem_of_undying"
 					type: "item"
 				}
 			]
-			title: "无尽图腾"
+			title: "{ftbquests.chapter.606A554994C6B31D.quests62.title}"
 			x: -3.0d
 			y: -8.5d
 		}
 		{
-			can_repeat: true
+			can_repeat: false
 			dependencies: ["45189DD9F85A272B"]
 			icon: "avaritia:infinity_pickaxe"
 			id: "3F6C2CA4C0DB1908"
@@ -1666,13 +1664,13 @@
 			}]
 			tasks: [
 				{
-					consume_items: true
+					consume_items: false
 					id: "498E588CDB4A9B9D"
 					item: "gtceu:gold_credit"
 					type: "item"
 				}
 				{
-					consume_items: true
+					consume_items: false
 					id: "48E6E5722293B2B0"
 					item: {
 						Count: 1
@@ -1684,12 +1682,12 @@
 					type: "item"
 				}
 			]
-			title: "世界崩解之镐"
+			title: "{ftbquests.chapter.606A554994C6B31D.quests63.title}"
 			x: 1.5d
 			y: -8.5d
 		}
 		{
-			can_repeat: true
+			can_repeat: false
 			dependencies: ["45189DD9F85A272B"]
 			icon: "avaritia:neutron_horse_armor"
 			id: "21C6BBA2E4999C80"
@@ -1700,24 +1698,24 @@
 			}]
 			tasks: [
 				{
-					consume_items: true
+					consume_items: false
 					id: "26A02C5ADB6423A7"
 					item: "gtceu:gold_credit"
 					type: "item"
 				}
 				{
-					consume_items: true
+					consume_items: false
 					id: "181061C0B5875E6C"
 					item: "minecraft:diamond_horse_armor"
 					type: "item"
 				}
 			]
-			title: "中子战马铠"
+			title: "{ftbquests.chapter.606A554994C6B31D.quests64.title}"
 			x: 0.0d
 			y: -8.5d
 		}
 		{
-			can_repeat: true
+			can_repeat: false
 			dependencies: ["45189DD9F85A272B"]
 			icon: "avaritia:ultimate_stew"
 			id: "6CAEBEE192A18FFC"
@@ -1728,24 +1726,24 @@
 			}]
 			tasks: [
 				{
-					consume_items: true
+					consume_items: false
 					id: "127D50E398234ACC"
 					item: "gtceu:platinum_credit"
 					type: "item"
 				}
 				{
-					consume_items: true
+					consume_items: false
 					id: "66A4FED0C96CB8FD"
 					item: "minecraft:pumpkin_pie"
 					type: "item"
 				}
 			]
-			title: "超级煲"
+			title: "{ftbquests.chapter.606A554994C6B31D.quests65.title}"
 			x: -1.5d
 			y: -8.5d
 		}
 		{
-			can_repeat: true
+			can_repeat: false
 			dependencies: ["45189DD9F85A272B"]
 			icon: "avaritia:infinity_axe"
 			id: "32EE0553E9112ADC"
@@ -1756,13 +1754,13 @@
 			}]
 			tasks: [
 				{
-					consume_items: true
+					consume_items: false
 					id: "211A78DC53E64C40"
 					item: "gtceu:gold_credit"
 					type: "item"
 				}
 				{
-					consume_items: true
+					consume_items: false
 					id: "417FE2FCABE0A336"
 					item: {
 						Count: 1
@@ -1774,12 +1772,12 @@
 					type: "item"
 				}
 			]
-			title: "自然荒芜之斧"
+			title: "{ftbquests.chapter.606A554994C6B31D.quests66.title}"
 			x: 3.0d
 			y: -8.5d
 		}
 		{
-			can_repeat: true
+			can_repeat: false
 			dependencies: ["45189DD9F85A272B"]
 			icon: "avaritia:infinity_hoe"
 			id: "1AB285CE198D3E41"
@@ -1790,13 +1788,13 @@
 			}]
 			tasks: [
 				{
-					consume_items: true
+					consume_items: false
 					id: "2FD7D388BA97E0E4"
 					item: "gtceu:gold_credit"
 					type: "item"
 				}
 				{
-					consume_items: true
+					consume_items: false
 					id: "47C1E92690EA32FF"
 					item: {
 						Count: 1
@@ -1808,12 +1806,12 @@
 					type: "item"
 				}
 			]
-			title: "地蕴复生之锄"
+			title: "{ftbquests.chapter.606A554994C6B31D.quests67.title}"
 			x: 4.5d
 			y: -8.5d
 		}
 		{
-			can_repeat: true
+			can_repeat: false
 			dependencies: ["45189DD9F85A272B"]
 			icon: "avaritia:infinity_shovel"
 			id: "4EA03BF2680E0EE7"
@@ -1824,13 +1822,13 @@
 			}]
 			tasks: [
 				{
-					consume_items: true
+					consume_items: false
 					id: "44AE99A2A69241A5"
 					item: "gtceu:gold_credit"
 					type: "item"
 				}
 				{
-					consume_items: true
+					consume_items: false
 					id: "5654891B9B4A1EE5"
 					item: {
 						Count: 1
@@ -1842,10 +1840,10 @@
 					type: "item"
 				}
 			]
-			title: "星球吞噬之铲"
+			title: "{ftbquests.chapter.606A554994C6B31D.quests68.title}"
 			x: 6.0d
 			y: -8.5d
 		}
 	]
-	title: "小市场"
+	title: "{ftbquests.chapter.606A554994C6B31D.title}"
 }

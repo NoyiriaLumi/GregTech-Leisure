@@ -45,8 +45,8 @@
 		{
 			dependencies: ["6C4F1C87F08F38AC"]
 			description: [
-				"UHV的基础材料"
-				"这个需求量很大，制作速度慢"
+				"{ftbquests.chapter.2366BEB7A81C122D.quests1.description0}"
+				"{ftbquests.chapter.2366BEB7A81C122D.quests1.description1}"
 			]
 			id: "035C470213E8B4DB"
 			shape: "rsquare"
@@ -61,7 +61,7 @@
 		}
 		{
 			dependencies: ["035C470213E8B4DB"]
-			description: ["更高级的单晶硅"]
+			description: ["{ftbquests.chapter.2366BEB7A81C122D.quests2.description}"]
 			id: "264EA49453E188C4"
 			tasks: [{
 				id: "0DAE2E307ACAD4E6"
@@ -84,7 +84,7 @@
 		}
 		{
 			dependencies: ["24B011E770B7DF3F"]
-			description: ["后面的电路每种都有对应的贴片"]
+			description: ["{ftbquests.chapter.2366BEB7A81C122D.quests4.description}"]
 			id: "2810CED22A6AD31A"
 			tasks: [
 				{
@@ -122,7 +122,7 @@
 				"43A7282802A06626"
 				"4F87B7DA47087F97"
 			]
-			description: ["它使用微型生态系统模拟计算，并将结果转化为综合解决方案。是高速、高吞吐量的计算设备。"]
+			description: ["{ftbquests.chapter.2366BEB7A81C122D.quests5.description}"]
 			id: "5E7F20C5F8530E1E"
 			tasks: [{
 				id: "2A747FECF6A9366B"
@@ -177,7 +177,7 @@
 		}
 		{
 			dependencies: ["035C470213E8B4DB"]
-			description: ["UHV超导体"]
+			description: ["{ftbquests.chapter.2366BEB7A81C122D.quests9.description}"]
 			id: "1DFC7DC123A3D830"
 			tasks: [{
 				id: "396FE1151A63CF4A"
@@ -188,12 +188,12 @@
 			y: 4.0d
 		}
 		{
-			description: ["聚酰亚胺是一种特种工程材料，广泛应用在航空、航天、微电子、纳米、液晶、分离膜、激光等领域"]
+			description: ["{ftbquests.chapter.2366BEB7A81C122D.quests10.description}"]
 			icon: "gtceu:polyimide_bucket"
 			id: "24B011E770B7DF3F"
 			tasks: [{
 				id: "62A6274CE1A1FF7A"
-				title: "聚酰亚胺"
+				title: "{ftbquests.chapter.2366BEB7A81C122D.quests10.tasks0.title}"
 				type: "checkmark"
 			}]
 			x: 4.0d
@@ -201,7 +201,6 @@
 		}
 		{
 			dependencies: ["59CA7B4A4A417B53"]
-			hide_dependent_lines: true
 			id: "1FA9E56114BFABF5"
 			tasks: [{
 				id: "6A73DF3A0B7C1184"
@@ -226,7 +225,7 @@
 		}
 		{
 			dependencies: ["7204F1B6BCC74F1C"]
-			description: ["使用激光高速冷凝等离子体"]
+			description: ["{ftbquests.chapter.2366BEB7A81C122D.quests13.description}"]
 			id: "71D029B59C690121"
 			shape: "rsquare"
 			size: 2.0d
@@ -272,7 +271,7 @@
 		}
 		{
 			dependencies: ["7A7C73D046390488"]
-			description: ["需要提供算力"]
+			description: ["{ftbquests.chapter.2366BEB7A81C122D.quests16.description}"]
 			id: "31EDE3D976DE5A33"
 			tasks: [{
 				id: "194425B2D808120E"
@@ -284,7 +283,7 @@
 		}
 		{
 			dependencies: ["7A7C73D046390488"]
-			description: ["随着无人机的解锁，你可以跳过各种产线直接获得资源"]
+			description: ["{ftbquests.chapter.2366BEB7A81C122D.quests17.description}"]
 			id: "7ADB50ACF5AE1D13"
 			tasks: [{
 				id: "3F389DDC4C0810B4"
@@ -307,7 +306,7 @@
 		}
 		{
 			dependencies: ["7A7C73D046390488"]
-			description: ["去巴纳德C用集气室搜集"]
+			description: ["{ftbquests.chapter.2366BEB7A81C122D.quests19.description}"]
 			id: "12F8275FC06FCFEE"
 			tasks: [{
 				id: "3B3096FCBB8D2FE6"
@@ -347,8 +346,7 @@
 				"6C4F1C87F08F38AC"
 				"2802E34A99CE1D79"
 			]
-			description: ["新的魔幻金属"]
-			hide_dependent_lines: true
+			description: ["{ftbquests.chapter.2366BEB7A81C122D.quests22.description}"]
 			id: "776563C5BA327495"
 			tasks: [
 				{
@@ -362,7 +360,7 @@
 					type: "item"
 				}
 			]
-			title: "山铜与秘银"
+			title: "{ftbquests.chapter.2366BEB7A81C122D.quests22.title}"
 			x: 4.0d
 			y: 2.0d
 		}
@@ -371,7 +369,7 @@
 				"7ADB50ACF5AE1D13"
 				"6D83BAAC7DB34D51"
 			]
-			description: ["外星生命"]
+			description: ["{ftbquests.chapter.2366BEB7A81C122D.quests23.description}"]
 			id: "1B548589C6044A63"
 			tasks: [{
 				id: "74AD31D4642ED7CF"
@@ -386,7 +384,7 @@
 				"1FA9E56114BFABF5"
 				"2802E34A99CE1D79"
 			]
-			description: ["这是T8火箭，解锁巴纳德C"]
+			description: ["{ftbquests.chapter.2366BEB7A81C122D.quests24.description}"]
 			id: "7A7C73D046390488"
 			rewards: [
 				{
@@ -425,7 +423,7 @@
 				"051792ED136C96D0"
 				"4A058FA1859A00D1"
 			]
-			description: ["和湿件很像"]
+			description: ["{ftbquests.chapter.2366BEB7A81C122D.quests25.description}"]
 			id: "583079AD88755662"
 			tasks: [{
 				id: "6B65C07BCA6CC667"
@@ -476,7 +474,7 @@
 				"41C7A298C421C65D"
 				"7204F1B6BCC74F1C"
 			]
-			description: ["有些贵，但能用激光"]
+			description: ["{ftbquests.chapter.2366BEB7A81C122D.quests29.description}"]
 			id: "1FCD63F77E978107"
 			shape: "rsquare"
 			size: 1.0d
@@ -502,14 +500,14 @@
 		{
 			dependencies: ["6D83BAAC7DB34D51"]
 			description: [
-				"未知的液体，可以培养出新生命"
-				"也可以选择去巴纳德C开采"
+				"{ftbquests.chapter.2366BEB7A81C122D.quests31.description0}"
+				"{ftbquests.chapter.2366BEB7A81C122D.quests31.description1}"
 			]
 			icon: "gtceu:unknowwater_bucket"
 			id: "333B741B06E49CE8"
 			tasks: [{
 				id: "51F32C7FCCFA73A7"
-				title: "不明液体"
+				title: "{ftbquests.chapter.2366BEB7A81C122D.quests31.tasks0.title}"
 				type: "checkmark"
 			}]
 			x: 6.0d
@@ -567,7 +565,7 @@
 				"02F523E003E1C93D"
 				"035C470213E8B4DB"
 			]
-			description: ["优化你的产线"]
+			description: ["{ftbquests.chapter.2366BEB7A81C122D.quests36.description}"]
 			id: "16C93F76F74CB8DB"
 			tasks: [{
 				id: "42B8B94BB1B32E83"
@@ -582,7 +580,7 @@
 				"0A2D46609F5C3CAB"
 				"4F87B7DA47087F97"
 			]
-			description: ["电解机、电磁选矿机和两极磁化机的激光版本"]
+			description: ["{ftbquests.chapter.2366BEB7A81C122D.quests37.description}"]
 			id: "3565D2D5E0A2CEDF"
 			shape: "rsquare"
 			size: 1.0d
@@ -596,7 +594,7 @@
 		}
 		{
 			dependencies: ["0A2D46609F5C3CAB"]
-			description: ["后面的电路装配线要使用"]
+			description: ["{ftbquests.chapter.2366BEB7A81C122D.quests38.description}"]
 			id: "1385E89DD3FD663B"
 			tasks: [{
 				id: "68A5969FB9056BA3"
@@ -618,7 +616,7 @@
 		}
 		{
 			dependencies: ["7C23CC6ADDC33EA0"]
-			description: ["大硅岩~~狠狠发电~~"]
+			description: ["{ftbquests.chapter.2366BEB7A81C122D.quests40.description}"]
 			id: "09E013C97E05C052"
 			tasks: [{
 				id: "6D5ADEFDD6695856"
@@ -640,6 +638,6 @@
 			y: 6.0d
 		}
 	]
-	subtitle: ["Tier8-UV"]
-	title: "极限压"
+	subtitle: ["{ftbquests.chapter.2366BEB7A81C122D.subtitle}"]
+	title: "{ftbquests.chapter.2366BEB7A81C122D.title}"
 }

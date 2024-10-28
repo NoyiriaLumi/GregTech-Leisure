@@ -34,7 +34,7 @@
 				"38D23D186C444492"
 				"5E9E2F25AE1EC731"
 			]
-			description: ["适合做生物研究"]
+			description: ["{ftbquests.chapter.12538B9410F2DEC5.quests0.description}"]
 			id: "04B1D03A3FE114F1"
 			tasks: [
 				{
@@ -62,7 +62,7 @@
 				"52DF531AFB3A07CE"
 				"5D980DBF92017008"
 			]
-			description: ["更进一步"]
+			description: ["{ftbquests.chapter.12538B9410F2DEC5.quests1.description}"]
 			id: "77759D1FE48F958B"
 			shape: "rsquare"
 			size: 2.0d
@@ -90,7 +90,7 @@
 		}
 		{
 			dependencies: ["503C03C654730F65"]
-			description: ["制作方式变了"]
+			description: ["{ftbquests.chapter.12538B9410F2DEC5.quests3.description}"]
 			id: "051792ED136C96D0"
 			tasks: [{
 				id: "7DFA913411D706CB"
@@ -106,7 +106,7 @@
 			id: "503C03C654730F65"
 			tasks: [{
 				id: "67D7250ABEBDE5E2"
-				title: "细菌产线"
+				title: "{ftbquests.chapter.12538B9410F2DEC5.quests4.tasks0.title}"
 				type: "checkmark"
 			}]
 			x: 6.0d
@@ -142,7 +142,7 @@
 		}
 		{
 			dependencies: ["46855799A4471E34"]
-			description: ["使用有机培养的干细胞与电子刺激相互作用，快速执行大规模计算。"]
+			description: ["{ftbquests.chapter.12538B9410F2DEC5.quests7.description}"]
 			id: "425D7CD010B9C90E"
 			tasks: [{
 				id: "1C1B32F4B3E713A2"
@@ -215,7 +215,7 @@
 				"52DF531AFB3A07CE"
 				"6A59FA11D10C648A"
 			]
-			description: ["UV超导体"]
+			description: ["{ftbquests.chapter.12538B9410F2DEC5.quests13.description}"]
 			id: "62D2B830A98424BB"
 			tasks: [{
 				id: "188D424E2FE3A663"
@@ -241,7 +241,7 @@
 		}
 		{
 			dependencies: ["7C23CC6ADDC33EA0"]
-			description: ["在下个阶段需要很多"]
+			description: ["{ftbquests.chapter.12538B9410F2DEC5.quests15.description}"]
 			id: "5D4131C48F9BAE46"
 			shape: "rsquare"
 			tasks: [{
@@ -270,7 +270,7 @@
 		}
 		{
 			dependencies: ["0A2D46609F5C3CAB"]
-			description: ["更长，更快，无需有序"]
+			description: ["{ftbquests.chapter.12538B9410F2DEC5.quests17.description}"]
 			id: "172FC2F2B20CD187"
 			shape: "rsquare"
 			size: 1.0d
@@ -288,8 +288,8 @@
 				"62D2B830A98424BB"
 			]
 			description: [
-				"一台计算机提供的算力是不够的，如果要合并算力就需要这台机器"
-				"在使用前确保计算机上安装了桥接组件"
+				"{ftbquests.chapter.12538B9410F2DEC5.quests18.description0}"
+				"{ftbquests.chapter.12538B9410F2DEC5.quests18.description1}"
 			]
 			id: "5E86110BBAEA92BA"
 			shape: "rsquare"
@@ -307,7 +307,7 @@
 				"5D4131C48F9BAE46"
 				"7C4C11E7C931C01B"
 			]
-			description: ["以后需要"]
+			description: ["{ftbquests.chapter.12538B9410F2DEC5.quests19.description}"]
 			id: "2802E34A99CE1D79"
 			shape: "rsquare"
 			size: 1.0d
@@ -338,7 +338,6 @@
 				"0B89B3108EB4A01F"
 				"5E9E2F25AE1EC731"
 			]
-			hide_dependent_lines: true
 			id: "7C4C11E7C931C01B"
 			tasks: [{
 				id: "1A1852A8E4DD94CF"
@@ -350,7 +349,7 @@
 		}
 		{
 			dependencies: ["0A2D46609F5C3CAB"]
-			description: ["OP"]
+			description: ["{ftbquests.chapter.12538B9410F2DEC5.quests22.description}"]
 			id: "35C61EF7C0FBD32F"
 			shape: "rsquare"
 			size: 1.0d
@@ -364,7 +363,7 @@
 		}
 		{
 			dependencies: ["0A2D46609F5C3CAB"]
-			description: ["输入石油，输出产物"]
+			description: ["{ftbquests.chapter.12538B9410F2DEC5.quests23.description}"]
 			id: "61838E13426B2B88"
 			shape: "rsquare"
 			size: 1.0d
@@ -381,11 +380,10 @@
 				"7C4C11E7C931C01B"
 				"04B1D03A3FE114F1"
 			]
-			description: ["前往太阳系之外"]
+			description: ["{ftbquests.chapter.12538B9410F2DEC5.quests24.description}"]
 			id: "7FD1D1D8ED72D40C"
 			rewards: [
 				{
-					exclude_from_claim_all: true
 					id: "4A3E3E76042A9371"
 					table_id: 6225023274141477362L
 					type: "loot"
@@ -424,7 +422,7 @@
 		}
 		{
 			dependencies: ["7FD1D1D8ED72D40C"]
-			description: ["打开实体模式来提高概率"]
+			description: ["{ftbquests.chapter.12538B9410F2DEC5.quests25.description}"]
 			id: "079FEA1875012A69"
 			tasks: [
 				{
@@ -456,7 +454,7 @@
 		}
 		{
 			dependencies: ["64EAB77978C87CE9"]
-			description: ["纳米机器人"]
+			description: ["{ftbquests.chapter.12538B9410F2DEC5.quests26.description}"]
 			id: "02F523E003E1C93D"
 			tasks: [{
 				id: "50ACEB6385D60F9C"
@@ -468,7 +466,7 @@
 		}
 		{
 			dependencies: ["02F523E003E1C93D"]
-			description: ["大批量纳米机器人生产"]
+			description: ["{ftbquests.chapter.12538B9410F2DEC5.quests27.description}"]
 			id: "3B098EA4601A7827"
 			tasks: [{
 				id: "429C36800C493E79"
@@ -532,7 +530,7 @@
 		}
 		{
 			dependencies: ["5C4B11CEA53D5B78"]
-			description: ["含有无法挖掘的矿物"]
+			description: ["{ftbquests.chapter.12538B9410F2DEC5.quests32.description}"]
 			id: "6DDE77C23FC5D067"
 			shape: "rsquare"
 			size: 1.0d
@@ -546,7 +544,7 @@
 		}
 		{
 			dependencies: ["5C4B11CEA53D5B78"]
-			description: ["效率更高"]
+			description: ["{ftbquests.chapter.12538B9410F2DEC5.quests33.description}"]
 			id: "52980D117AB477B2"
 			shape: "rsquare"
 			size: 1.0d
@@ -555,7 +553,7 @@
 				item: "gtlcore:void_fluid_drilling_rig"
 				type: "item"
 			}]
-			title: "来自虚空"
+			title: "{ftbquests.chapter.12538B9410F2DEC5.quests33.title}"
 			x: 12.0d
 			y: 2.5d
 		}
@@ -564,7 +562,7 @@
 				"53D0B2B73387C7CE"
 				"042A0E98DC1084B3"
 			]
-			description: [" 磁共振电路！启动！"]
+			description: ["{ftbquests.chapter.12538B9410F2DEC5.quests34.description}"]
 			id: "0DC5BFACB3D4BC95"
 			tasks: [{
 				id: "4A9623D2D33B88B9"
@@ -576,7 +574,7 @@
 		}
 		{
 			dependencies: ["6DDE77C23FC5D067"]
-			description: ["锆在木卫三，另一个只能虚空采矿了"]
+			description: ["{ftbquests.chapter.12538B9410F2DEC5.quests35.description}"]
 			id: "042A0E98DC1084B3"
 			tasks: [
 				{
@@ -590,14 +588,14 @@
 					type: "item"
 				}
 			]
-			title: "锆与碲"
+			title: "{ftbquests.chapter.12538B9410F2DEC5.quests35.title}"
 			x: 14.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["0485D45408234C99"]
-			description: ["这个时候你也可以做大型的"]
-			hide_dependency_lines: true
+			description: ["{ftbquests.chapter.12538B9410F2DEC5.quests36.description}"]
+			hide_dependency_lines: false
 			id: "41201C74CC5F7B90"
 			tasks: [{
 				id: "569902AC45012A06"
@@ -620,12 +618,12 @@
 		}
 		{
 			dependencies: ["35D158AD5036923D"]
-			description: ["各种矿脉精华用于大型虚空采矿场的精准模式"]
+			description: ["{ftbquests.chapter.12538B9410F2DEC5.quests38.description}"]
 			id: "68D3E6670941A3F5"
 			tasks: [
 				{
 					id: "158FBB1423A51456"
-					title: "各种的矿脉精华"
+					title: "{ftbquests.chapter.12538B9410F2DEC5.quests38.tasks0.title}"
 					type: "checkmark"
 				}
 				{
@@ -640,13 +638,12 @@
 		{
 			dependencies: ["0485D45408234C99"]
 			description: [
-				"保证机器总辐射量在配方需要量的+-5范围内"
-				"辐射量会随时间降低，最低为初始的一半，可以使用多个放射仓来获得恒定的辐射量"
-				"可以调节抑制量来降低辐射"
+				"{ftbquests.chapter.12538B9410F2DEC5.quests39.description0}"
+				"{ftbquests.chapter.12538B9410F2DEC5.quests39.description1}"
+				"{ftbquests.chapter.12538B9410F2DEC5.quests39.description2}"
 			]
-			hide_dependency_lines: true
+			hide_dependency_lines: false
 			id: "70DD3C9831060B3A"
-			ignore_reward_blocking: true
 			tasks: [{
 				id: "2B7A9EAF5ACEC0E3"
 				item: "gtlcore:radiation_hatch"
@@ -656,6 +653,6 @@
 			y: 8.0d
 		}
 	]
-	subtitle: ["Tier7-ZPM"]
-	title: "零点压"
+	subtitle: ["{ftbquests.chapter.12538B9410F2DEC5.subtitle}"]
+	title: "{ftbquests.chapter.12538B9410F2DEC5.title}"
 }

@@ -15,7 +15,7 @@
 	quests: [
 		{
 			dependencies: ["51B9A72C19F84F0E"]
-			description: ["电动马达是一种将电能转换为机械能的装置。它的工作原理基于电磁感应，当电流通过电动机的线圈时，会在磁场中产生力，这个力使得电动机的转子旋转，从而驱动负载工作。电动马达广泛应用于各种工业、商业和家用电器中。"]
+			description: ["{ftbquests.chapter.lv.quests0.description}"]
 			id: "0223A643A5066452"
 			rewards: [{
 				id: "370F298DE7E8BDFA"
@@ -32,7 +32,7 @@
 		}
 		{
 			dependencies: ["0223A643A5066452"]
-			description: ["电力活塞是由电力驱动的往复运动装置，可以将电动机的旋转运动转换为直线往复运动。这样的装置可以用于各种应用，如压缩机、气动执行器、机械臂等。"]
+			description: ["{ftbquests.chapter.lv.quests1.description}"]
 			id: "29A8EC2EB3240278"
 			rewards: [{
 				id: "2C1B4104F999C13C"
@@ -53,8 +53,8 @@
 				"29A8EC2EB3240278"
 			]
 			description: [
-				"机械臂是一种模仿人类手臂功能的机械装置，通常由一系列连杆和关节组成，能够进行一系列复杂的运动，包括旋转、弯曲和伸展。机械臂可以通过编程或远程控制来执行各种任务，如搬运、组装、焊接、喷涂、测量和探索等。"
-				"这些部件还可以用作覆盖版"
+				"{ftbquests.chapter.lv.quests2.description0}"
+				"{ftbquests.chapter.lv.quests2.description1}"
 			]
 			id: "0332882DFA45B956"
 			rewards: [{
@@ -72,7 +72,7 @@
 		}
 		{
 			dependencies: ["0223A643A5066452"]
-			description: ["传送带是一种运输机械，用于将材料或产品从一个地点搬运到另一个地点。它由一个或多个连续的带状结构组成，围绕两个滚筒旋转，这些滚筒作为驱动和支撑点。传送带可以水平运行，也可以倾斜或垂直运行，以适应不同的搬运需求。"]
+			description: ["{ftbquests.chapter.lv.quests3.description}"]
 			id: "3DDFE62FF48A9135"
 			rewards: [{
 				id: "04F13FA1B7E80AD9"
@@ -110,7 +110,7 @@
 			size: 2.0d
 			tasks: [{
 				id: "13DADE13289E59D0"
-				title: "低压LV"
+				title: "{ftbquests.chapter.lv.quests5.tasks0.title}"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -119,10 +119,9 @@
 		{
 			dependencies: ["0223A643A5066452"]
 			description: [
-				"线材闸机闸得导线和细导线"
-				"织布机用来编织更粗的导线"
+				"{ftbquests.chapter.lv.quests6.description0}"
+				"{ftbquests.chapter.lv.quests6.description1}"
 			]
-			hide_dependent_lines: true
 			id: "0CF19CAFB3355075"
 			rewards: [{
 				id: "2AC3B6BF675F4682"
@@ -150,10 +149,10 @@
 				"29A8EC2EB3240278"
 			]
 			description: [
-				"让你更高效的获得板和箔，一锭出一板，一锭出四箔"
+				"{ftbquests.chapter.lv.quests7.description0}"
 				""
-				"卷板机用来卷板，弹簧和环"
-				"多辊式扎压机用来压箔"
+				"{ftbquests.chapter.lv.quests7.description2}"
+				"{ftbquests.chapter.lv.quests7.description3}"
 			]
 			id: "3DC0B933936357B3"
 			rewards: [{
@@ -181,7 +180,7 @@
 				"0223A643A5066452"
 				"29A8EC2EB3240278"
 			]
-			description: ["让你更高效的获得杆 螺丝 滚珠 透镜，一锭出两杆，一螺栓出一螺丝"]
+			description: ["{ftbquests.chapter.lv.quests8.description}"]
 			id: "048455FFC9BDC82A"
 			rewards: [{
 				id: "4B27D0AEB350794A"
@@ -198,8 +197,8 @@
 		}
 		{
 			dependencies: ["51B9A72C19F84F0E"]
-			description: ["用它将物品磁化"]
-			hide_dependency_lines: true
+			description: ["{ftbquests.chapter.lv.quests9.description}"]
+			hide_dependency_lines: false
 			id: "51F0CE5F1BCC78D1"
 			rewards: [{
 				id: "6F1E030D11A09345"
@@ -221,7 +220,7 @@
 				"198ED0A20800F3ED"
 				"20F6BF1EDC6EBDC1"
 			]
-			description: ["你需要在高炉上放两个LV能源仓以将高炉超频到MV，这样它可以运行MV的配方"]
+			description: ["{ftbquests.chapter.lv.quests10.description}"]
 			icon_scale: 2.0d
 			id: "07D0D7005DA4F446"
 			rewards: [{
@@ -241,7 +240,7 @@
 		}
 		{
 			dependencies: ["3117BF8E4782DB2A"]
-			description: ["这是为多方块结构供电的方块"]
+			description: ["{ftbquests.chapter.lv.quests11.description}"]
 			id: "32CE144D9A9F0943"
 			rewards: [{
 				id: "00234C85463FBBF3"
@@ -258,8 +257,8 @@
 		}
 		{
 			dependencies: ["51B9A72C19F84F0E"]
-			description: ["这是高炉需要的仓室"]
-			hide_dependency_lines: true
+			description: ["{ftbquests.chapter.lv.quests12.description}"]
+			hide_dependency_lines: false
 			id: "3F38CC8C8D650202"
 			rewards: [
 				{
@@ -296,7 +295,7 @@
 					type: "item"
 				}
 			]
-			title: "一些仓室"
+			title: "{ftbquests.chapter.lv.quests12.title}"
 			x: 4.0d
 			y: 5.0d
 		}
@@ -329,7 +328,7 @@
 				"0332882DFA45B956"
 				"3DDFE62FF48A9135"
 			]
-			description: ["组装机是组装机，电路组装机是电路组装机，不要看错了"]
+			description: ["{ftbquests.chapter.lv.quests14.description}"]
 			id: "3E50EE376968519F"
 			rewards: [{
 				id: "2DF768F56128A868"
@@ -384,7 +383,7 @@
 				"51B9A72C19F84F0E"
 				"77406A75BD5839C2"
 			]
-			hide_dependency_lines: true
+			hide_dependency_lines: false
 			id: "198ED0A20800F3ED"
 			rewards: [{
 				id: "2684D5389A34E1FD"
@@ -436,7 +435,7 @@
 		}
 		{
 			dependencies: ["51B9A72C19F84F0E"]
-			hide_dependency_lines: true
+			hide_dependency_lines: false
 			id: "6E3B42BCBA6064F5"
 			rewards: [{
 				id: "5CE4F17667F7FBCE"
@@ -453,7 +452,7 @@
 		}
 		{
 			dependencies: ["6E3B42BCBA6064F5"]
-			description: ["LV阶段你的铝粉只能通过电解蓝宝石和绿色蓝宝石粉获得"]
+			description: ["{ftbquests.chapter.lv.quests21.description}"]
 			hide_dependency_lines: false
 			id: "73EFFB71A1A827D6"
 			rewards: [{
@@ -495,7 +494,7 @@
 				"006BBE4D312A2E2E"
 				"5065BEDC95AE564E"
 			]
-			description: ["你可以建造第二台蒸汽电路组装了"]
+			description: ["{ftbquests.chapter.lv.quests23.description}"]
 			id: "7D399E31506924A0"
 			rewards: [{
 				id: "005FED5AFFB39EE8"
@@ -600,7 +599,7 @@
 			y: -4.0d
 		}
 		{
-			description: ["砷粉的来源是雄黄"]
+			description: ["{ftbquests.chapter.lv.quests29.description}"]
 			id: "5705516829BB38BE"
 			rewards: [{
 				id: "057AE899D28B3E8B"
@@ -617,7 +616,7 @@
 		}
 		{
 			dependencies: ["335ED39019FC62E7"]
-			description: ["镓粉的来源是热离闪锌矿"]
+			description: ["{ftbquests.chapter.lv.quests30.description}"]
 			id: "30359A44D8B7E7A1"
 			rewards: [{
 				id: "03250D812C27447F"
@@ -634,8 +633,8 @@
 		}
 		{
 			dependencies: ["51B9A72C19F84F0E"]
-			description: ["用它烧制锻铁和退火铜"]
-			hide_dependency_lines: true
+			description: ["{ftbquests.chapter.lv.quests31.description}"]
+			hide_dependency_lines: false
 			id: "524AC325E68AEB3A"
 			rewards: [{
 				id: "658C1C586BC53BC0"
@@ -684,8 +683,8 @@
 		}
 		{
 			dependencies: ["2D6BB32B642AE8BA"]
-			description: ["帮助你获取氮气和氧气"]
-			hide_dependency_lines: true
+			description: ["{ftbquests.chapter.lv.quests34.description}"]
+			hide_dependency_lines: false
 			id: "5C12B96341807611"
 			rewards: [{
 				id: "403B511B96D6568D"
@@ -702,7 +701,7 @@
 		}
 		{
 			dependencies: ["5C12B96341807611"]
-			description: ["推荐用大型蒸汽离心机离心"]
+			description: ["{ftbquests.chapter.lv.quests35.description}"]
 			icon: "gtceu:nitrogen_bucket"
 			id: "05707E2FF325F723"
 			rewards: [{
@@ -712,7 +711,7 @@
 			}]
 			tasks: [{
 				id: "34EEC000DAD79557"
-				title: "氮气和氧气"
+				title: "{ftbquests.chapter.lv.quests35.tasks0.title}"
 				type: "checkmark"
 			}]
 			x: -4.0d
@@ -720,8 +719,8 @@
 		}
 		{
 			dependencies: ["51B9A72C19F84F0E"]
-			description: ["这个是lv阶段的超导材料"]
-			hide_dependency_lines: true
+			description: ["{ftbquests.chapter.lv.quests36.description}"]
+			hide_dependency_lines: false
 			id: "44DD16023AF842F1"
 			rewards: [{
 				id: "4FE417BAAE55F825"
@@ -733,7 +732,7 @@
 				item: "enderio:conductive_alloy_ingot"
 				type: "item"
 			}]
-			title: "LV超导"
+			title: "{ftbquests.chapter.lv.quests36.title}"
 			x: -2.0d
 			y: 0.0d
 		}
@@ -742,8 +741,8 @@
 				"3DDFE62FF48A9135"
 				"2D6BB32B642AE8BA"
 			]
-			description: ["自动化的好帮手，还有升级版本"]
-			hide_dependency_lines: true
+			description: ["{ftbquests.chapter.lv.quests37.description}"]
+			hide_dependency_lines: false
 			id: "3D8CF0C08F6A3075"
 			rewards: [{
 				id: "38BBC47CD4D1C340"
@@ -820,7 +819,7 @@
 				"27A9D4E765101CB9"
 				"5D4ADE3F2E57635C"
 			]
-			description: ["你需要用硫粉和生橡胶末在化学反应釜里面反应"]
+			description: ["{ftbquests.chapter.lv.quests41.description}"]
 			id: "35F31D71CC8B67CF"
 			rewards: [{
 				count: 3
@@ -838,7 +837,7 @@
 		}
 		{
 			dependencies: ["0223A643A5066452"]
-			hide_dependency_lines: true
+			hide_dependency_lines: false
 			id: "27A9D4E765101CB9"
 			rewards: [{
 				id: "633A0E4549008312"
@@ -855,7 +854,7 @@
 		}
 		{
 			dependencies: ["335ED39019FC62E7"]
-			description: ["硫来自于远古世界，生橡胶来自于离心黏性树脂"]
+			description: ["{ftbquests.chapter.lv.quests43.description}"]
 			id: "5D4ADE3F2E57635C"
 			rewards: [{
 				id: "47DA92AD0AF8469A"
@@ -874,7 +873,7 @@
 					type: "item"
 				}
 			]
-			title: "硫粉和生橡胶"
+			title: "{ftbquests.chapter.lv.quests43.title}"
 			x: 8.0d
 			y: 4.0d
 		}
@@ -956,7 +955,7 @@
 		}
 		{
 			dependencies: ["0BBC0C3FB2E8C800"]
-			description: ["仅前期使用，产出的资源在后面都有高效的替代方法"]
+			description: ["{ftbquests.chapter.lv.quests49.description}"]
 			id: "62B5D5669A535245"
 			tasks: [{
 				id: "41EE54C0336928F8"
@@ -968,7 +967,7 @@
 		}
 		{
 			dependencies: ["0D3122E318CB119D"]
-			description: ["用法在AE自带教程里，非常详细"]
+			description: ["{ftbquests.chapter.lv.quests50.description}"]
 			id: "1715EF3BF00D33B7"
 			tasks: [
 				{
@@ -982,13 +981,13 @@
 					type: "item"
 				}
 			]
-			title: "下单！启动！"
+			title: "{ftbquests.chapter.lv.quests50.title}"
 			x: 14.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["1715EF3BF00D33B7"]
-			description: ["可能出现未知bug，非必要不用使用，可以使用合成卡代替"]
+			description: ["{ftbquests.chapter.lv.quests51.description}"]
 			id: "07758FA2615B7559"
 			tasks: [{
 				id: "5BAF8D0B28FC21AE"
@@ -1000,9 +999,8 @@
 		}
 		{
 			dependencies: ["51B9A72C19F84F0E"]
-			description: ["如其名"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
+			description: ["{ftbquests.chapter.lv.quests52.description}"]
+			hide_dependency_lines: false
 			id: "72D27369AF243A34"
 			rewards: [{
 				id: "79B177EC0D35395A"
@@ -1020,10 +1018,10 @@
 		{
 			dependencies: ["51B9A72C19F84F0E"]
 			description: [
-				"覆盖板可以安装在各种GT的机器上，实现不同的功能，使用螺丝刀可以快速打开"
-				"比如传送带和机械臂可以抽取和弹出物品，电动泵为流体，这里的机器不仅包括单方块机器，还包括管道，多方块仓在内的各种GT方块实体"
+				"{ftbquests.chapter.lv.quests53.description0}"
+				"{ftbquests.chapter.lv.quests53.description1}"
 			]
-			hide_dependency_lines: true
+			hide_dependency_lines: false
 			icon: "gtceu:computer_monitor_cover"
 			id: "3A726EDBF7AC5E5B"
 			rewards: [{
@@ -1033,7 +1031,7 @@
 			}]
 			tasks: [{
 				id: "69E2A810A09B2B6A"
-				title: "覆盖板"
+				title: "{ftbquests.chapter.lv.quests53.tasks0.title}"
 				type: "checkmark"
 			}]
 			x: -4.0d
@@ -1041,7 +1039,7 @@
 		}
 		{
 			dependencies: ["4C591AA4F1D907C1"]
-			description: ["可以去小市场兑换一个末地水晶"]
+			description: ["{ftbquests.chapter.lv.quests54.description}"]
 			id: "1486FC9F82B2E56E"
 			rewards: [{
 				id: "71CF6F2874AB4862"
@@ -1058,8 +1056,8 @@
 		}
 		{
 			dependencies: ["51B9A72C19F84F0E"]
-			description: ["注意没有流体隔离，如果需要，你可以去找GTM实现"]
-			hide_dependency_lines: true
+			description: ["{ftbquests.chapter.lv.quests55.description}"]
+			hide_dependency_lines: false
 			id: "62A978538C87ED8A"
 			rewards: [
 				{
@@ -1095,7 +1093,7 @@
 					type: "item"
 				}
 			]
-			title: "总成"
+			title: "{ftbquests.chapter.lv.quests55.title}"
 			x: -2.0d
 			y: -2.0d
 		}
@@ -1104,8 +1102,7 @@
 				"3DDFE62FF48A9135"
 				"2D6BB32B642AE8BA"
 			]
-			description: ["用来将导线包为线缆"]
-			hide_dependent_lines: true
+			description: ["{ftbquests.chapter.lv.quests56.description}"]
 			id: "6C5150B61C92FADE"
 			tasks: [{
 				id: "72370D90BB8ACB58"
@@ -1117,7 +1114,7 @@
 		}
 		{
 			dependencies: ["7D399E31506924A0"]
-			description: ["用于后续电路制作"]
+			description: ["{ftbquests.chapter.lv.quests57.description}"]
 			id: "5A7EC4A481B2C343"
 			tasks: [{
 				id: "01370540370FFE76"
@@ -1139,6 +1136,6 @@
 			y: 2.0d
 		}
 	]
-	subtitle: ["Tier1-LV"]
-	title: "低压"
+	subtitle: ["{ftbquests.chapter.lv.subtitle}"]
+	title: "{ftbquests.chapter.lv.title}"
 }

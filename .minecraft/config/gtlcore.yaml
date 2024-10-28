@@ -16,40 +16,40 @@ eioFluidRate: 16
 exPatternProvider: 36
 
 mobList1:
-  - chicken
-  - rabbit
-  - sheep
-  - cow
-  - horse
-  - pig
-  - donkey
-  - skeleton_horse
-  - iron_golem
-  - wolf
-  - goat
-  - parrot
-  - camel
-  - cat
-  - fox
-  - llama
-  - panda
-  - polar_bear
+  - minecraft:chicken
+  - minecraft:rabbit
+  - minecraft:sheep
+  - minecraft:cow
+  - minecraft:horse
+  - minecraft:pig
+  - minecraft:donkey
+  - minecraft:skeleton_horse
+  - minecraft:iron_golem
+  - minecraft:wolf
+  - minecraft:goat
+  - minecraft:parrot
+  - minecraft:camel
+  - minecraft:cat
+  - minecraft:fox
+  - minecraft:llama
+  - minecraft:panda
+  - minecraft:polar_bear
 
 mobList2:
-  - ghast
-  - zombie
-  - pillager
-  - zombie_villager
-  - skeleton
-  - drowned
-  - witch
-  - spider
-  - creeper
-  - husk
-  - wither_skeleton
-  - blaze
-  - zombified_piglin
-  - slime
-  - vindicator
-  - enderman
+  - minecraft:ghast
+  - minecraft:zombie
+  - minecraft:pillager
+  - minecraft:zombie_villager
+  - minecraft:skeleton
+  - minecraft:drowned
+  - minecraft:witch
+  - minecraft:spider
+  - minecraft:creeper
+  - minecraft:husk
+  - minecraft:wither_skeleton
+  - minecraft:blaze
+  - minecraft:zombified_piglin
+  - minecraft:slime
+  - minecraft:vindicator
+  - minecraft:enderman
 

@@ -1626,7 +1626,7 @@ ServerEvents.recipes(event => {
     ["scannerResearch(java.util.function.UnaryOperator)"](b => b.researchStack(Registries.getItemStack("gtceu:auto_maintenance_hatch")).dataStack(Registries.getItemStack("gtceu:data_orb")).EUt(GTValues.VA[GTValues.IV]).duration(8000))
 
     gtr.assembly_line("gtlcore:infinity_coil_block")
-        .itemInputs("gtlcore:qft_coil", "8x gtceu:infinity_double_wire", "16x gtceu:draconium_screw", "64x gtceu:kevlar_foil", "32x gtceu:radox_foil")
+        .itemInputs("gtlcore:quantum_force_transformer_coil", "8x gtceu:infinity_double_wire", "16x gtceu:draconium_screw", "64x gtceu:kevlar_foil", "32x gtceu:radox_foil")
         .inputFluids("gtceu:starmetal 576", "gtceu:crystalmatrix 576")
         .itemOutputs("gtlcore:infinity_coil_block")
         .EUt(GTValues.VA[GTValues.MAX])
@@ -1637,7 +1637,7 @@ ServerEvents.recipes(event => {
             .CWUt(2048))
 
     gtr.assembly_line("gtlcore:hypogen_coil_block")
-        .itemInputs("gtlcore:qft_coil", "8x gtceu:hypogen_double_wire", "16x gtceu:transcendentmetal_screw", "64x gtceu:radox_foil", "32x gtceu:chaos_foil")
+        .itemInputs("gtlcore:quantum_force_transformer_coil", "8x gtceu:hypogen_double_wire", "16x gtceu:transcendentmetal_screw", "64x gtceu:radox_foil", "32x gtceu:chaos_foil")
         .inputFluids("gtceu:infinity 576", "gtceu:cosmicneutronium 576")
         .itemOutputs("gtlcore:hypogen_coil_block")
         .EUt(4 * GTValues.VA[GTValues.MAX])
@@ -1648,7 +1648,7 @@ ServerEvents.recipes(event => {
             .CWUt(4096))
 
     gtr.assembly_line("gtlcore:eternity_coil_block")
-        .itemInputs("gtlcore:qft_coil", "8x gtceu:spacetime_double_wire", "4x gtceu:eternity_rod", "avaritia:eternal_singularity", "64x gtlcore:cosmic_fabric", "64x gtceu:radox_foil", "64x gtceu:radox_foil", "64x gtceu:chaos_foil")
+        .itemInputs("gtlcore:quantum_force_transformer_coil", "8x gtceu:spacetime_double_wire", "4x gtceu:eternity_rod", "avaritia:eternal_singularity", "64x gtlcore:cosmic_fabric", "64x gtceu:radox_foil", "64x gtceu:radox_foil", "64x gtceu:chaos_foil")
         .inputFluids("gtceu:hypogen 576", "gtceu:spacetime 576")
         .itemOutputs("gtlcore:eternity_coil_block")
         .EUt(16 * GTValues.VA[GTValues.MAX])
@@ -2744,7 +2744,7 @@ ServerEvents.recipes(event => {
             .EUt(GTValues.VA[GTValues.UXV])
             .CWUt(1024))
 
-    gtr.assembly_line("gtlcore:qft_coil")
+    gtr.assembly_line("gtlcore:quantum_force_transformer_coil")
         .itemInputs("gtceu:quantumchromodynamically_confined_matter_frame",
             "gtlcore:uruium_coil_block",
             "gtceu:uev_field_generator",
@@ -2762,7 +2762,7 @@ ServerEvents.recipes(event => {
             "4x gtceu:legendarium_plate",
             "4x gtceu:crystalmatrix_plate")
         .inputFluids("gtceu:vanadium_gallium 1296", "gtceu:gallium_arsenide 1296", "gtceu:quantum 1296", "gtceu:hikarium 1296")
-        .itemOutputs("gtlcore:qft_coil")
+        .itemOutputs("gtlcore:quantum_force_transformer_coil")
         .EUt(GTValues.VA[GTValues.UXV])
         .duration(400)
         .stationResearch(b => b.researchStack(Registries.getItemStack("gtceu:fusion_coil"))
@@ -3392,9 +3392,9 @@ ServerEvents.recipes(event => {
             .dataStack(Registries.getItemStack("gtceu:data_module"))
             .CWUt(64))
 
-    gtr.assembly_line("gtlcore:qft")
+    gtr.assembly_line("gtlcore:quantum_force_transformer")
         .itemInputs("8x gtceu:vibranium_frame", "4x gtlcore:spacetimecontinuumripper", "4x gtlcore:spacetimebendingcore", "8x gtlcore:precision_circuit_assembly_robot_mk4", "8x gtceu:uxv_sensor", "8x gtceu:uxv_robot_arm", "8x gtceu:uxv_electric_pump", "8x gtceu:uxv_field_generator", "8x #gtceu:circuits/opv", "gtlcore:extremely_max_battery", "64x gtceu:double_lafium_plate", "64x gtceu:double_titan_precision_steel_plate")
-        .itemOutputs("gtlcore:qft")
+        .itemOutputs("gtlcore:quantum_force_transformer")
         .inputFluids("gtceu:super_mutated_living_solder 1296", "gtceu:tairitsu 2880", "gtceu:soldering_alloy 2880", "gtceu:periodicium 2880")
         .EUt(GTValues.VA[GTValues.UXV])
         .duration(2400)
