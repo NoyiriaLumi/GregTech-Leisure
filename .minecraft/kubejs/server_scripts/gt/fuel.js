@@ -185,8 +185,8 @@ ServerEvents.recipes(event => {
         .duration(200)
         .EUt(-GTValues.V[GTValues.MAX] * 4096)
 
-    gtr.annihilate_generator("gtlcore:cosmicneutronium_antimatter_fuel_rod")
-        .itemInputs("gtlcore:cosmicneutronium_antimatter_fuel_rod")
+    gtr.annihilate_generator("gtlcore:cosmic_neutronium_antimatter_fuel_rod")
+        .itemInputs("gtlcore:cosmic_neutronium_antimatter_fuel_rod")
         .chancedOutput("gtlcore:annihilation_constrainer", 7000, 0)
         .duration(200)
         .EUt(-GTValues.V[GTValues.MAX] * 65536)

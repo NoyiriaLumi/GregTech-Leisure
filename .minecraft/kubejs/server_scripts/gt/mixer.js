@@ -100,7 +100,7 @@ ServerEvents.recipes(event => {
         .duration(1600)
 
     gtr.dimensionally_transcendent_mixer("gtlcore:dimensionallytranscendentstellarcatalyst")
-        .inputFluids("gtceu:dimensionallytranscendentexoticcatalyst 1000", "gtceu:heavy_quark_enriched_mixture 1000", "gtceu:legendarium_plasma 1000", "gtceu:crystalmatrix_plasma 1000", "gtceu:draconiumawakened_plasma 1000", "gtceu:raw_star_matter_plasma 1000")
+        .inputFluids("gtceu:dimensionallytranscendentexoticcatalyst 1000", "gtceu:heavy_quark_enriched_mixture 1000", "gtceu:legendarium_plasma 1000", "gtceu:crystal_matrix_plasma 1000", "gtceu:awakened_draconium_plasma 1000", "gtceu:raw_star_matter_plasma 1000")
         .outputFluids("gtceu:dimensionallytranscendentstellarcatalyst 1000")
         .EUt(GTValues.VA[GTValues.OpV])
         .duration(3200)
@@ -119,7 +119,7 @@ ServerEvents.recipes(event => {
 
     gtr.dimensionally_transcendent_mixer("gtlcore:chaos_plasma")
         .itemInputs("gtlcore:chaos_shard")
-        .inputFluids("gtceu:uu_matter 4000", "gtceu:cosmicneutronium 2000", "gtceu:cosmic_mesh_plasma 2000", "gtceu:raw_star_matter_plasma 1000", "gtceu:dimensionallytranscendentexoticcatalyst 1000")
+        .inputFluids("gtceu:uu_matter 4000", "gtceu:cosmic_neutronium 2000", "gtceu:cosmic_mesh_plasma 2000", "gtceu:raw_star_matter_plasma 1000", "gtceu:dimensionallytranscendentexoticcatalyst 1000")
         .outputFluids("gtceu:chaos_plasma 10000")
         .EUt(GTValues.VA[GTValues.MAX])
         .duration(1200)
@@ -456,10 +456,10 @@ ServerEvents.recipes(event => {
         .EUt(1920)
         .duration(400)
 
-    gtr.mixer("gtlcore:highenergymixture_dust")
+    gtr.mixer("gtlcore:high_energy_mixture_dust")
         .itemInputs("4x minecraft:glowstone_dust", "2x minecraft:redstone", "1x gtceu:aluminium_dust")
         .circuit(3)
-        .itemOutputs("4x gtceu:highenergymixture_dust")
+        .itemOutputs("4x gtceu:high_energy_mixture_dust")
         .EUt(480)
         .duration(600)
 

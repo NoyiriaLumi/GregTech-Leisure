@@ -34,10 +34,10 @@ ServerEvents.tags("item", event => {
             "kubejs:space_fermium_chestplate",
             "kubejs:space_fermium_leggings",
             "kubejs:space_fermium_boots",
-            "kubejs:magnetohydrodynamicallyconstrainedstarmatter_helmet",
-            "kubejs:magnetohydrodynamicallyconstrainedstarmatter_chestplate",
-            "kubejs:magnetohydrodynamicallyconstrainedstarmatter_leggings",
-            "kubejs:magnetohydrodynamicallyconstrainedstarmatter_boots"])
+            "kubejs:magneto_hydro_dynamically_con_strained_star_matter_helmet",
+            "kubejs:magneto_hydro_dynamically_con_strained_star_matter_chestplate",
+            "kubejs:magneto_hydro_dynamically_con_strained_star_matter_leggings",
+            "kubejs:magneto_hydro_dynamically_con_strained_star_matter_boots"])
     })
 })
 

@@ -30,7 +30,7 @@
 				"39F73A63746EE6E8"
 				"28E04C03DD2C0854"
 			]
-			description: ["{ftbquests.chapter.2FBFEED9D83F24B7.quests0.description}"]
+			description: ["高能机器"]
 			id: "67588B6F4C26CF4C"
 			shape: "gear"
 			size: 1.2d
@@ -74,6 +74,7 @@
 				"197ED8AA3CDFD841"
 				"76B16D5AEF5AE346"
 			]
+			hide_dependent_lines: true
 			id: "1F1FCB0CA5696FF1"
 			tasks: [{
 				id: "7064445D4522B0F9"
@@ -100,7 +101,7 @@
 		}
 		{
 			dependencies: ["28E91E5A98E3A8DD"]
-			description: ["{ftbquests.chapter.2FBFEED9D83F24B7.quests5.description}"]
+			description: ["在物理定律的极限下执行计算。"]
 			id: "596E4662227F4E38"
 			tasks: [{
 				id: "165EABF42AE36A02"
@@ -153,7 +154,7 @@
 			id: "197ED8AA3CDFD841"
 			tasks: [{
 				id: "7E408640B131D687"
-				title: "{ftbquests.chapter.2FBFEED9D83F24B7.quests9.tasks0.title}"
+				title: "自由电子气"
 				type: "checkmark"
 			}]
 			x: 4.0d
@@ -172,12 +173,12 @@
 		}
 		{
 			dependencies: ["67588B6F4C26CF4C"]
-			description: ["{ftbquests.chapter.2FBFEED9D83F24B7.quests11.description}"]
+			description: ["由简单粒子组成的物质，易分离"]
 			icon: "gtceu:uu_matter_bucket"
 			id: "6640D51725374A8F"
 			tasks: [{
 				id: "59F8112EDED3F87C"
-				title: "{ftbquests.chapter.2FBFEED9D83F24B7.quests11.tasks0.title}"
+				title: "uu物质"
 				type: "checkmark"
 			}]
 			x: 2.0d
@@ -206,7 +207,7 @@
 			id: "2F82F4BCC261723A"
 			tasks: [{
 				id: "57C4DF5E13A94315"
-				title: "{ftbquests.chapter.2FBFEED9D83F24B7.quests13.tasks0.title}"
+				title: "重轻子"
 				type: "checkmark"
 			}]
 			x: 8.0d
@@ -214,7 +215,7 @@
 		}
 		{
 			dependencies: ["1DAE3D00F91134F0"]
-			description: ["{ftbquests.chapter.2FBFEED9D83F24B7.quests14.description}"]
+			description: ["可以代替恒星锻炉"]
 			icon: "gtlcore:dimensionally_transcendent_plasma_forge"
 			id: "2880531AF7540B24"
 			shape: "gear"
@@ -237,6 +238,7 @@
 		{
 			can_repeat: false
 			dependencies: ["72E0B47367FD35CC"]
+			hide_dependent_lines: true
 			id: "5FFDF6751BFBD4BF"
 			tasks: [{
 				id: "196C44BA382A1EBB"
@@ -281,7 +283,7 @@
 				"068D3872684D8A29"
 				"56B7D65D914595DF"
 			]
-			description: ["{ftbquests.chapter.2FBFEED9D83F24B7.quests18.description}"]
+			description: ["夸克物质"]
 			id: "6D6BE75CB79C7901"
 			shape: "rsquare"
 			size: 1.0d
@@ -299,7 +301,7 @@
 			id: "068D3872684D8A29"
 			tasks: [{
 				id: "61DE5E270458D306"
-				title: "{ftbquests.chapter.2FBFEED9D83F24B7.quests19.tasks0.title}"
+				title: "夸克"
 				type: "checkmark"
 			}]
 			x: 6.0d
@@ -311,7 +313,7 @@
 			id: "1D7B6172DE330E6F"
 			tasks: [{
 				id: "4F2652F998CE9815"
-				title: "{ftbquests.chapter.2FBFEED9D83F24B7.quests20.tasks0.title}"
+				title: "拟裂变等离子体"
 				type: "checkmark"
 			}]
 			x: 4.0d
@@ -333,7 +335,7 @@
 		}
 		{
 			dependencies: ["6D6BE75CB79C7901"]
-			description: ["{ftbquests.chapter.2FBFEED9D83F24B7.quests22.description}"]
+			description: ["强力混合"]
 			id: "29A581C935A339DD"
 			shape: "gear"
 			size: 1.0d
@@ -415,7 +417,7 @@
 		}
 		{
 			dependencies: ["2E05225ADF4D7D31"]
-			description: ["{ftbquests.chapter.2FBFEED9D83F24B7.quests29.description}"]
+			description: ["要UIV级的研磨"]
 			id: "76B16D5AEF5AE346"
 			tasks: [{
 				id: "57160CEA2FCA306C"
@@ -426,12 +428,12 @@
 			y: -2.0d
 		}
 		{
-			description: ["{ftbquests.chapter.2FBFEED9D83F24B7.quests30.description}"]
+			description: ["看起来很复杂"]
 			icon: "gtceu:photopolymer_bucket"
 			id: "208FB88A70036325"
 			tasks: [{
 				id: "4613BA0853F254C1"
-				title: "{ftbquests.chapter.2FBFEED9D83F24B7.quests30.tasks0.title}"
+				title: "光聚合物溶液"
 				type: "checkmark"
 			}]
 			x: 2.0d
@@ -449,12 +451,12 @@
 		}
 		{
 			dependencies: ["5FFDF6751BFBD4BF"]
-			description: ["{ftbquests.chapter.2FBFEED9D83F24B7.quests32.description}"]
+			description: ["看起来很复杂"]
 			icon: "gtceu:cosmic_superconductor_bucket"
 			id: "7C796A0CDAB038C9"
 			tasks: [{
 				id: "68D95C8EDB412DD5"
-				title: "{ftbquests.chapter.2FBFEED9D83F24B7.quests32.tasks0.title}"
+				title: "寰宇超导液"
 				type: "checkmark"
 			}]
 			x: 10.0d
@@ -473,7 +475,7 @@
 		}
 		{
 			dependencies: ["5FFDF6751BFBD4BF"]
-			description: ["{ftbquests.chapter.2FBFEED9D83F24B7.quests34.description}"]
+			description: ["合金"]
 			id: "53AF03B663577CB0"
 			tasks: [
 				{
@@ -503,12 +505,12 @@
 		}
 		{
 			dependencies: ["606C81F449ABCE5B"]
-			description: ["{ftbquests.chapter.2FBFEED9D83F24B7.quests36.description}"]
+			description: ["超高精度"]
 			icon: "gtceu:gamma_rays_photoresist_bucket"
 			id: "0D4ACF1CF1489C8D"
 			tasks: [{
 				id: "3CB6DA1C42F67095"
-				title: "{ftbquests.chapter.2FBFEED9D83F24B7.quests36.tasks0.title}"
+				title: "γ射线光刻胶"
 				type: "checkmark"
 			}]
 			x: 4.0d
@@ -516,7 +518,7 @@
 		}
 		{
 			dependencies: ["2F82F4BCC261723A"]
-			description: ["{ftbquests.chapter.2FBFEED9D83F24B7.quests37.description}"]
+			description: ["非常传奇"]
 			id: "559836CC234447C0"
 			shape: "rsquare"
 			size: 2.0d
@@ -540,6 +542,6 @@
 			y: -2.0d
 		}
 	]
-	subtitle: ["{ftbquests.chapter.2FBFEED9D83F24B7.subtitle}"]
-	title: "{ftbquests.chapter.2FBFEED9D83F24B7.title}"
+	subtitle: ["Tier11-UIV"]
+	title: "极巨压"
 }

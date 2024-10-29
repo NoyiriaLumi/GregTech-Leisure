@@ -150,7 +150,7 @@ ServerEvents.recipes(event => {
         .duration(9600)
 
     gtr.sps_crafting("gtlcore:cosmic_fabric")
-        .notConsumable("gtceu:cosmicneutronium_nanoswarm")
+        .notConsumable("gtceu:cosmic_neutronium_nanoswarm")
         .inputFluids("gtceu:mana 1000", "gtceu:enriched_xenoxene 1000", "gtceu:liquid_cosmic_mesh 100")
         .itemInputs("gtceu:rubber_foil", "gtlcore:amorphous_matter")
         .itemOutputs("gtlcore:cosmic_fabric")
@@ -166,32 +166,32 @@ ServerEvents.recipes(event => {
 
     const mcsms = [["ingot", 144], ["dust", 144], ["nugget", 16], ["rod", 72], ["plate", 144], ["foil", 36], ["block", 1296], ["frame", 288]]
     mcsms.forEach((mcsm) => {
-        gtr.sps_crafting("gtlcore:magnetohydrodynamicallyconstrainedstarmatter" + mcsm[0])
+        gtr.sps_crafting("gtlcore:magneto_hydro_dynamically_con_strained_star_matter" + mcsm[0])
             .itemInputs("gtceu:eternity_" + mcsm[0], "gtlcore:solar_light_splitter")
-            .inputFluids("gtceu:mana 10000", "gtceu:magnetohydrodynamicallyconstrainedstarmatter " + mcsm[1], "gtceu:dimensionallytranscendentresidue 1000")
-            .itemOutputs("gtceu:magnetohydrodynamicallyconstrainedstarmatter_" + mcsm[0])
+            .inputFluids("gtceu:mana 10000", "gtceu:magneto_hydro_dynamically_con_strained_star_matter " + mcsm[1], "gtceu:dimensionallytranscendentresidue 1000")
+            .itemOutputs("gtceu:magneto_hydro_dynamically_con_strained_star_matter_" + mcsm[0])
             .EUt(4 * GTValues.VA[GTValues.MAX])
             .duration(200)
     })
 
-    gtr.sps_crafting("gtlcore:double_magnetohydrodynamicallyconstrainedstarmatter_plate")
+    gtr.sps_crafting("gtlcore:double_magneto_hydro_dynamically_con_strained_star_matter_plate")
         .itemInputs("gtceu:double_eternity_plate", "gtlcore:solar_light_splitter")
-        .inputFluids("gtceu:mana 10000", "gtceu:magnetohydrodynamicallyconstrainedstarmatter 288", "gtceu:dimensionallytranscendentresidue 1000")
-        .itemOutputs("gtceu:double_magnetohydrodynamicallyconstrainedstarmatter_plate")
+        .inputFluids("gtceu:mana 10000", "gtceu:magneto_hydro_dynamically_con_strained_star_matter 288", "gtceu:dimensionallytranscendentresidue 1000")
+        .itemOutputs("gtceu:double_magneto_hydro_dynamically_con_strained_star_matter_plate")
         .EUt(4 * GTValues.VA[GTValues.MAX])
         .duration(200)
 
-    gtr.sps_crafting("gtlcore:tiny_magnetohydrodynamicallyconstrainedstarmatter_dust")
+    gtr.sps_crafting("gtlcore:tiny_magneto_hydro_dynamically_con_strained_star_matter_dust")
         .itemInputs("gtceu:tiny_eternity_dust", "gtlcore:solar_light_splitter")
-        .inputFluids("gtceu:mana 10000", "gtceu:magnetohydrodynamicallyconstrainedstarmatter 16", "gtceu:dimensionallytranscendentresidue 1000")
-        .itemOutputs("gtceu:tiny_magnetohydrodynamicallyconstrainedstarmatter_dust")
+        .inputFluids("gtceu:mana 10000", "gtceu:magneto_hydro_dynamically_con_strained_star_matter 16", "gtceu:dimensionallytranscendentresidue 1000")
+        .itemOutputs("gtceu:tiny_magneto_hydro_dynamically_con_strained_star_matter_dust")
         .EUt(4 * GTValues.VA[GTValues.MAX])
         .duration(200)
 
-    gtr.sps_crafting("gtlcore:small_magnetohydrodynamicallyconstrainedstarmatter_dust")
+    gtr.sps_crafting("gtlcore:small_magneto_hydro_dynamically_con_strained_star_matter_dust")
         .itemInputs("gtceu:small_eternity_dust", "gtlcore:solar_light_splitter")
-        .inputFluids("gtceu:mana 10000", "gtceu:magnetohydrodynamicallyconstrainedstarmatter 36", "gtceu:dimensionallytranscendentresidue 1000")
-        .itemOutputs("gtceu:small_magnetohydrodynamicallyconstrainedstarmatter_dust")
+        .inputFluids("gtceu:mana 10000", "gtceu:magneto_hydro_dynamically_con_strained_star_matter 36", "gtceu:dimensionallytranscendentresidue 1000")
+        .itemOutputs("gtceu:small_magneto_hydro_dynamically_con_strained_star_matter_dust")
         .EUt(4 * GTValues.VA[GTValues.MAX])
         .duration(200)
 

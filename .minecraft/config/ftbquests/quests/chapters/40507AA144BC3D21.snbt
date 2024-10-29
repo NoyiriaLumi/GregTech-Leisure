@@ -36,7 +36,7 @@
 			id: "365548266DF60F91"
 			tasks: [{
 				id: "60B2586AFFEC5E77"
-				title: "{ftbquests.chapter.40507AA144BC3D21.quests1.tasks0.title}"
+				title: "时空"
 				type: "checkmark"
 			}]
 			x: -5.0d
@@ -62,7 +62,7 @@
 			id: "165C5D3656C33A89"
 			tasks: [{
 				id: "36EAA11DF2D78C96"
-				title: "{ftbquests.chapter.40507AA144BC3D21.quests3.tasks0.title}"
+				title: "恒星物质"
 				type: "checkmark"
 			}]
 			x: -7.0d
@@ -77,7 +77,7 @@
 			id: "63998161D9D731E7"
 			tasks: [{
 				id: "21C930811EE5218B"
-				item: "gtceu:transcendentmetal_ingot"
+				item: "gtceu:transcendent_metal_ingot"
 				type: "item"
 			}]
 			x: -1.0d
@@ -102,7 +102,7 @@
 				"74D84A4928FA0A35"
 				"5A61ABB6E4917C6C"
 			]
-			description: ["{ftbquests.chapter.40507AA144BC3D21.quests6.description}"]
+			description: ["这样的外观阻力更小，因其内部可以存储大量能量，所以设可以计成这样，无需太阳帆"]
 			id: "77CADF4536151255"
 			tasks: [{
 				id: "53C4E2DE954FFFFC"
@@ -128,7 +128,7 @@
 		}
 		{
 			dependencies: ["736395E39993F727"]
-			description: ["{ftbquests.chapter.40507AA144BC3D21.quests8.description}"]
+			description: ["可大批量生产"]
 			id: "414F9C645C799FAE"
 			tasks: [{
 				id: "1F4CE7BD2782BBA9"
@@ -205,11 +205,11 @@
 		}
 		{
 			dependencies: ["2AFCDC0CA3205903"]
-			icon: "gtceu:magnetohydrodynamicallyconstrainedstarmatter_bucket"
+			icon: "gtceu:magneto_hydro_dynamically_con_strained_star_matter_bucket"
 			id: "30AEBB08CE6C88BA"
 			tasks: [{
 				id: "51AE436C94A547DC"
-				title: "{ftbquests.chapter.40507AA144BC3D21.quests14.tasks0.title}"
+				title: "磁流体约束恒星物质"
 				type: "checkmark"
 			}]
 			x: 1.0d
@@ -217,7 +217,7 @@
 		}
 		{
 			dependencies: ["11A7CCFCEAB722F3"]
-			description: ["{ftbquests.chapter.40507AA144BC3D21.quests15.description}"]
+			description: ["可以把你的最高级别激光仓填满"]
 			id: "0610CD9378D8B0AD"
 			shape: "gear"
 			size: 2.0d
@@ -248,7 +248,7 @@
 				"3F2335911E21E042"
 				"51D5E14423F35E6F"
 			]
-			description: ["{ftbquests.chapter.40507AA144BC3D21.quests17.description}"]
+			description: ["耗能固定为4A MAX"]
 			id: "296DE95F3BE7DC54"
 			shape: "rsquare"
 			size: 2.0d
@@ -262,7 +262,7 @@
 		}
 		{
 			dependencies: ["414F9C645C799FAE"]
-			description: ["{ftbquests.chapter.40507AA144BC3D21.quests18.description}"]
+			description: ["你也可以不用这个电路"]
 			id: "3F2335911E21E042"
 			tasks: [{
 				id: "331D93B6C432E57A"
@@ -303,7 +303,7 @@
 			id: "6EEB0B79543E2948"
 			tasks: [{
 				id: "35F42293D17D0715"
-				title: "{ftbquests.chapter.40507AA144BC3D21.quests21.tasks0.title}"
+				title: "宇宙素"
 				type: "checkmark"
 			}]
 			x: -11.0d
@@ -318,7 +318,7 @@
 			id: "34609EBF66099F47"
 			tasks: [{
 				id: "7BDA9A31E7DB3847"
-				title: "{ftbquests.chapter.40507AA144BC3D21.quests22.tasks0.title}"
+				title: "流体本源物质"
 				type: "checkmark"
 			}]
 			x: -7.0d
@@ -337,7 +337,7 @@
 		}
 		{
 			dependencies: ["32186EFF7020D432"]
-			description: ["{ftbquests.chapter.40507AA144BC3D21.quests24.description}"]
+			description: ["非常的贵"]
 			id: "67EF7F1C6AE2A6C9"
 			tasks: [{
 				id: "0E0235D9CF0EAA5F"
@@ -359,6 +359,6 @@
 			y: -1.0d
 		}
 	]
-	subtitle: ["{ftbquests.chapter.40507AA144BC3D21.subtitle}"]
-	title: "{ftbquests.chapter.40507AA144BC3D21.title}"
+	subtitle: ["Tier13-OpV"]
+	title: "过载压"
 }

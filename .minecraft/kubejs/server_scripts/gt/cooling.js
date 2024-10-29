@@ -49,7 +49,7 @@ ServerEvents.recipes(event => {
         .EUt(GTValues.VA[GTValues.OpV])
         .duration(800)
 
-    const fluids = ["argon", "helium", "nickel", "iron", "nitrogen", "oxygen", "mithril", "orichalcum", "enderium", "adamantium", "infuscolium", "echoite", "vibranium", "taranium_rich_liquid_helium_4", "legendarium", "heavy_quark_degenerate_matter", "starmetal", "quantumchromodynamically_confined_matter", "astraltitanium", "celestialtungsten"]
+    const fluids = ["argon", "helium", "nickel", "iron", "nitrogen", "oxygen", "mithril", "orichalcum", "enderium", "adamantium", "infuscolium", "echoite", "vibranium", "taranium_rich_liquid_helium_4", "legendarium", "heavy_quark_degenerate_matter", "starmetal", "quantum_chromo_dynamically_confined_matter", "astral_titanium", "celestial_tungsten"]
     fluids.forEach((fluid) => {
         gtr.plasma_condenser("gtlcore:" + fluid + "_condenser")
             .inputFluids("gtceu:" + fluid + "_plasma 1000", "gtceu:liquid_helium 100000")
@@ -75,7 +75,7 @@ ServerEvents.recipes(event => {
         .EUt(GTValues.VA[GTValues.UHV])
         .duration(50)
 
-    const ingots = ["mithril", "orichalcum", "enderium", "adamantium", "infuscolium", "echoite", "vibranium", "legendarium", "heavy_quark_degenerate_matter", "starmetal", "quantumchromodynamically_confined_matter"]
+    const ingots = ["mithril", "orichalcum", "enderium", "adamantium", "infuscolium", "echoite", "vibranium", "legendarium", "heavy_quark_degenerate_matter", "starmetal", "quantum_chromo_dynamically_confined_matter"]
     ingots.forEach((ingot) => {
         gtr.plasma_condenser("gtlcore:" + ingot + "_ingot_condenser")
             .notConsumable("kubejs:ingot_field_shape")
@@ -94,10 +94,10 @@ ServerEvents.recipes(event => {
         .EUt(GTValues.VA[GTValues.UEV])
         .duration(1200)
 
-    gtr.plasma_condenser("gtlcore:draconiumawakened")
-        .itemInputs("gtlcore:draconiumawakened_plasma_containment_cell")
+    gtr.plasma_condenser("gtlcore:awakened_draconium")
+        .itemInputs("gtlcore:awakened_draconium_plasma_containment_cell")
         .inputFluids("gtceu:liquid_helium 100000")
-        .outputFluids("gtceu:helium 100000", "gtceu:draconiumawakened 1000")
+        .outputFluids("gtceu:helium 100000", "gtceu:awakened_draconium 1000")
         .itemOutputs("gtlcore:plasma_containment_cell")
         .EUt(GTValues.VA[GTValues.UXV])
         .duration(1200)
@@ -120,18 +120,18 @@ ServerEvents.recipes(event => {
         .EUt(GTValues.VA[GTValues.UXV])
         .duration(300)
 
-    gtr.plasma_condenser("gtlcore:cosmicneutronium")
+    gtr.plasma_condenser("gtlcore:cosmic_neutronium")
         .itemInputs("gtlcore:cosmic_neutron_plasma_cell")
         .inputFluids("gtceu:liquid_helium 100000")
-        .outputFluids("gtceu:helium 100000", "gtceu:cosmicneutronium 1000")
+        .outputFluids("gtceu:helium 100000", "gtceu:cosmic_neutronium 1000")
         .itemOutputs("gtlcore:extremely_durable_plasma_cell")
         .EUt(GTValues.VA[GTValues.OpV])
         .duration(1200)
 
-    gtr.plasma_condenser("gtlcore:crystalmatrix")
-        .itemInputs("gtlcore:crystalmatrix_plasma_containment_cell")
+    gtr.plasma_condenser("gtlcore:crystal_matrix")
+        .itemInputs("gtlcore:crystal_matrix_plasma_containment_cell")
         .inputFluids("gtceu:liquid_helium 100000")
-        .outputFluids("gtceu:helium 100000", "gtceu:crystalmatrix 1000")
+        .outputFluids("gtceu:helium 100000", "gtceu:crystal_matrix 1000")
         .itemOutputs("gtlcore:plasma_containment_cell")
         .EUt(GTValues.VA[GTValues.OpV])
         .duration(1000)

@@ -16,13 +16,13 @@
 	quests: [
 		{
 			description: [
-				"{ftbquests.chapter.49ED18A26C5A1B83.quests0.description0}"
-				"{ftbquests.chapter.49ED18A26C5A1B83.quests0.description1}"
+				"多方块结构是多个方块构成的结构"
+				"你可以用扳手旋转结构"
 			]
 			id: "262671AC71B36736"
 			tasks: [{
 				id: "61480FBF487B19F1"
-				title: "{ftbquests.chapter.49ED18A26C5A1B83.quests0.tasks0.title}"
+				title: "多方块结构"
 				type: "checkmark"
 			}]
 			x: -10.0d
@@ -30,13 +30,13 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.49ED18A26C5A1B83.quests1.description0}"
-				"{ftbquests.chapter.49ED18A26C5A1B83.quests1.description1}"
+				"能源仓，动力舱，输入总线，巨型输入总线，输入仓，输入总成，输出总线，巨型输出总线，输出仓，输出总成，维护仓，消声仓，数据仓激光仓"
+				"在jei中可以查看每种仓室对应的位置和数量要求"
 			]
 			id: "124EE416D53264B8"
 			tasks: [{
 				id: "703A425F858BE442"
-				title: "{ftbquests.chapter.49ED18A26C5A1B83.quests1.tasks0.title}"
+				title: "各种功能方块"
 				type: "checkmark"
 			}]
 			x: -8.0d
@@ -790,7 +790,7 @@
 		}
 		{
 			dependencies: ["40405034AE9D9945"]
-			description: ["{ftbquests.chapter.49ED18A26C5A1B83.quests55.description}"]
+			description: ["原始人也要组装电路"]
 			id: "0A65389266654B6A"
 			rewards: [{
 				id: "1DD067753C0683D3"
@@ -843,7 +843,7 @@
 			id: "28D87403504BAC6E"
 			tasks: [{
 				id: "0A673087ED58B5F3"
-				title: "{ftbquests.chapter.49ED18A26C5A1B83.quests59.tasks0.title}"
+				title: "合金冶炼炉可以炖出很多奇奇怪怪的合金"
 				type: "checkmark"
 			}]
 			x: 12.0d
@@ -1249,8 +1249,8 @@
 			dependencies: ["22D20E733EF2AAA6"]
 			id: "395FF094289E28A6"
 			tasks: [{
-				id: "08EC32D1BA08F740"
-				item: "gtlcore:large_pyrolyse_oven"
+				id: "725FCA5E26532325"
+				item: "gtlcore:coking_tower"
 				type: "item"
 			}]
 			x: 6.0d
@@ -1524,165 +1524,180 @@
 		}
 		{
 			dependencies: ["5F5F348E3A34827E"]
-			hide_dependency_lines: false
+			hide_dependency_lines: true
+			hide_dependent_lines: true
 			id: "40405034AE9D9945"
 			tasks: [{
 				id: "2E2E9FB9EFF51D49"
-				title: "{ftbquests.chapter.49ED18A26C5A1B83.quests116.tasks0.title}"
+				title: "ULV"
 				type: "checkmark"
 			}]
 			x: -6.0d
 			y: -2.0d
 		}
 		{
-			hide_dependency_lines: false
+			hide_dependency_lines: true
+			hide_dependent_lines: true
 			id: "5930E12A8BCAF996"
 			tasks: [{
 				id: "64152215D45E4E00"
-				title: "{ftbquests.chapter.49ED18A26C5A1B83.quests117.tasks0.title}"
+				title: "LV"
 				type: "checkmark"
 			}]
 			x: -4.0d
 			y: -2.0d
 		}
 		{
-			hide_dependency_lines: false
+			hide_dependency_lines: true
+			hide_dependent_lines: true
 			id: "36742169BE411C01"
 			tasks: [{
 				id: "2FFCC0CAAD18A08E"
-				title: "{ftbquests.chapter.49ED18A26C5A1B83.quests118.tasks0.title}"
+				title: "MV"
 				type: "checkmark"
 			}]
 			x: -2.0d
 			y: -2.0d
 		}
 		{
-			hide_dependency_lines: false
+			hide_dependency_lines: true
+			hide_dependent_lines: true
 			id: "32BD532132423050"
 			tasks: [{
 				id: "5834899F4BB1EA9E"
-				title: "{ftbquests.chapter.49ED18A26C5A1B83.quests119.tasks0.title}"
+				title: "HV"
 				type: "checkmark"
 			}]
 			x: 0.0d
 			y: -2.0d
 		}
 		{
-			hide_dependency_lines: false
+			hide_dependency_lines: true
+			hide_dependent_lines: true
 			id: "45096D94AE6F7864"
 			tasks: [{
 				id: "5839CF5120A4D7E1"
-				title: "{ftbquests.chapter.49ED18A26C5A1B83.quests120.tasks0.title}"
+				title: "EV"
 				type: "checkmark"
 			}]
 			x: 2.0d
 			y: -2.0d
 		}
 		{
-			hide_dependency_lines: false
+			hide_dependency_lines: true
+			hide_dependent_lines: true
 			id: "1443E064A0AB0B8B"
 			tasks: [{
 				id: "52DD9088B6DE3FEB"
-				title: "{ftbquests.chapter.49ED18A26C5A1B83.quests121.tasks0.title}"
+				title: "IV"
 				type: "checkmark"
 			}]
 			x: 4.0d
 			y: -2.0d
 		}
 		{
-			hide_dependency_lines: false
+			hide_dependency_lines: true
+			hide_dependent_lines: true
 			id: "6D3BE9E3D76C71F9"
 			tasks: [{
 				id: "65CC4F6A2DB4D2C5"
-				title: "{ftbquests.chapter.49ED18A26C5A1B83.quests122.tasks0.title}"
+				title: "LUV"
 				type: "checkmark"
 			}]
 			x: 6.0d
 			y: -2.0d
 		}
 		{
-			hide_dependency_lines: false
+			hide_dependency_lines: true
+			hide_dependent_lines: true
 			id: "5672B9E868EDBE4D"
 			tasks: [{
 				id: "34BA8C9664EA25EE"
-				title: "{ftbquests.chapter.49ED18A26C5A1B83.quests123.tasks0.title}"
+				title: "ZPM"
 				type: "checkmark"
 			}]
 			x: 8.0d
 			y: -2.0d
 		}
 		{
-			hide_dependency_lines: false
+			hide_dependency_lines: true
+			hide_dependent_lines: true
 			id: "253337A8CECFB499"
 			tasks: [{
 				id: "4221729B13EB09A9"
-				title: "{ftbquests.chapter.49ED18A26C5A1B83.quests124.tasks0.title}"
+				title: "UV"
 				type: "checkmark"
 			}]
 			x: 10.0d
 			y: -2.0d
 		}
 		{
-			hide_dependency_lines: false
+			hide_dependency_lines: true
+			hide_dependent_lines: true
 			id: "6A590699685D1D8A"
 			tasks: [{
 				id: "552126AC9F26A977"
-				title: "{ftbquests.chapter.49ED18A26C5A1B83.quests125.tasks0.title}"
+				title: "UHV"
 				type: "checkmark"
 			}]
 			x: 12.0d
 			y: -2.0d
 		}
 		{
-			hide_dependency_lines: false
+			hide_dependency_lines: true
+			hide_dependent_lines: true
 			id: "65C4F7EDC0E9D99D"
 			tasks: [{
 				id: "28F5DD716FD478A9"
-				title: "{ftbquests.chapter.49ED18A26C5A1B83.quests126.tasks0.title}"
+				title: "UEV"
 				type: "checkmark"
 			}]
 			x: 14.0d
 			y: -2.0d
 		}
 		{
-			hide_dependency_lines: false
+			hide_dependency_lines: true
+			hide_dependent_lines: true
 			id: "23DC6EEC1BCEF845"
 			tasks: [{
 				id: "01DD5BEA919FB23A"
-				title: "{ftbquests.chapter.49ED18A26C5A1B83.quests127.tasks0.title}"
+				title: "UIV"
 				type: "checkmark"
 			}]
 			x: 16.0d
 			y: -2.0d
 		}
 		{
-			hide_dependency_lines: false
+			hide_dependency_lines: true
+			hide_dependent_lines: true
 			id: "5019F5F1A660DB40"
 			tasks: [{
 				id: "5FFDE9B2DF3EACF8"
-				title: "{ftbquests.chapter.49ED18A26C5A1B83.quests128.tasks0.title}"
+				title: "UXV"
 				type: "checkmark"
 			}]
 			x: 18.0d
 			y: -2.0d
 		}
 		{
-			hide_dependency_lines: false
+			hide_dependency_lines: true
+			hide_dependent_lines: true
 			id: "234661B47841AA2B"
 			tasks: [{
 				id: "1E8F8497159EB846"
-				title: "{ftbquests.chapter.49ED18A26C5A1B83.quests129.tasks0.title}"
+				title: "OPV"
 				type: "checkmark"
 			}]
 			x: 20.0d
 			y: -2.0d
 		}
 		{
-			hide_dependency_lines: false
+			hide_dependency_lines: true
+			hide_dependent_lines: true
 			id: "3D79A180FDCC8B5B"
 			tasks: [{
 				id: "7772042253C705C0"
-				title: "{ftbquests.chapter.49ED18A26C5A1B83.quests130.tasks0.title}"
+				title: "MAX"
 				type: "checkmark"
 			}]
 			x: 22.0d
@@ -2133,7 +2148,7 @@
 			id: "5FD8B140D91DAF26"
 			tasks: [{
 				id: "0D8C764021647EFE"
-				item: "gtlcore:quantum_force_transformer"
+				item: "gtlcore:qft"
 				type: "item"
 			}]
 			x: 10.0d
@@ -2585,8 +2600,8 @@
 			dependencies: ["253337A8CECFB499"]
 			id: "037E0C98C48C3322"
 			tasks: [{
-				id: "730A2B2A251609A9"
-				item: "gtlcore:zpm_fluid_drilling_rig"
+				id: "304D85563F7324B5"
+				item: "gtlcore:infinity_fluid_drilling_rig"
 				type: "item"
 			}]
 			x: -4.0d
@@ -2679,7 +2694,7 @@
 				id: "35D84DB9E78E62B4"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.49ED18A26C5A1B83.quests211.title}"
+			title: "这里有206个多方块"
 			x: -12.0d
 			y: -2.0d
 		}
@@ -3000,5 +3015,5 @@
 			y: 0.0d
 		}
 	]
-	title: "{ftbquests.chapter.49ED18A26C5A1B83.title}"
+	title: "多方块结构"
 }

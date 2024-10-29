@@ -23,12 +23,13 @@
 	quests: [
 		{
 			dependencies: ["1EC6366E9611F2AD"]
+			hide_dependent_lines: true
 			id: "1E7344C133C99565"
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
 				id: "0FE962C1CB148B15"
-				title: "{ftbquests.chapter.ev.quests0.tasks0.title}"
+				title: "超高压EV"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -36,9 +37,9 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.ev.quests1.description0}"
+				"环氧树脂是一种高分子化合物，具有环氧基团（-O-）的结构特征。它通常是由环氧单体与固化剂反应而成的高性能热固性塑料。环氧树脂具有良好的机械性能、电气绝缘性能、化学稳定性和粘接性能，广泛应用于涂料、胶粘剂、电子封装、建筑加固、复合材料等领域。"
 				""
-				"{ftbquests.chapter.ev.quests1.description2}"
+				"推荐重度蒸汽裂化石脑油获得丙烷（当然如果你石化产线完全建好了就最好了）"
 			]
 			id: "10CD26CBAC242280"
 			rewards: [{
@@ -128,7 +129,7 @@
 			y: 8.0d
 		}
 		{
-			description: ["{ftbquests.chapter.ev.quests6.description}"]
+			description: ["你需要高压釜"]
 			id: "1D96227373B962A2"
 			rewards: [{
 				id: "5D54D4EA65D60C8F"
@@ -161,7 +162,7 @@
 		}
 		{
 			dependencies: ["5F11D5C61F8897B9"]
-			description: ["{ftbquests.chapter.ev.quests8.description}"]
+			description: ["可以塞进通用组装厂（这个可以双仓升压的）"]
 			id: "413B25F5BA2BA39D"
 			rewards: [{
 				id: "00E2A12C21199267"
@@ -188,6 +189,7 @@
 				{
 					id: "636B36914936E6C0"
 					item: "gtceu:ev_emitter"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -196,7 +198,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.ev.quests9.title}"
+			title: "EV发射器与传感器"
 			x: 4.0d
 			y: 8.0d
 		}
@@ -227,8 +229,8 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"{ftbquests.chapter.ev.quests11.description0}"
-				"{ftbquests.chapter.ev.quests11.description1}"
+				"你可以用铀和钚得到"
+				"你也可以在火星直接采到"
 			]
 			id: "2CAC63F25BAF50B3"
 			rewards: [{
@@ -252,7 +254,7 @@
 				item: "gtceu:platinum_credit"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.ev.quests12.subtitle}"
+			subtitle: "你在月球挖到的，还记得吗"
 			tasks: [{
 				id: "74CC5D9E1BD475A8"
 				item: "gtceu:plutonium_ingot"
@@ -282,6 +284,7 @@
 			id: "5CE474BD971D9A4B"
 			rewards: [
 				{
+					exclude_from_claim_all: true
 					id: "01D07F31696FB693"
 					table_id: 6225023274141477362L
 					type: "loot"
@@ -343,7 +346,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.ev.quests16.title}"
+			title: "钨矿"
 			x: 4.0d
 			y: 4.0d
 		}
@@ -369,8 +372,8 @@
 		{
 			dependencies: ["759F26B57097602E"]
 			description: [
-				"{ftbquests.chapter.ev.quests18.description0}"
-				"{ftbquests.chapter.ev.quests18.description1}"
+				"如果你看到了这个粉是可以从矿物中获取的，请不要去寻找"
+				"这些矿物是后面通过虚空采矿机获取的"
 			]
 			id: "3A8A37094C997BF8"
 			rewards: [{
@@ -485,7 +488,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.ev.quests21.title}"
+			title: "三阶火箭"
 			x: 12.0d
 			y: 2.0d
 		}
@@ -509,7 +512,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.ev.quests22.title}"
+			title: "铂与钯"
 			x: 4.0d
 			y: 0.0d
 		}
@@ -702,6 +705,7 @@
 			id: "0889DB18E2C68D67"
 			rewards: [
 				{
+					exclude_from_claim_all: true
 					id: "3FDCE86B8215BC89"
 					table_id: 6225023274141477362L
 					type: "loot"
@@ -724,15 +728,15 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.ev.quests33.title}"
+			title: "四阶火箭"
 			x: 16.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["4DDFAAF4A8E0622A"]
 			description: [
-				"{ftbquests.chapter.ev.quests34.description0}"
-				"{ftbquests.chapter.ev.quests34.description1}"
+				"非常好的虚采，效率很高，但是需要做宝石浆液产线，可以大幅减少你下矿的时间（有超级连锁其实下矿时间不多）"
+				"你可以拖到下个电压甚至更后面"
 			]
 			id: "5CCD191A904B528A"
 			rewards: [{
@@ -826,7 +830,7 @@
 				item: "gtlcore:ev_64a_wireless_energy_input_hatch"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.ev.quests39.title}"
+			title: "EV 64安 无限能源接收器"
 			x: 18.0d
 			y: 6.0d
 		}
@@ -858,13 +862,13 @@
 		{
 			dependencies: ["0931ECBAAD9252C7"]
 			description: [
-				"{ftbquests.chapter.ev.quests42.description0}"
-				"{ftbquests.chapter.ev.quests42.description1}"
+				"从现在开始你的部分东西需要无重力条件，你需要前往太空站进行制作。"
+				"地球空间站是一个好选择"
 			]
 			id: "7DD918C8416C6C63"
 			tasks: [{
 				id: "58D4A11DCEC97B63"
-				title: "{ftbquests.chapter.ev.quests42.tasks0.title}"
+				title: "无重力条件"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -896,9 +900,11 @@
 				"056D5A2274001900"
 				"4D14C432E11EC9AB"
 			]
+			hide_dependent_lines: true
 			id: "668BDF2093A9291B"
 			rewards: [
 				{
+					exclude_from_claim_all: true
 					id: "3C8E473E9E540AD4"
 					table_id: 6225023274141477362L
 					type: "loot"
@@ -919,7 +925,7 @@
 		}
 		{
 			dependencies: ["17365ABC639496E6"]
-			description: ["{ftbquests.chapter.ev.quests46.description}"]
+			description: ["你也可以用凋零骷髅头和灵魂沙组装"]
 			id: "631707E722744406"
 			tasks: [{
 				id: "5F92475B90FE1AF2"
@@ -951,11 +957,11 @@
 		}
 		{
 			dependencies: ["14D60DF010FF0396"]
-			description: ["{ftbquests.chapter.ev.quests49.description}"]
+			description: ["去地狱干什么呢，挖点灵魂沙远古残骸"]
 			id: "6C458862EEAB2F03"
 			tasks: [{
 				id: "0D5CEA70737F2D5B"
-				title: "{ftbquests.chapter.ev.quests49.tasks0.title}"
+				title: "地狱"
 				type: "checkmark"
 			}]
 			x: 12.0d
@@ -1024,6 +1030,6 @@
 			y: 0.0d
 		}
 	]
-	subtitle: ["{ftbquests.chapter.ev.subtitle}"]
-	title: "{ftbquests.chapter.ev.title}"
+	subtitle: ["Tier4-EV"]
+	title: "超高压"
 }

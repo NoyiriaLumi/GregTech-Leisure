@@ -118,7 +118,7 @@ ServerEvents.recipes(event => {
 
     gtr.pcb_factory("gtlcore:supracausal_circuit_board")
         .itemInputs("gtlcore:cosmic_circuit_board", "32x gtceu:echoite_foil")
-        .inputFluids("gtceu:dense_neutron_plasma 1000", "gtceu:quantumchromodynamically_confined_matter_plasma 100")
+        .inputFluids("gtceu:dense_neutron_plasma 1000", "gtceu:quantum_chromo_dynamically_confined_matter_plasma 100")
         .itemOutputs("gtlcore:supracausal_circuit_board")
         .EUt(7680 * 256)
         .duration(1500)

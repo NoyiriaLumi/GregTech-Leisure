@@ -192,7 +192,7 @@ ServerEvents.recipes(event => {
         B: "gtceu:laminated_glass",
         C: "#gtceu:circuits/uev",
         D: "gtceu:mithril_hex_wire",
-        E: "gtceu:double_germaniumtungstennitride_plate"
+        E: "gtceu:double_germanium_tungsten_nitride_plate"
     })
 
     event.shaped("gtceu:ev_solar_panel", [
@@ -225,7 +225,7 @@ ServerEvents.recipes(event => {
         "BCB"
     ], {
         A: "gtceu:max_machine_hull",
-        B: "gtceu:cosmicneutronium_single_cable",
+        B: "gtceu:cosmic_neutronium_single_cable",
         C: "#gtceu:circuits/max",
         D: "gtlcore:max_electric_piston",
         E: "gtlcore:max_electric_pump"
@@ -285,7 +285,7 @@ ServerEvents.recipes(event => {
         "BCB"
     ], {
         A: "gtceu:opv_machine_hull",
-        B: "gtceu:crystalmatrix_double_cable",
+        B: "gtceu:crystal_matrix_double_cable",
         C: "#gtceu:circuits/max",
         D: "gtceu:opv_sensor",
         E: "gtceu:opv_emitter"
@@ -297,7 +297,7 @@ ServerEvents.recipes(event => {
         "BCB"
     ], {
         A: "gtceu:max_machine_hull",
-        B: "gtceu:cosmicneutronium_double_cable",
+        B: "gtceu:cosmic_neutronium_double_cable",
         C: "gtlcore:suprachronal_circuit_max",
         D: "gtlcore:max_sensor",
         E: "gtlcore:max_emitter"
@@ -957,7 +957,7 @@ ServerEvents.recipes(event => {
         "ABA"
     ], {
         A: "gtceu:double_draconium_plate",
-        B: "gtceu:long_cosmicneutronium_rod",
+        B: "gtceu:long_cosmic_neutronium_rod",
         D: "gtlcore:stabilizer_core"
     })
 
@@ -1063,7 +1063,7 @@ ServerEvents.recipes(event => {
         ["uev", "gtceu:mithril_single_cable"],
         ["uiv", "gtceu:neutronium_single_cable"],
         ["uxv", "gtceu:taranium_single_cable"],
-        ["opv", "gtceu:crystalmatrix_single_cable"]]
+        ["opv", "gtceu:crystal_matrix_single_cable"]]
     world_data_scanner.forEach((scanner) => {
         event.shaped("gtlcore:" + scanner[0] + "_world_data_scanner", [
             "CDC",
@@ -1082,7 +1082,7 @@ ServerEvents.recipes(event => {
         ["uev", "quantanium", "mithril", "titansteel", "uiv", "7864320", "uhv", "256", "gtlcore:smd_diode_optical"],
         ["uiv", "adamantium", "neutronium", "adamantine", "uxv", "31457280", "uev", "512", "gtlcore:smd_diode_exotic"],
         ["uxv", "vibranium", "taranium", "naquadriatictaranium", "opv", "125829120", "uiv", "1024", "gtlcore:smd_diode_cosmic"],
-        ["opv", "draconium", "crystalmatrix", "starmetal", "max", "503316480", "uxv", "2048", "gtlcore:smd_diode_supracausal"]
+        ["opv", "draconium", "crystal_matrix", "starmetal", "max", "503316480", "uxv", "2048", "gtlcore:smd_diode_supracausal"]
     ]
     machine_materials.forEach((machine_material) => {
         event.shaped("gtceu:" + machine_material[0] + "_circuit_assembler", [

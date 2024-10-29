@@ -18,7 +18,7 @@
 			id: "38091E7431B96FF6"
 			tasks: [{
 				id: "73C4EE18E31D6F42"
-				title: "{ftbquests.chapter.quanjiyi.quests0.tasks0.title}"
+				title: "硅岩处理"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -26,7 +26,7 @@
 		}
 		{
 			id: "5D1037E8365CC910"
-			subtitle: "{ftbquests.chapter.quanjiyi.quests1.subtitle}"
+			subtitle: "开挖"
 			tasks: [{
 				id: "11D65D25476CBE44"
 				item: "gtceu:raw_naquadah"
@@ -49,7 +49,7 @@
 		{
 			dependencies: ["5D1037E8365CC910"]
 			id: "36E8964CD1BE7569"
-			subtitle: "{ftbquests.chapter.quanjiyi.quests3.subtitle}"
+			subtitle: "洁净硅岩粉电磁选矿"
 			tasks: [{
 				id: "57336BFC9D32EFF4"
 				item: "gtceu:enriched_naquadah_dust"
@@ -381,7 +381,7 @@
 			id: "17587F644F107F5A"
 			tasks: [{
 				id: "62414FB846FC080E"
-				title: "{ftbquests.chapter.quanjiyi.quests32.tasks0.title}"
+				title: "这是细菌产线"
 				type: "checkmark"
 			}]
 			x: 20.0d
@@ -518,5 +518,5 @@
 			y: 0.5d
 		}
 	]
-	title: "{ftbquests.chapter.quanjiyi.title}"
+	title: "资源获取（二）"
 }

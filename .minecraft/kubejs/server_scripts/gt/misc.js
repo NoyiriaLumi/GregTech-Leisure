@@ -243,9 +243,9 @@ ServerEvents.recipes(event => {
         .duration(20)
 
     gtr.packer("gtlcore:magmatter_dust")
-        .itemInputs("gtceu:transcendentmetal_nanoswarm")
+        .itemInputs("gtceu:transcendent_metal_nanoswarm")
         .itemInputs("4x gtceu:small_magmatter_dust")
-        .itemOutputs("gtceu:contaminable_transcendentmetal_nanoswarm")
+        .itemOutputs("gtceu:contaminable_transcendent_metal_nanoswarm")
         .itemOutputs("gtceu:magmatter_dust")
         .EUt(30)
         .duration(20)
@@ -707,10 +707,10 @@ ServerEvents.recipes(event => {
         .EUt(GTValues.VA[GTValues.UV])
         .duration(800)
 
-    gtr.fluid_solidifier("gtlcore:luminessence_dust")
-        .itemInputs("2x gtceu:highenergymixture_dust")
+    gtr.fluid_solidifier("gtlcore:lumin_essence_dust")
+        .itemInputs("2x gtceu:high_energy_mixture_dust")
         .inputFluids("gtceu:phosphoric_acid 2000")
-        .itemOutputs("gtceu:luminessence_dust")
+        .itemOutputs("gtceu:lumin_essence_dust")
         .EUt(480)
         .duration(200)
 
@@ -825,7 +825,7 @@ ServerEvents.recipes(event => {
 
     gtr.arc_furnace("gtlcore:cosmic_singularity")
         .itemInputs("avaritia:eternal_singularity")
-        .inputFluids("gtceu:magnetohydrodynamicallyconstrainedstarmatter 9216")
+        .inputFluids("gtceu:magneto_hydro_dynamically_con_strained_star_matter 9216")
         .itemOutputs("gtlcore:cosmic_singularity", "64x gtceu:shirabon_dust")
         .outputFluids("gtceu:helium_plasma 1000")
         .EUt(GTValues.VA[GTValues.MAX])
@@ -957,9 +957,9 @@ ServerEvents.recipes(event => {
         .addCondition(new GravityCondition(true))
 
     gtr.autoclave("gtlcore:nuclear_star")
-        .itemInputs("gtceu:cosmicneutronium_nanoswarm")
+        .itemInputs("gtceu:cosmic_neutronium_nanoswarm")
         .itemInputs("gtlcore:unstable_star")
-        .itemOutputs("gtceu:contaminable_cosmicneutronium_nanoswarm")
+        .itemOutputs("gtceu:contaminable_cosmic_neutronium_nanoswarm")
         .inputFluids("gtceu:infinity 288")
         .itemOutputs("gtlcore:nuclear_star")
         .EUt(GTValues.VA[GTValues.UIV])
@@ -1281,13 +1281,13 @@ ServerEvents.recipes(event => {
         .duration(20)
 
     gtr.gravitation_shockburst("gtlcore:command_block_broken")
-        .itemInputs("minecraft:command_block", "gtceu:magnetohydrodynamicallyconstrainedstarmatter_dust")
+        .itemInputs("minecraft:command_block", "gtceu:magneto_hydro_dynamically_con_strained_star_matter_dust")
         .itemOutputs("gtlcore:command_block_broken")
         .EUt(65536 * GTValues.VA[GTValues.MAX])
         .duration(20)
 
     gtr.gravitation_shockburst("gtlcore:chain_command_block_broken")
-        .itemInputs("minecraft:chain_command_block", "gtceu:magnetohydrodynamicallyconstrainedstarmatter_dust")
+        .itemInputs("minecraft:chain_command_block", "gtceu:magneto_hydro_dynamically_con_strained_star_matter_dust")
         .itemOutputs("gtlcore:chain_command_block_broken")
         .EUt(65536 * GTValues.VA[GTValues.MAX])
         .duration(20)
@@ -1383,7 +1383,7 @@ ServerEvents.recipes(event => {
 
     gtr.aggregation_device("gtlcore:chaotic_core")
         .notConsumable("gtlcore:dragon_stabilizer_core")
-        .itemInputs("gtceu:draconium_nanoswarm", "gtceu:opv_field_generator", "gtlcore:chaos_shard", "gtceu:legendarium_block", "gtlcore:awakened_core", "gtlcore:max_field_generator", "gtlcore:unstable_star", "gtceu:draconiumawakened_block")
+        .itemInputs("gtceu:draconium_nanoswarm", "gtceu:opv_field_generator", "gtlcore:chaos_shard", "gtceu:legendarium_block", "gtlcore:awakened_core", "gtlcore:max_field_generator", "gtlcore:unstable_star", "gtceu:awakened_draconium_block")
         .itemOutputs("2x gtlcore:chaotic_core")
         .EUt(GTValues.VA[GTValues.OpV])
         .duration(400)

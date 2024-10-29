@@ -303,7 +303,7 @@ ServerEvents.recipes((event) => {
     }
 
     gtr.forming_press("gtlcore:fishbig_fabric")
-        .itemInputs("64x gtceu:magnetohydrodynamicallyconstrainedstarmatter_foil", "64x gtceu:shirabon_foil", "64x gtlcore:two_way_foil", "64x gtceu:cosmic_foil", "64x gtceu:cosmicneutronium_foil", "64x gtceu:eternity_foil")
+        .itemInputs("64x gtceu:magneto_hydro_dynamically_con_strained_star_matter_foil", "64x gtceu:shirabon_foil", "64x gtlcore:two_way_foil", "64x gtceu:cosmic_foil", "64x gtceu:cosmic_neutronium_foil", "64x gtceu:eternity_foil")
         .itemOutputs("gtlcore:fishbig_fabric")
         .duration(200)
         .EUt(GTValues.VA[GTValues.MAX] * 65536)
@@ -311,8 +311,8 @@ ServerEvents.recipes((event) => {
 
     gtr.assembler("gtlcore:fishbig_frame")
         .circuit(6)
-        .itemInputs("64x gtceu:cosmic_plate", "64x gtceu:eternity_nanoswarm", "64x gtceu:long_cosmic_rod", "64x gtceu:infinity_frame", "64x gtceu:long_transcendentmetal_rod",
-            "64x gtceu:long_cosmicneutronium_rod", "64x gtceu:magnetohydrodynamicallyconstrainedstarmatter_frame", "64x gtceu:long_magmatter_rod",)
+        .itemInputs("64x gtceu:cosmic_plate", "64x gtceu:eternity_nanoswarm", "64x gtceu:long_cosmic_rod", "64x gtceu:infinity_frame", "64x gtceu:long_transcendent_metal_rod",
+            "64x gtceu:long_cosmic_neutronium_rod", "64x gtceu:magneto_hydro_dynamically_con_strained_star_matter_frame", "64x gtceu:long_magmatter_rod",)
         .inputFluids("gtceu:shirabon 18432")
         .itemOutputs("gtlcore:fishbig_frame")
         .duration(200)
@@ -333,7 +333,7 @@ ServerEvents.recipes((event) => {
         .itemInputs("64x gtceu:double_cosmic_plate", "64x gtceu:double_cosmic_plate", "64x gtceu:double_cosmic_plate",
             "64x gtlcore:max_sensor", "64x gtlcore:create_computation", "64x gtlcore:max_sensor",
             "64x gtceu:double_cosmic_plate", "64x gtlcore:fishbig_frame", "64x gtceu:double_cosmic_plate")
-        .inputFluids("gtceu:transcendentmetal 18432")
+        .inputFluids("gtceu:transcendent_metal 18432")
         .itemOutputs("gtlcore:fishbig_hade")
         .duration(200)
         .EUt(GTValues.VA[GTValues.MAX] * 65536)

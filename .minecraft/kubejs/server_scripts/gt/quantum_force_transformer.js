@@ -27,7 +27,7 @@ ServerEvents.recipes(event => {
 
     gtr.quantum_force_transformer("gtlcore:spacetime_single_wire")
         .notConsumable("gtceu:spacetime_nanoswarm")
-        .notConsumable("gtceu:transcendentmetal_nanoswarm")
+        .notConsumable("gtceu:transcendent_metal_nanoswarm")
         .itemInputs("gtceu:infinity_single_wire")
         .inputFluids("gtceu:spacetime 100", "gtceu:rhugnor 100")
         .itemOutputs("gtceu:spacetime_single_wire")
@@ -36,7 +36,7 @@ ServerEvents.recipes(event => {
 
     gtr.quantum_force_transformer("gtlcore:spacetime_double_wire")
         .notConsumable("4x gtceu:spacetime_nanoswarm")
-        .notConsumable("4x gtceu:transcendentmetal_nanoswarm")
+        .notConsumable("4x gtceu:transcendent_metal_nanoswarm")
         .itemInputs("2x gtceu:spacetime_single_wire")
         .inputFluids("gtceu:rhugnor 200")
         .itemOutputs("gtceu:spacetime_double_wire")
@@ -45,7 +45,7 @@ ServerEvents.recipes(event => {
 
     gtr.quantum_force_transformer("gtlcore:spacetime_quadruple_wire")
         .notConsumable("8x gtceu:spacetime_nanoswarm")
-        .notConsumable("8x gtceu:transcendentmetal_nanoswarm")
+        .notConsumable("8x gtceu:transcendent_metal_nanoswarm")
         .itemInputs("2x gtceu:spacetime_double_wire")
         .inputFluids("gtceu:rhugnor 400")
         .itemOutputs("gtceu:spacetime_quadruple_wire")
@@ -54,7 +54,7 @@ ServerEvents.recipes(event => {
 
     gtr.quantum_force_transformer("gtlcore:spacetime_octal_wire")
         .notConsumable("16x gtceu:spacetime_nanoswarm")
-        .notConsumable("16x gtceu:transcendentmetal_nanoswarm")
+        .notConsumable("16x gtceu:transcendent_metal_nanoswarm")
         .itemInputs("2x gtceu:spacetime_quadruple_wire")
         .inputFluids("gtceu:rhugnor 800")
         .itemOutputs("gtceu:spacetime_octal_wire")
@@ -63,7 +63,7 @@ ServerEvents.recipes(event => {
 
     gtr.quantum_force_transformer("gtlcore:spacetime_hex_wire")
         .notConsumable("32x gtceu:spacetime_nanoswarm")
-        .notConsumable("32x gtceu:transcendentmetal_nanoswarm")
+        .notConsumable("32x gtceu:transcendent_metal_nanoswarm")
         .itemInputs("2x gtceu:spacetime_octal_wire")
         .inputFluids("gtceu:rhugnor 1600")
         .itemOutputs("gtceu:spacetime_hex_wire")
@@ -89,7 +89,7 @@ ServerEvents.recipes(event => {
             "gtlcore:combined_singularity_13",
             "gtlcore:combined_singularity_14",
             "gtlcore:combined_singularity_15")
-        .inputFluids("gtceu:draconiumawakened 1000", "gtceu:cosmicneutronium 1000", "gtceu:dimensionallytranscendentstellarcatalyst 1000")
+        .inputFluids("gtceu:awakened_draconium 1000", "gtceu:cosmic_neutronium 1000", "gtceu:dimensionallytranscendentstellarcatalyst 1000")
         .itemOutputs("avaritia:eternal_singularity")
         .EUt(16 * GTValues.VA[GTValues.MAX])
         .duration(200)
@@ -113,7 +113,7 @@ ServerEvents.recipes(event => {
             "gtlcore:combined_singularity_13",
             "gtlcore:combined_singularity_14",
             "gtlcore:combined_singularity_15")
-        .inputFluids("gtceu:cosmicneutronium 1000", "gtceu:exciteddtec 1000", "gtceu:spatialfluid 1000")
+        .inputFluids("gtceu:cosmic_neutronium 1000", "gtceu:exciteddtec 1000", "gtceu:spatialfluid 1000")
         .itemOutputs("16x avaritia:eternal_singularity")
         .EUt(16 * GTValues.VA[GTValues.MAX])
         .duration(200)
@@ -121,7 +121,7 @@ ServerEvents.recipes(event => {
     gtr.quantum_force_transformer("gtlcore:spatialfluid")
         .notConsumable("gtlcore:hypercube")
         .notConsumable("gtlcore:quantum_anomaly")
-        .itemInputs("16x gtceu:cosmicneutronium_plate")
+        .itemInputs("16x gtceu:cosmic_neutronium_plate")
         .inputFluids("gtceu:temporalfluid 10000", "gtceu:exciteddtsc 10000")
         .outputFluids("gtceu:spatialfluid 10000")
         .EUt(4 * GTValues.VA[GTValues.MAX])
@@ -199,7 +199,7 @@ ServerEvents.recipes(event => {
         .duration(200)
 
     gtr.quantum_force_transformer("gtlcore:cosmic_ingot")
-        .notConsumable("gtceu:cosmicneutronium_nanoswarm")
+        .notConsumable("gtceu:cosmic_neutronium_nanoswarm")
         .chancedInput("gtlcore:cosmic_singularity", 1000, 0)
         .itemInputs("gtlcore:hypercube", "avaritia:infinity_ingot")
         .inputFluids("gtceu:white_dwarf_mtter 576", "gtceu:black_dwarf_mtter 576", "gtceu:primordialmatter 500")

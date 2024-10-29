@@ -23,7 +23,8 @@
 	quests: [
 		{
 			dependencies: ["148A5C927A0DCED1"]
-			description: ["{ftbquests.chapter.3B3502FBD9F2C4CE.quests0.description}"]
+			description: ["可以是最后一种搅拌机"]
+			hide_dependent_lines: true
 			id: "0526B4AC0CAF99A5"
 			tasks: [{
 				id: "5F54118CC67D850B"
@@ -35,7 +36,7 @@
 		}
 		{
 			dependencies: ["0526B4AC0CAF99A5"]
-			description: ["{ftbquests.chapter.3B3502FBD9F2C4CE.quests1.description}"]
+			description: ["来了一堆锭"]
 			id: "4058D1416D94BABB"
 			tasks: [
 				{
@@ -64,16 +65,16 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.3B3502FBD9F2C4CE.quests1.title}"
+			title: "各种锭"
 			x: 6.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["4058D1416D94BABB"]
 			description: [
-				"{ftbquests.chapter.3B3502FBD9F2C4CE.quests2.description0}"
-				"{ftbquests.chapter.3B3502FBD9F2C4CE.quests2.description1}"
-				"{ftbquests.chapter.3B3502FBD9F2C4CE.quests2.description2}"
+				"合金冶炼炉产出熔融流体,如果配方足够对应材料有热锭的话.这些流体需要用真空冷冻机进行冷却"
+				"不要被长时间的熔炼时间吓到.这台机器将搅拌机的配方直接融入熔炼配方中,并且实际上比高炉中熔炼粉要省时得多并且单次生产的数量为投料的总数"
+				"几乎每种材料都可以在这台机器中生产,因此,如果您在查找搅拌机配方时遇到麻烦,请寻找熔融流体!"
 			]
 			icon: "gtceu:alloy_blast_smelter"
 			id: "1F0956C3BD4745A1"
@@ -97,19 +98,20 @@
 		}
 		{
 			dependencies: ["1F0956C3BD4745A1"]
-			description: ["{ftbquests.chapter.3B3502FBD9F2C4CE.quests3.description}"]
+			description: ["现在可以制作单方块机器的大型版本，能更好的升压超频，同时支持并行"]
 			icon: "gtceu:large_material_press"
 			id: "1FACFECB6C5962E3"
 			size: 2.0d
 			tasks: [
 				{
 					id: "2F1127262F7ACA6C"
-					title: "{ftbquests.chapter.3B3502FBD9F2C4CE.quests3.tasks0.title}"
+					title: "大型机器"
 					type: "checkmark"
 				}
 				{
 					id: "28CA024A75969F52"
 					item: "gtceu:iv_parallel_hatch"
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -121,7 +123,8 @@
 				"0526B4AC0CAF99A5"
 				"15580C25FF239402"
 			]
-			description: ["{ftbquests.chapter.3B3502FBD9F2C4CE.quests4.description}"]
+			description: ["LuV阶段主要材料"]
+			hide_dependent_lines: true
 			id: "4BFA114E12BCB163"
 			shape: "rsquare"
 			size: 2.0d
@@ -135,7 +138,7 @@
 		}
 		{
 			dependencies: ["38480A52A13DA157"]
-			description: ["{ftbquests.chapter.3B3502FBD9F2C4CE.quests5.description}"]
+			description: ["可以用磷化铟，也可以用量子之眼"]
 			id: "68A3D32BFF9BF7F3"
 			tasks: [{
 				id: "05E8D6C7043D0BCD"
@@ -147,7 +150,7 @@
 		}
 		{
 			dependencies: ["38480A52A13DA157"]
-			description: ["{ftbquests.chapter.3B3502FBD9F2C4CE.quests6.description}"]
+			description: ["高速钢(HSS)是更耐磨的钢合金"]
 			id: "62B67704211A105D"
 			tasks: [{
 				id: "75763C7F36454825"
@@ -164,6 +167,7 @@
 			]
 			id: "7DCA0B7C9F3C3ACF"
 			rewards: [{
+				exclude_from_claim_all: true
 				id: "273DB45DA0D168E0"
 				table_id: 6225023274141477362L
 				type: "loot"
@@ -180,6 +184,7 @@
 			dependencies: ["7DCA0B7C9F3C3ACF"]
 			id: "2A81EA75E3DD41A3"
 			rewards: [{
+				exclude_from_claim_all: true
 				id: "5E31C69FE3BA229B"
 				table_id: 6225023274141477362L
 				type: "loot"
@@ -205,9 +210,10 @@
 				"079CD9FD65CB2ED2"
 				"7531D52AF313CEEB"
 			]
-			description: ["{ftbquests.chapter.3B3502FBD9F2C4CE.quests9.description}"]
+			description: ["IV阶段的电路可以不用"]
 			id: "4604207A60F04214"
 			rewards: [{
+				exclude_from_claim_all: true
 				id: "26673EC4D33E3E35"
 				table_id: 6225023274141477362L
 				type: "loot"
@@ -244,6 +250,7 @@
 		}
 		{
 			dependencies: ["38480A52A13DA157"]
+			hide_dependent_lines: true
 			id: "079CD9FD65CB2ED2"
 			tasks: [{
 				id: "6C5DFE407694E794"
@@ -256,16 +263,17 @@
 		{
 			dependencies: ["38480A52A13DA157"]
 			description: [
-				"{ftbquests.chapter.3B3502FBD9F2C4CE.quests11.description0}"
-				"{ftbquests.chapter.3B3502FBD9F2C4CE.quests11.description1}"
+				"PBI新的塑料"
+				"比较麻烦,且后期需求量很大"
 			]
+			hide_dependent_lines: true
 			id: "7531D52AF313CEEB"
 			tasks: [{
 				id: "647AACA023F507D1"
 				item: "gtceu:polybenzimidazole_plate"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.3B3502FBD9F2C4CE.quests11.title}"
+			title: "新的塑料"
 			x: 8.0d
 			y: 4.0d
 		}
@@ -275,7 +283,7 @@
 				"027B25761BD830C8"
 				"22795A09A3BD7344"
 			]
-			description: ["{ftbquests.chapter.3B3502FBD9F2C4CE.quests12.description}"]
+			description: ["量子处理器是使用量子位作为信息的基本单位，能够同时处于0和1的叠加状态，使得量子计算机能够执行复杂的计算任务。"]
 			id: "31AC84CBD7C26566"
 			tasks: [{
 				id: "30125C65F7525965"
@@ -357,13 +365,13 @@
 				"2CE5738B7A8225A6"
 			]
 			description: [
-				"{ftbquests.chapter.3B3502FBD9F2C4CE.quests18.description0}"
-				"{ftbquests.chapter.3B3502FBD9F2C4CE.quests18.description1}"
-				"{ftbquests.chapter.3B3502FBD9F2C4CE.quests18.description2}"
-				"{ftbquests.chapter.3B3502FBD9F2C4CE.quests18.description3}"
+				"小贵，但IV之后必备。"
+				"需要装配线数据来运行。"
+				"需有序输入，"
+				"只能使用ULV总线"
 				""
-				"{ftbquests.chapter.3B3502FBD9F2C4CE.quests18.description5}"
-				"{ftbquests.chapter.3B3502FBD9F2C4CE.quests18.description6}"
+				"你最短需要十格长的，"
+				"但我还是建议十七格长一步到位"
 			]
 			id: "7F8C2ECC7CE2BF20"
 			shape: "rsquare"
@@ -389,7 +397,7 @@
 		}
 		{
 			dependencies: ["027B25761BD830C8"]
-			description: ["{ftbquests.chapter.3B3502FBD9F2C4CE.quests20.description}"]
+			description: ["不能使用2能源仓升压"]
 			id: "30A0D221474FB44A"
 			shape: "rsquare"
 			size: 1.0d
@@ -420,7 +428,7 @@
 				"15F08D296DE33A44"
 				"079CD9FD65CB2ED2"
 			]
-			description: ["{ftbquests.chapter.3B3502FBD9F2C4CE.quests22.description}"]
+			description: ["升级"]
 			id: "15580C25FF239402"
 			tasks: [{
 				id: "1C9F7F0D50ED81F7"
@@ -436,7 +444,7 @@
 				"0526B4AC0CAF99A5"
 				"3ECA33037D940EAB"
 			]
-			description: ["{ftbquests.chapter.3B3502FBD9F2C4CE.quests23.description}"]
+			description: ["IV超导体"]
 			id: "02D426BE0947F123"
 			tasks: [{
 				id: "4FD9779EEB7F7F57"
@@ -460,8 +468,8 @@
 		{
 			dependencies: ["1E7344C133C99565"]
 			description: [
-				"{ftbquests.chapter.3B3502FBD9F2C4CE.quests25.description0}"
-				"{ftbquests.chapter.3B3502FBD9F2C4CE.quests25.description1}"
+				"扫描是研究的第一步，将JEI中显示的物品与一个闪存一起放置以进行扫描，这将消耗该物品并将数据放入闪存中。"
+				"稍后，配方将需要不同的数据存储物品进行研究，例如数据球，这个过程将保持不变，但将使用不同的数据存储物品。"
 			]
 			id: "2CE5738B7A8225A6"
 			tasks: [{
@@ -477,7 +485,7 @@
 				"7F8C2ECC7CE2BF20"
 				"2CEEFDACE7B13D5A"
 			]
-			description: ["{ftbquests.chapter.3B3502FBD9F2C4CE.quests26.description}"]
+			description: ["大容量数据存储，并且可以为多个装配线提供数据"]
 			id: "5F0A175D6704A8D0"
 			shape: "rsquare"
 			size: 1.0d
@@ -491,7 +499,7 @@
 		}
 		{
 			dependencies: ["148A5C927A0DCED1"]
-			description: ["{ftbquests.chapter.3B3502FBD9F2C4CE.quests27.description}"]
+			description: ["可以是最后一种切割机"]
 			id: "3B79A329196883EF"
 			tasks: [{
 				id: "3F7925F1D16C107A"
@@ -503,14 +511,15 @@
 		}
 		{
 			dependencies: ["38480A52A13DA157"]
-			description: ["{ftbquests.chapter.3B3502FBD9F2C4CE.quests28.description}"]
+			description: ["更高级的玻璃"]
+			hide_dependent_lines: true
 			id: "148A5C927A0DCED1"
 			tasks: [{
 				id: "62F5055E01F9396B"
 				item: "gtceu:laminated_glass"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.3B3502FBD9F2C4CE.quests28.title}"
+			title: "新的玻璃"
 			x: 8.0d
 			y: 0.0d
 		}
@@ -527,7 +536,7 @@
 		}
 		{
 			dependencies: ["0F22A8CE63F369CA"]
-			description: ["{ftbquests.chapter.3B3502FBD9F2C4CE.quests30.description}"]
+			description: ["64并行高炉"]
 			id: "52070757274DC2B4"
 			shape: "circle"
 			size: 2.0d
@@ -541,8 +550,9 @@
 		}
 		{
 			dependencies: ["38480A52A13DA157"]
-			description: ["{ftbquests.chapter.3B3502FBD9F2C4CE.quests31.description}"]
+			description: ["用不完的蒸汽，属于玩具，不推荐"]
 			id: "5744F6172D4E112B"
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [{
@@ -607,7 +617,7 @@
 		}
 		{
 			dependencies: ["1F0956C3BD4745A1"]
-			description: ["{ftbquests.chapter.3B3502FBD9F2C4CE.quests34.description}"]
+			description: ["高温用于发电，低温用于生产资源"]
 			id: "365298DB6520227A"
 			shape: "rsquare"
 			size: 2.0d
@@ -621,7 +631,7 @@
 		}
 		{
 			dependencies: ["27BA6EBA81622516"]
-			description: ["{ftbquests.chapter.3B3502FBD9F2C4CE.quests35.description}"]
+			description: ["同步AE库存"]
 			id: "5608182772E855EC"
 			tasks: [
 				{
@@ -665,7 +675,7 @@
 				"27BA6EBA81622516"
 				"15F08D296DE33A44"
 			]
-			hide_dependency_lines: false
+			hide_dependency_lines: true
 			id: "382F3E7588A0AD5E"
 			tasks: [{
 				id: "330473DB377410CA"
@@ -677,7 +687,7 @@
 		}
 		{
 			dependencies: ["2CE5738B7A8225A6"]
-			description: ["{ftbquests.chapter.3B3502FBD9F2C4CE.quests39.description}"]
+			description: ["装配线的配方需要扫描过的闪存"]
 			id: "7A4A5E773AC5C003"
 			tasks: [{
 				id: "04B8AC9FE06215AC"
@@ -689,7 +699,7 @@
 		}
 		{
 			dependencies: ["38480A52A13DA157"]
-			description: ["{ftbquests.chapter.3B3502FBD9F2C4CE.quests40.description}"]
+			description: ["你的线缆得开始用更高级的橡胶了"]
 			id: "7794BE986C48C92D"
 			tasks: [
 				{
@@ -703,7 +713,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.3B3502FBD9F2C4CE.quests40.title}"
+			title: "新的橡胶"
 			x: 6.0d
 			y: 2.0d
 		}
@@ -712,13 +722,14 @@
 				"42129A63D97DDF28"
 				"4C43D30FD9B89965"
 			]
-			description: ["{ftbquests.chapter.3B3502FBD9F2C4CE.quests41.description}"]
+			description: ["这个阶段我推荐你沉淀一下，用大机器重构你的ae下单，选择一种新的发电方式"]
+			hide_dependent_lines: true
 			id: "38480A52A13DA157"
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
 				id: "01068F963A96E633"
-				title: "{ftbquests.chapter.3B3502FBD9F2C4CE.quests41.tasks0.title}"
+				title: "强导压IV"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -726,7 +737,7 @@
 		}
 		{
 			dependencies: ["27BA6EBA81622516"]
-			description: ["{ftbquests.chapter.3B3502FBD9F2C4CE.quests42.description}"]
+			description: ["64并行冷冻机"]
 			id: "4C4081C79D227D1F"
 			size: 2.0d
 			tasks: [{
@@ -749,14 +760,14 @@
 		}
 		{
 			dependencies: ["38480A52A13DA157"]
-			description: ["{ftbquests.chapter.3B3502FBD9F2C4CE.quests44.description}"]
+			description: ["新的材料"]
 			id: "076BD82842C349A3"
 			tasks: [{
 				id: "464C4FCFEC9CD809"
 				item: "gtceu:polyphenylene_sulfide_foil"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.3B3502FBD9F2C4CE.quests44.title}"
+			title: "新的树脂"
 			x: 8.0d
 			y: 2.0d
 		}
@@ -775,14 +786,15 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.3B3502FBD9F2C4CE.quests45.title}"
+			title: "镧系两件套"
 			x: 2.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["365298DB6520227A"]
-			description: ["{ftbquests.chapter.3B3502FBD9F2C4CE.quests46.description}"]
+			description: ["使用超临界钠钾合金将蒸馏水转变为超临界蒸汽，用于给超临界蒸汽涡轮发电，或者使用热钠钾合金消耗水产生大量蒸汽"]
 			id: "24CE67689DD540B7"
+			optional: true
 			tasks: [{
 				id: "4B207AC62685A5B5"
 				item: "gtlcore:heat_exchanger"
@@ -794,8 +806,8 @@
 		{
 			dependencies: ["7F8C2ECC7CE2BF20"]
 			description: [
-				"{ftbquests.chapter.3B3502FBD9F2C4CE.quests47.description0}"
-				"{ftbquests.chapter.3B3502FBD9F2C4CE.quests47.description1}"
+				"让机器五倍速运行"
+				"超净也有对应版本"
 			]
 			id: "6AC86ADD1841074B"
 			tasks: [{
@@ -807,6 +819,6 @@
 			y: 8.0d
 		}
 	]
-	subtitle: ["{ftbquests.chapter.3B3502FBD9F2C4CE.subtitle}"]
-	title: "{ftbquests.chapter.3B3502FBD9F2C4CE.title}"
+	subtitle: ["Tier5-IV"]
+	title: "强导压"
 }

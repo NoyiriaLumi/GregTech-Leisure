@@ -129,7 +129,7 @@
 			id: "0BFF08842D22B72C"
 			tasks: [{
 				id: "327415F83D02B65E"
-				title: "{ftbquests.chapter.ziyuan.quests0.tasks0.title}"
+				title: "打好根基才能健步如飞"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -140,7 +140,7 @@
 			id: "68765386EA084EC0"
 			tasks: [{
 				id: "3F8107D325CEA1B4"
-				title: "{ftbquests.chapter.ziyuan.quests1.tasks0.title}"
+				title: "一开始你只能手挖，之后有很多机器"
 				type: "checkmark"
 			}]
 			x: 1.5d
@@ -188,7 +188,7 @@
 				"68765386EA084EC0"
 				"51B9A72C19F84F0E"
 			]
-			description: ["{ftbquests.chapter.ziyuan.quests4.description}"]
+			description: ["这并不好用"]
 			id: "1E1E0437E8E241AB"
 			tasks: [{
 				id: "214FE4A5B7B84B76"
@@ -221,7 +221,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.ziyuan.quests5.title}"
+			title: "流体钻机"
 			x: 4.5d
 			y: -1.0d
 		}
@@ -246,8 +246,8 @@
 			]
 			id: "1D4903B520E37BFE"
 			tasks: [{
-				id: "1BECEBDF82F70D8D"
-				item: "gtlcore:zpm_fluid_drilling_rig"
+				id: "4E00E17DBFEAA951"
+				item: "gtlcore:infinity_fluid_drilling_rig"
 				type: "item"
 			}]
 			x: 12.0d
@@ -276,7 +276,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.ziyuan.quests8.title}"
+			title: "大型采矿机"
 			x: 7.5d
 			y: -1.0d
 		}
@@ -356,7 +356,7 @@
 			id: "7979C5ACF9A0C8D2"
 			tasks: [{
 				id: "54A100B30D3F4C53"
-				title: "{ftbquests.chapter.ziyuan.quests14.tasks0.title}"
+				title: "怎么处理呢"
 				type: "checkmark"
 			}]
 			x: 3.0d
@@ -364,18 +364,19 @@
 		}
 		{
 			dependencies: ["7979C5ACF9A0C8D2"]
-			description: ["{ftbquests.chapter.ziyuan.quests15.description}"]
+			description: ["开挖"]
 			id: "7DB63DF889DDDEF4"
-			subtitle: "{ftbquests.chapter.ziyuan.quests15.subtitle}"
+			subtitle: "forge:raw"
 			tasks: [
 				{
 					id: "12386DFE17521548"
-					title: "{ftbquests.chapter.ziyuan.quests15.tasks0.title}"
+					title: "粗矿"
 					type: "checkmark"
 				}
 				{
 					id: "243CAA04566A300A"
 					item: "minecraft:raw_iron"
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -384,18 +385,19 @@
 		}
 		{
 			dependencies: ["7979C5ACF9A0C8D2"]
-			description: ["{ftbquests.chapter.ziyuan.quests16.description}"]
+			description: ["如果你有精准采集"]
 			id: "703EEB941F0C745C"
-			subtitle: "{ftbquests.chapter.ziyuan.quests16.subtitle}"
+			subtitle: "forge:raw"
 			tasks: [
 				{
 					id: "0CE5AC66DD215BE1"
-					title: "{ftbquests.chapter.ziyuan.quests16.tasks0.title}"
+					title: "矿石"
 					type: "checkmark"
 				}
 				{
 					id: "05C8B4EE289ED2C9"
 					item: "gtceu:iron_ore"
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -408,19 +410,20 @@
 				"703EEB941F0C745C"
 			]
 			dependency_requirement: "one_completed"
-			description: ["{ftbquests.chapter.ziyuan.quests17.description}"]
+			description: ["把原矿和矿石塞进粉碎机狠狠粉碎"]
 			id: "6596611DD4CB5A60"
 			min_required_dependencies: 1
-			subtitle: "{ftbquests.chapter.ziyuan.quests17.subtitle}"
+			subtitle: "forge:crashed_ores"
 			tasks: [
 				{
 					id: "45B29F9F7327A305"
-					title: "{ftbquests.chapter.ziyuan.quests17.tasks0.title}"
+					title: "粉碎矿石"
 					type: "checkmark"
 				}
 				{
 					id: "7C9FD22CF1F9381E"
 					item: "gtceu:crushed_iron_ore"
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -429,18 +432,19 @@
 		}
 		{
 			dependencies: ["6596611DD4CB5A60"]
-			description: ["{ftbquests.chapter.ziyuan.quests18.description}"]
+			description: ["粉碎矿石——锻造/研磨"]
 			id: "05046054F7D65653"
-			subtitle: "{ftbquests.chapter.ziyuan.quests18.subtitle}"
+			subtitle: "forge:impure_dusts"
 			tasks: [
 				{
 					id: "0624FA85DAAB27B4"
-					title: "{ftbquests.chapter.ziyuan.quests18.tasks0.title}"
+					title: "含杂粉"
 					type: "checkmark"
 				}
 				{
 					id: "5DD7786DB05A68EA"
 					item: "gtceu:impure_iron_dust"
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -449,18 +453,19 @@
 		}
 		{
 			dependencies: ["6596611DD4CB5A60"]
-			description: ["{ftbquests.chapter.ziyuan.quests19.description}"]
+			description: ["粉碎矿石——洗矿/浸洗"]
 			id: "14EE67044597E62A"
-			subtitle: "{ftbquests.chapter.ziyuan.quests19.subtitle}"
+			subtitle: "forge:purified"
 			tasks: [
 				{
 					id: "512D19B265445F64"
-					title: "{ftbquests.chapter.ziyuan.quests19.tasks0.title}"
+					title: "纯净矿石"
 					type: "checkmark"
 				}
 				{
 					id: "4C31A8B183EF4730"
 					item: "gtceu:purified_iron_ore"
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -473,18 +478,19 @@
 				"14EE67044597E62A"
 			]
 			dependency_requirement: "one_completed"
-			description: ["{ftbquests.chapter.ziyuan.quests20.description}"]
+			description: ["纯净矿石/粉碎矿石——热离"]
 			id: "56C020B4F1F7D8D1"
-			subtitle: "{ftbquests.chapter.ziyuan.quests20.subtitle}"
+			subtitle: "forge:refined_ores"
 			tasks: [
 				{
 					id: "5822D0C2DAE09A76"
-					title: "{ftbquests.chapter.ziyuan.quests20.tasks0.title}"
+					title: "精炼矿石"
 					type: "checkmark"
 				}
 				{
 					id: "4A118334D2377798"
 					item: "gtceu:refined_iron_ore"
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -500,22 +506,23 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"{ftbquests.chapter.ziyuan.quests21.description0}"
-				"{ftbquests.chapter.ziyuan.quests21.description1}"
+				"含杂粉/洁净粉——离心/洗矿"
+				"精炼矿石——粉碎"
 				""
-				"{ftbquests.chapter.ziyuan.quests21.description3}"
+				"部分洁净粉——磁选"
 			]
 			id: "5AEE74DD9B0D511C"
-			subtitle: "{ftbquests.chapter.ziyuan.quests21.subtitle}"
+			subtitle: "forge:dusts"
 			tasks: [
 				{
 					id: "7D58F9B03FA71A1D"
-					title: "{ftbquests.chapter.ziyuan.quests21.tasks0.title}"
+					title: "粉"
 					type: "checkmark"
 				}
 				{
 					id: "6E1058A98ED43D59"
 					item: "enderio:powdered_iron"
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -524,22 +531,23 @@
 		}
 		{
 			dependencies: ["14EE67044597E62A"]
-			description: ["{ftbquests.chapter.ziyuan.quests22.description}"]
+			description: ["纯净矿石——锻造/研磨"]
 			id: "79B98F942F1D8EDC"
-			subtitle: "{ftbquests.chapter.ziyuan.quests22.subtitle}"
+			subtitle: "forge:pure_dusts"
 			tasks: [
 				{
 					id: "0ACEBC9DEDFB3044"
-					title: "{ftbquests.chapter.ziyuan.quests22.tasks0.title}"
+					title: "纯净粉"
 					type: "checkmark"
 				}
 				{
 					id: "62E542B061FAF07B"
 					item: "gtceu:pure_iron_dust"
+					optional_task: true
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.ziyuan.quests22.title}"
+			title: "洁净粉"
 			x: 9.5d
 			y: 4.0d
 		}
@@ -548,18 +556,19 @@
 				"7DB63DF889DDDEF4"
 				"703EEB941F0C745C"
 			]
-			description: ["{ftbquests.chapter.ziyuan.quests23.description}"]
+			description: ["艾萨线的东西"]
 			id: "3C2B4B80E425A9AD"
-			subtitle: "{ftbquests.chapter.ziyuan.quests23.subtitle}"
+			subtitle: "forge:milled"
 			tasks: [
 				{
 					id: "3DF923CA2FF25E4D"
-					title: "{ftbquests.chapter.ziyuan.quests23.tasks0.title}"
+					title: "碾磨"
 					type: "checkmark"
 				}
 				{
 					id: "42F3CB4519478BEB"
 					item: "gtceu:milled_pyrope"
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -569,16 +578,17 @@
 		{
 			dependencies: ["3C2B4B80E425A9AD"]
 			id: "0FAFE44EBD813FBA"
-			subtitle: "{ftbquests.chapter.ziyuan.quests24.subtitle}"
+			subtitle: "gtceu:*_front"
 			tasks: [
 				{
 					id: "4C799DC47F6C6B79"
-					title: "{ftbquests.chapter.ziyuan.quests24.tasks0.title}"
+					title: "矿物泡沫"
 					type: "checkmark"
 				}
 				{
 					id: "79442F59F7045706"
 					item: "gtceu:pyrope_front_bucket"
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -601,18 +611,19 @@
 		}
 		{
 			dependencies: ["14EE67044597E62A"]
-			description: ["{ftbquests.chapter.ziyuan.quests26.description}"]
+			description: ["纯净矿石——筛选"]
 			id: "621C664A94B042C0"
-			subtitle: "{ftbquests.chapter.ziyuan.quests26.subtitle}"
+			subtitle: "forge:gems"
 			tasks: [
 				{
 					id: "7059009E6175E5EC"
-					title: "{ftbquests.chapter.ziyuan.quests26.tasks0.title}"
+					title: "宝石"
 					type: "checkmark"
 				}
 				{
 					id: "692659EE758CDEEC"
 					item: "gtceu:flawless_emerald_gem"
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -624,7 +635,7 @@
 			id: "2C1986BE10F10708"
 			tasks: [{
 				id: "58C28BBB64C73B88"
-				title: "{ftbquests.chapter.ziyuan.quests27.tasks0.title}"
+				title: "需要的机器"
 				type: "checkmark"
 			}]
 			x: 3.0d
@@ -635,7 +646,7 @@
 			id: "45D1E65DFC2DEF6F"
 			tasks: [{
 				id: "3B3DCF9C88A9F45F"
-				title: "{ftbquests.chapter.ziyuan.quests28.tasks0.title}"
+				title: "流程选择"
 				type: "checkmark"
 			}]
 			x: 3.0d
@@ -643,14 +654,14 @@
 		}
 		{
 			dependencies: ["45D1E65DFC2DEF6F"]
-			description: ["{ftbquests.chapter.ziyuan.quests29.description}"]
+			description: ["绝大多数的特色副产都会出现在热离中"]
 			id: "184CE47D10A10C84"
 			tasks: [{
 				id: "27CDD5B1DB6728DF"
-				title: "{ftbquests.chapter.ziyuan.quests29.tasks0.title}"
+				title: "绝大多数矿"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.ziyuan.quests29.title}"
+			title: "绝大多数矿都是：研磨-研磨-洗矿/研磨-热离-研磨"
 			x: 5.5d
 			y: 15.0d
 		}
@@ -659,7 +670,7 @@
 			id: "41B15E107F6501C9"
 			tasks: [{
 				id: "5B924FE02BA17DB0"
-				title: "{ftbquests.chapter.ziyuan.quests30.tasks0.title}"
+				title: "处理流程"
 				type: "checkmark"
 			}]
 			x: 1.5d
@@ -670,7 +681,7 @@
 			id: "7E436D979AF67921"
 			tasks: [{
 				id: "417B3C624E888811"
-				title: "{ftbquests.chapter.ziyuan.quests31.tasks0.title}"
+				title: "这是矿物"
 				type: "checkmark"
 			}]
 			x: 3.0d
@@ -684,7 +695,7 @@
 			id: "282F333573FB2F2F"
 			tasks: [{
 				id: "283499DAF3FBA2DC"
-				title: "{ftbquests.chapter.ziyuan.quests32.tasks0.title}"
+				title: "这是化工"
 				type: "checkmark"
 			}]
 			x: 33.5d
@@ -693,15 +704,15 @@
 		{
 			dependencies: ["5AEE74DD9B0D511C"]
 			description: [
-				"{ftbquests.chapter.ziyuan.quests33.description0}"
+				"电解/离心"
 				""
-				"{ftbquests.chapter.ziyuan.quests33.description2}"
-				"{ftbquests.chapter.ziyuan.quests33.description3}"
+				"部分矿物有着更加深入复杂的处理流程，"
+				"比如钛，钨，铀，铂系，稀土，硅岩....."
 			]
 			id: "192A144ADAC186BA"
 			tasks: [{
 				id: "389CC682DEEC0AE7"
-				title: "{ftbquests.chapter.ziyuan.quests33.tasks0.title}"
+				title: "接着处理"
 				type: "checkmark"
 			}]
 			x: 12.5d
@@ -712,7 +723,7 @@
 			id: "6D3408C3D044987E"
 			tasks: [{
 				id: "7EF4F338142CA8DE"
-				title: "{ftbquests.chapter.ziyuan.quests34.tasks0.title}"
+				title: "其他东西"
 				type: "checkmark"
 			}]
 			x: 44.5d
@@ -763,7 +774,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.ziyuan.quests35.title}"
+			title: "从热解炉流出来的东西"
 			x: 46.0d
 			y: 3.5d
 		}
@@ -778,8 +789,8 @@
 			y: 3.5d
 		}
 		{
-			description: ["{ftbquests.chapter.ziyuan.quests37.description}"]
-			hide_dependency_lines: false
+			description: ["lv时期可选的获得石油的手段"]
+			hide_dependency_lines: true
 			id: "6DEAA19092FBCF99"
 			rewards: [{
 				id: "61884E75889139DF"
@@ -807,7 +818,7 @@
 		}
 		{
 			dependency_requirement: "one_completed"
-			description: ["{ftbquests.chapter.ziyuan.quests39.description}"]
+			description: ["蒸馏室三号电路"]
 			id: "63FEF796CFF5E8DF"
 			min_required_dependencies: 1
 			tasks: [{
@@ -824,7 +835,7 @@
 				"045D76184BFBD4D6"
 				"27A9D4E765101CB9"
 			]
-			description: ["{ftbquests.chapter.ziyuan.quests40.description}"]
+			description: ["含硫石脑油加氢气"]
 			id: "071C1482A33D97FB"
 			tasks: [{
 				id: "5487A28C3E9B45E0"
@@ -839,7 +850,7 @@
 				"071C1482A33D97FB"
 				"27A9D4E765101CB9"
 			]
-			description: ["{ftbquests.chapter.ziyuan.quests41.description}"]
+			description: ["化学反应釜加蒸汽三号电路"]
 			id: "70E703942B61C86C"
 			tasks: [{
 				id: "43A2C8C1FC309DE4"
@@ -851,7 +862,7 @@
 		}
 		{
 			dependencies: ["70E703942B61C86C"]
-			description: ["{ftbquests.chapter.ziyuan.quests42.description}"]
+			description: ["蒸馏室十号电路"]
 			id: "0C5B23E443F1A5D5"
 			tasks: [{
 				id: "4AE736F84D6F23E1"
@@ -863,12 +874,12 @@
 		}
 		{
 			dependencies: ["63FEF796CFF5E8DF"]
-			description: ["{ftbquests.chapter.ziyuan.quests43.description}"]
+			description: ["将硫化氢电解以进行氢的循环"]
 			icon: "gtceu:hydrogen_sulfide_bucket"
 			id: "751BF4CAEE613BBA"
 			tasks: [{
 				id: "58FAC5989D41DC20"
-				title: "{ftbquests.chapter.ziyuan.quests43.tasks0.title}"
+				title: "硫化氢"
 				type: "checkmark"
 			}]
 			x: 35.0d
@@ -876,7 +887,7 @@
 		}
 		{
 			dependencies: ["751BF4CAEE613BBA"]
-			description: ["{ftbquests.chapter.ziyuan.quests44.description}"]
+			description: ["你最开始的氢来自于电解水"]
 			id: "045D76184BFBD4D6"
 			tasks: [{
 				id: "33CEFF88B7CF0789"
@@ -888,10 +899,10 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.ziyuan.quests45.description0}"
-				"{ftbquests.chapter.ziyuan.quests45.description1}"
+				"虚空获取油"
+				"只能安装一个能源仓，2个机器会停机"
 			]
-			hide_dependency_lines: false
+			hide_dependency_lines: true
 			id: "481B6E85DA1906B8"
 			rewards: [{
 				id: "7328C7E17857D82B"
@@ -912,7 +923,7 @@
 			id: "1B27E863E90AB90E"
 			tasks: [{
 				id: "47E3DB83C132B814"
-				title: "{ftbquests.chapter.ziyuan.quests46.tasks0.title}"
+				title: "乙烯"
 				type: "checkmark"
 			}]
 			x: 41.0d
@@ -925,26 +936,31 @@
 				{
 					id: "07EF26FD4ED24C9A"
 					item: "gtceu:oil_bucket"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "028146424BDA896C"
 					item: "gtceu:oil_medium_bucket"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "12FECA2985000CC4"
 					item: "gtceu:oil_heavy_bucket"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "41E4608897A131B8"
 					item: "gtceu:oil_light_bucket"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "7F8CFEF35E38D08B"
 					item: "gtceu:salt_water_bucket"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -953,7 +969,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.ziyuan.quests47.title}"
+			title: "T0可以采到的"
 			x: 40.0d
 			y: 3.5d
 		}
@@ -1027,7 +1043,7 @@
 			y: 10.0d
 		}
 		{
-			description: ["{ftbquests.chapter.ziyuan.quests54.description}"]
+			description: ["氟来源于电解黄玉或蓝黄玉，氢来源于离心黄铁或者离心针叶铁或者电解水"]
 			id: "45EE0AC3D5680B1F"
 			tasks: [{
 				id: "6CE9955A904D1993"
@@ -1038,7 +1054,7 @@
 			y: 10.5d
 		}
 		{
-			description: ["{ftbquests.chapter.ziyuan.quests55.description}"]
+			description: ["气态甲烷前期可来源于离心橡胶原木，氯可以来源于电解盐或岩盐或盐水"]
 			id: "6277F42774893AA3"
 			tasks: [{
 				id: "11C400810AEC9330"
@@ -1066,7 +1082,7 @@
 				item: "gtceu:raw_oilsands"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.ziyuan.quests57.title}"
+			title: "这是油矿"
 			x: 35.0d
 			y: 3.5d
 		}
@@ -1083,14 +1099,14 @@
 		{
 			dependencies: ["184CE47D10A10C84"]
 			description: [
-				"{ftbquests.chapter.ziyuan.quests59.description0}"
+				"比如铂处的谢尔顿，土法制铟的方铅和闪锌等等"
 				""
-				"{ftbquests.chapter.ziyuan.quests59.description2}"
+				"可以在需要的时候再做，矿就别屯着了"
 			]
 			id: "0A24F26D2EFE2822"
 			tasks: [{
 				id: "3FDED6E55897AD8D"
-				title: "{ftbquests.chapter.ziyuan.quests59.tasks0.title}"
+				title: "部分矿处理为纯净矿后会到化反进行其他的处理流程"
 				type: "checkmark"
 			}]
 			x: 8.0d
@@ -1098,11 +1114,11 @@
 		}
 		{
 			dependencies: ["0A24F26D2EFE2822"]
-			description: ["{ftbquests.chapter.ziyuan.quests60.description}"]
+			description: ["比如精炼黄铜矿进高炉出硒"]
 			id: "726A61CD2C9D9495"
 			tasks: [{
 				id: "3767ADB65635488D"
-				title: "{ftbquests.chapter.ziyuan.quests60.tasks0.title}"
+				title: "还有极小部分矿有着更特殊的处理流程"
 				type: "checkmark"
 			}]
 			x: 10.5d
@@ -1115,20 +1131,20 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"{ftbquests.chapter.ziyuan.quests61.description0}"
-				"{ftbquests.chapter.ziyuan.quests61.description1}"
+				"铂处理的流程线性清晰非常好做。"
+				"你可以做全被动，也可以全靠下单。"
 				""
-				"{ftbquests.chapter.ziyuan.quests61.description3}"
-				"{ftbquests.chapter.ziyuan.quests61.description4}"
-				"{ftbquests.chapter.ziyuan.quests61.description5}"
-				"{ftbquests.chapter.ziyuan.quests61.description6}"
+				"我推荐再机器不足时选择被动+下单。"
+				"（铂系矿泥下单，"
+				"　离心矿泥到处理钌酸钠这一列四个被动，"
+				"　后面的线性流程下单）"
 			]
-			hide_dependency_lines: false
+			hide_dependency_lines: true
 			id: "3CB16B36A5AA2A10"
-			subtitle: "{ftbquests.chapter.ziyuan.quests61.subtitle}"
+			subtitle: "这是你接触的第一个大型矿物处理流程"
 			tasks: [{
 				id: "61B56D54AB271C8A"
-				title: "{ftbquests.chapter.ziyuan.quests61.tasks0.title}"
+				title: "铂系金属处理"
 				type: "checkmark"
 			}]
 			x: 14.0d
@@ -1139,7 +1155,8 @@
 				"056D5A2274001900"
 				"1D247D35BFB55469"
 			]
-			description: ["{ftbquests.chapter.ziyuan.quests62.description}"]
+			description: ["铂系金属包括铂、钯、铑、钌、铱和锇。这些金属都具有良好的耐腐蚀性、高的熔点和优良的催化性能。"]
+			hide_dependent_lines: true
 			id: "01A1A06A3963D3BE"
 			tasks: [{
 				id: "69BA892CBCBEBB1B"
@@ -1313,6 +1330,7 @@
 				{
 					id: "4FBB1CDD11226171"
 					item: "gtceu:iridium_dioxide_dust"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -1341,6 +1359,7 @@
 				{
 					id: "630A0AD9877F9200"
 					item: "gtceu:osmium_tetroxide_dust"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -1369,6 +1388,7 @@
 				{
 					id: "33EAC6FF223BFEC9"
 					item: "gtceu:roughly_rhodium_metal_dust"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -1386,6 +1406,7 @@
 				{
 					id: "19419BA850D12934"
 					item: "gtceu:rhodium_salt_dust"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -1403,6 +1424,7 @@
 				{
 					id: "1DF06FAB724C577E"
 					item: "gtceu:rhodium_salt_solution_bucket"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -1420,6 +1442,7 @@
 				{
 					id: "16D5062BB781CD95"
 					item: "gtceu:rhodium_nitrate_dust"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -1437,6 +1460,7 @@
 				{
 					id: "459E521C65860513"
 					item: "gtceu:rhodium_filter_cake_dust"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -1454,6 +1478,7 @@
 				{
 					id: "04C94B060214C917"
 					item: "gtceu:rhodium_filter_cake_solution_bucket"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -1467,10 +1492,12 @@
 		{
 			dependencies: ["73399771638FD112"]
 			id: "18FB4DDA55B7D430"
+			optional: true
 			tasks: [
 				{
 					id: "17292F329ACCF7A7"
 					item: "gtceu:reprecipitated_rhodium_dust"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -1497,7 +1524,7 @@
 				"41A9E381A0326997"
 				"2732380C1E0033D8"
 			]
-			description: ["{ftbquests.chapter.ziyuan.quests86.description}"]
+			description: ["这里主要是为了回收原料"]
 			id: "2CD7D8B5F38A50F5"
 			tasks: [
 				{
@@ -1517,10 +1544,12 @@
 		{
 			dependencies: ["515CC449D60C6B6F"]
 			id: "5C12F24D7C0DB328"
+			optional: true
 			tasks: [
 				{
 					id: "18ED9710724B22C6"
 					item: "gtceu:ruthenium_tetroxide_bucket"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -1538,6 +1567,7 @@
 				{
 					id: "3F47C69329E4940B"
 					item: "gtceu:ruthenium_tetroxide_hot_bucket"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -1555,6 +1585,7 @@
 				{
 					id: "3524EF5F33337353"
 					item: "gtceu:ruthenium_tetroxide_lq_bucket"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -1572,6 +1603,7 @@
 				{
 					id: "66D25854C8643D8D"
 					item: "gtceu:ruthenium_tetroxide_dust"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -1600,6 +1632,7 @@
 				{
 					id: "5B5A86C461B6CA47"
 					item: "gtceu:acidic_iridium_bucket"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -1617,6 +1650,7 @@
 				{
 					id: "2DE0156492FEFC8E"
 					item: "gtceu:iridium_chloride_dust"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -1639,7 +1673,7 @@
 				item: "gtceu:platinum_credit"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.ziyuan.quests94.subtitle}"
+			subtitle: "从EV开始用"
 			tasks: [{
 				id: "1F2EDCFFB9BEB463"
 				item: "gtceu:uranium_dust"
@@ -1660,7 +1694,7 @@
 				item: "gtceu:platinum_credit"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.ziyuan.quests95.subtitle}"
+			subtitle: "UIV会用到"
 			tasks: [{
 				id: "54393C32AFFEA91A"
 				item: "gtceu:uranium_235_dust"
@@ -1719,6 +1753,7 @@
 					amount: 1000L
 					fluid: "gtceu:uranium_hexafluoride"
 					id: "51E945C85D95ED96"
+					optional_task: true
 					type: "fluid"
 				}
 			]
@@ -1755,7 +1790,7 @@
 		{
 			dependencies: ["45A543C859C4C376"]
 			id: "3F5618A925DFA300"
-			subtitle: "{ftbquests.chapter.ziyuan.quests101.subtitle}"
+			subtitle: "UV才会用到"
 			tasks: [{
 				id: "5F7B3AED2B6CAEC6"
 				item: "gtceu:technetium_dust"
@@ -1796,7 +1831,7 @@
 		{
 			dependencies: ["0931ECBAAD9252C7"]
 			id: "2A3874F7C50BAF1A"
-			subtitle: "{ftbquests.chapter.ziyuan.quests104.subtitle}"
+			subtitle: "便宜的好东西"
 			tasks: [{
 				id: "5F50B16A87609772"
 				item: "gtceu:thorium_dust"
@@ -1854,6 +1889,7 @@
 		}
 		{
 			dependencies: ["6D650AE5A76585B3"]
+			hide_dependent_lines: true
 			id: "7B412E455E2C321B"
 			tasks: [{
 				id: "146DB1101ED83C52"
@@ -1870,8 +1906,8 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"{ftbquests.chapter.ziyuan.quests110.description0}"
-				"{ftbquests.chapter.ziyuan.quests110.description1}"
+				"使用铟富集溶液获取"
+				"需要大量硫酸"
 			]
 			id: "3EAC914AA2073B05"
 			tasks: [{
@@ -1885,10 +1921,10 @@
 		{
 			icon: "gtceu:indium_concentrate_bucket"
 			id: "150F3113E9012C2F"
-			subtitle: "{ftbquests.chapter.ziyuan.quests111.subtitle}"
+			subtitle: "土法制铟"
 			tasks: [{
 				id: "66A5321988EAF6B3"
-				title: "{ftbquests.chapter.ziyuan.quests111.tasks0.title}"
+				title: "铟富集溶液"
 				type: "checkmark"
 			}]
 			x: 15.5d
@@ -1901,8 +1937,8 @@
 				"0611E972C84FDC4B"
 			]
 			dependency_requirement: "one_started"
-			description: ["{ftbquests.chapter.ziyuan.quests112.description}"]
-			hide_dependency_lines: false
+			description: ["你可以从钕矿石，独居石，氟碳镧铈甚至红石中获取它。"]
+			hide_dependency_lines: true
 			id: "6B71EE1A869ABCD5"
 			tasks: [{
 				id: "3473829E14B4727F"
@@ -1914,11 +1950,11 @@
 		}
 		{
 			dependencies: ["7979C5ACF9A0C8D2"]
-			hide_dependency_lines: false
+			hide_dependency_lines: true
 			id: "37C5E7628A4B826C"
 			tasks: [{
 				id: "0416DFD37DE6C2A4"
-				title: "{ftbquests.chapter.ziyuan.quests113.tasks0.title}"
+				title: "放射性物质处理"
 				type: "checkmark"
 			}]
 			x: 3.0d
@@ -1972,26 +2008,26 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.ziyuan.quests116.title}"
+			title: "磁力离心"
 			x: 20.0d
 			y: 18.5d
 		}
 		{
 			dependencies: ["0E6B85A8E9CE4CA6"]
 			description: [
-				"{ftbquests.chapter.ziyuan.quests117.description0}"
-				"{ftbquests.chapter.ziyuan.quests117.description1}"
+				"BⅢ族的21号钪 39号钇 "
+				"                镧系除了61号钷的十四种元素"
 				""
-				"{ftbquests.chapter.ziyuan.quests117.description3}"
+				"总共16种"
 			]
 			id: "4A86402C581ABB27"
-			subtitle: "{ftbquests.chapter.ziyuan.quests117.subtitle}"
+			subtitle: "有十六种"
 			tasks: [{
 				id: "4310644E4AA3ADBB"
 				item: "gtceu:samarium_oxide_dust"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.ziyuan.quests117.title}"
+			title: "氧化*粉"
 			x: 21.5d
 			y: 18.5d
 		}
@@ -2012,7 +2048,7 @@
 				"049C0B2BA5525962"
 			]
 			id: "7570243EDE6F35B1"
-			subtitle: "{ftbquests.chapter.ziyuan.quests119.subtitle}"
+			subtitle: "有了电梯还能挖"
 			tasks: [{
 				id: "6BCA75161304244F"
 				item: "gtceu:rare_earth_metal_dust"
@@ -2024,7 +2060,7 @@
 		{
 			dependencies: ["7570243EDE6F35B1"]
 			id: "5E03D3F795BD0F55"
-			subtitle: "{ftbquests.chapter.ziyuan.quests120.subtitle}"
+			subtitle: "用来炖成UXV的基础材料之一"
 			tasks: [{
 				id: "5107DC687C7A012F"
 				item: "gtceu:promethium_dust"
@@ -2046,12 +2082,13 @@
 		}
 		{
 			dependencies: ["7979C5ACF9A0C8D2"]
-			description: ["{ftbquests.chapter.ziyuan.quests122.description}"]
-			hide_dependency_lines: false
+			description: ["超大份镧系处理"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
 			id: "1223D839C224777B"
 			tasks: [{
 				id: "00F08CD4279B1525"
-				title: "{ftbquests.chapter.ziyuan.quests122.tasks0.title}"
+				title: "ⅢB族（不含锕系）处理"
 				type: "checkmark"
 			}]
 			x: 14.0d
@@ -2060,19 +2097,19 @@
 		{
 			dependencies: ["01A1A06A3963D3BE"]
 			id: "46031C6722259C54"
-			subtitle: "{ftbquests.chapter.ziyuan.quests123.subtitle}"
+			subtitle: "硫酸钾，氯化钙，稀盐酸......"
 			tasks: [{
 				id: "2EBFC43E7D201657"
-				title: "{ftbquests.chapter.ziyuan.quests123.tasks0.title}"
+				title: "回收"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.ziyuan.quests123.title}"
+			title: "回收那些无用的副产物"
 			x: 18.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["36E8964CD1BE7569"]
-			hide_dependency_lines: false
+			hide_dependency_lines: true
 			id: "1534BC8521461BC8"
 			tasks: [{
 				id: "7FEE777235FA0998"
@@ -2569,6 +2606,7 @@
 		}
 		{
 			dependencies: ["464EEB44F0B7A22D"]
+			hide_dependent_lines: true
 			id: "05496BBB8ABFAA30"
 			tasks: [{
 				id: "41D403E0EC536840"
@@ -2649,6 +2687,7 @@
 		}
 		{
 			dependencies: ["2FD681A788D189E9"]
+			hide_dependent_lines: true
 			id: "5858E81A332CE35E"
 			tasks: [{
 				id: "0D9E357440B3C1CD"
@@ -2769,6 +2808,7 @@
 		}
 		{
 			dependencies: ["2ED005FB3DC2EAB2"]
+			hide_dependent_lines: true
 			id: "69C8B1423C6D98F8"
 			tasks: [{
 				id: "7ED1A0AF5EDC3F7C"
@@ -2783,7 +2823,7 @@
 			id: "2BB0DDC08A816CD8"
 			tasks: [{
 				id: "1D1B60CEEBBB28DB"
-				item: "gtceu:samarium_rrare_eearth_turbid_liquid_bucket"
+				item: "gtceu:samarium_rare_earth_turbid_liquid_bucket"
 				type: "item"
 			}]
 			x: 24.5d
@@ -3063,7 +3103,7 @@
 				"08BE4F17331AA62A"
 			]
 			dependency_requirement: "one_completed"
-			hide_dependency_lines: false
+			hide_dependency_lines: true
 			id: "27DB26148D72E259"
 			tasks: [{
 				id: "1227D3C574B78FFA"
@@ -3234,7 +3274,7 @@
 			id: "45B6AB3615FF2228"
 			tasks: [{
 				id: "435E547C20569366"
-				title: "{ftbquests.chapter.ziyuan.quests226.tasks0.title}"
+				title: "17个纳米萃取树脂"
 				type: "checkmark"
 			}]
 			x: 25.5d
@@ -3245,7 +3285,7 @@
 			id: "5FE4742B6A5FFABA"
 			tasks: [{
 				id: "5A310F6717B18752"
-				title: "{ftbquests.chapter.ziyuan.quests227.tasks0.title}"
+				title: "17个溢满的纳米萃取树脂"
 				type: "checkmark"
 			}]
 			x: 29.5d
@@ -3253,15 +3293,15 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.ziyuan.quests228.description0}"
-				"{ftbquests.chapter.ziyuan.quests228.description1}"
-				"{ftbquests.chapter.ziyuan.quests228.description2}"
-				"{ftbquests.chapter.ziyuan.quests228.description3}"
+				"甲烷，乙烷，丙烷，丁烷，辛烷"
+				"乙烯，丙烯，丁烯，丁二烯"
+				"苯，甲苯"
+				"氦"
 			]
 			id: "7DB48A5766BD91E6"
 			tasks: [{
 				id: "5DE3CE19B98A1D05"
-				title: "{ftbquests.chapter.ziyuan.quests228.tasks0.title}"
+				title: "石化的产出有这些"
 				type: "checkmark"
 			}]
 			x: 42.0d
@@ -3269,30 +3309,30 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.ziyuan.quests229.description0}"
-				"{ftbquests.chapter.ziyuan.quests229.description1}"
-				"{ftbquests.chapter.ziyuan.quests229.description2}"
+				"生物质与发酵生物质："
+				"甲醇，乙醇，乙酸，氨，"
+				"二氧化碳，甲烷，木浆，肥料"
 				""
-				"{ftbquests.chapter.ziyuan.quests229.description4}"
-				"{ftbquests.chapter.ziyuan.quests229.description5}"
-				"{ftbquests.chapter.ziyuan.quests229.description6}"
+				"煤气和煤焦油："
+				"氨，乙苯，二氧化碳，焦煤粉，"
+				"萘，硫化氢，苯酚，杂酚油"
 				""
-				"{ftbquests.chapter.ziyuan.quests229.description8}"
-				"{ftbquests.chapter.ziyuan.quests229.description9}"
-				"{ftbquests.chapter.ziyuan.quests229.description10}"
-				"{ftbquests.chapter.ziyuan.quests229.description11}"
-				"{ftbquests.chapter.ziyuan.quests229.description12}"
+				"木炭副产："
+				"木炭粉，杂酚油，"
+				"苯，甲苯，苯酚，二甲苯，"
+				"甲醇，乙醇，乙酸，甲酸甲酯，"
+				"丙酮，二氧化碳，一氧化碳，甲烷，乙烯"
 				""
-				"{ftbquests.chapter.ziyuan.quests229.description14}"
-				"{ftbquests.chapter.ziyuan.quests229.description15}"
+				"其他的东西："
+				"鱼油，种子油"
 			]
 			id: "2FA83022CC8A0928"
 			tasks: [{
 				id: "6E95953C40968751"
-				title: "{ftbquests.chapter.ziyuan.quests229.tasks0.title}"
+				title: "生物质的产出"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.ziyuan.quests229.title}"
+			title: "生化线的产出"
 			x: 47.5d
 			y: 3.5d
 		}
@@ -3307,5 +3347,5 @@
 			y: 4.5d
 		}
 	]
-	title: "{ftbquests.chapter.ziyuan.title}"
+	title: "资源获取（一）"
 }

@@ -86,7 +86,7 @@ ServerEvents.recipes(event => {
         .duration(200)
 
     gtr.neutron_compressor("gtlcore:combined_singularity_6")
-        .itemInputs("64x gtceu:highurabilityompoundteel_block", "64x gtceu:germaniumtungstennitride_block")
+        .itemInputs("64x gtceu:high_durability_compound_steel_block", "64x gtceu:germanium_tungsten_nitride_block")
         .itemOutputs("gtlcore:combined_singularity_6")
         .EUt(GTValues.VA[GTValues.MAX])
         .duration(200)
